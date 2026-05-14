@@ -1,5 +1,8 @@
 package com.victor.completedblocksets;
 
+import com.victor.completedblocksets.block.ModBlocks;
+import com.victor.completedblocksets.creativemodetab.ModCreativeModeTabs;
+import com.victor.completedblocksets.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -14,6 +17,8 @@ public class CompletedBlocksets implements ModInitializer
 	@Override
 	public void onInitialize()
 	{
-		LOGGER.info("Hello Fabric world!");
+		ModCreativeModeTabs.registerCreativeModeTabs();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

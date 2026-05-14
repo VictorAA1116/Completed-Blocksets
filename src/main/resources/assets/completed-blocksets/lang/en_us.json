@@ -1,0 +1,10 @@
+{
+  "item.completed-blocksets.example_item": "Example Item",
+
+  "block.completed-blocksets.example_block": "Example Block",
+
+  "block.completed-blocksets.polished_calcite": "Polished Calcite",
+  "block.completed-blocksets.calcite_bricks": "Calcite Bricks",
+
+  "creativemodetab.completed-blocksets.completed_blocksets": "Completed Blocksets"
+}
