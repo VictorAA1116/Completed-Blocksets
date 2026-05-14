@@ -1,5 +1,7 @@
 package com.victor.completedblocksets;
 
+import com.victor.completedblocksets.datagen.ModBlockLootTableProvider;
+import com.victor.completedblocksets.datagen.ModBlockTagsProvider;
 import com.victor.completedblocksets.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -12,5 +14,7 @@ public class CompletedBlocksetsDataGenerator implements DataGeneratorEntrypoint
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModBlockTagsProvider::new);
+		pack.addProvider(ModBlockLootTableProvider::new);
 	}
 }
