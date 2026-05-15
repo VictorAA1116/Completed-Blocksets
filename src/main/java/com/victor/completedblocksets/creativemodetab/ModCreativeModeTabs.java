@@ -20,10 +20,23 @@ public class ModCreativeModeTabs
                     .displayItems((parameters, output) -> {
 
                         output.accept(ModItems.EXAMPLE_ITEM);
-                        //output.accept(ModBlocks.EXAMPLE_BLOCK);
 
+                        // Calcite Block Set
+                        output.accept(ModBlocks.CALCITE_STAIRS);
+                        output.accept(ModBlocks.CALCITE_SLAB);
+                        output.accept(ModBlocks.CALCITE_WALL);
+
+                        // Polished Calcite Block Set
                         output.accept(ModBlocks.POLISHED_CALCITE);
+                        output.accept(ModBlocks.POLISHED_CALCITE_STAIRS);
+                        output.accept(ModBlocks.POLISHED_CALCITE_SLAB);
+                        output.accept(ModBlocks.POLISHED_CALCITE_WALL);
+
+                        // Calcite Brick Block Set
                         output.accept(ModBlocks.CALCITE_BRICKS);
+                        output.accept(ModBlocks.CALCITE_BRICK_STAIRS);
+                        output.accept(ModBlocks.CALCITE_BRICK_SLAB);
+                        output.accept(ModBlocks.CALCITE_BRICK_WALL);
 
                     }).build());
 

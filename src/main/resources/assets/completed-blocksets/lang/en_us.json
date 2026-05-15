@@ -3,8 +3,19 @@
 
   "block.completed-blocksets.example_block": "Example Block",
 
+  "block.completed-blocksets.calcite_stairs": "Calcite Stairs",
+  "block.completed-blocksets.calcite_slab": "Calcite Slab",
+  "block.completed-blocksets.calcite_wall": "Calcite Wall",
+
   "block.completed-blocksets.polished_calcite": "Polished Calcite",
+  "block.completed-blocksets.polished_calcite_stairs": "Polished Calcite Stairs",
+  "block.completed-blocksets.polished_calcite_slab": "Polished Calcite Slab",
+  "block.completed-blocksets.polished_calcite_wall": "Polished Calcite Wall",
+
   "block.completed-blocksets.calcite_bricks": "Calcite Bricks",
+  "block.completed-blocksets.calcite_brick_stairs": "Calcite Brick Stairs",
+  "block.completed-blocksets.calcite_brick_slab": "Calcite Brick Slab",
+  "block.completed-blocksets.calcite_brick_wall": "Calcite Brick Wall",
 
   "creativemodetab.completed-blocksets.completed_blocksets": "Completed Blocksets"
 }

@@ -18,10 +18,42 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
     @Override
     protected void addTags(HolderLookup.Provider provider)
     {
+        valueLookupBuilder(BlockTags.STAIRS)
+
+            .add(ModBlocks.CALCITE_STAIRS)
+            .add(ModBlocks.POLISHED_CALCITE_STAIRS)
+            .add(ModBlocks.CALCITE_BRICK_STAIRS)
+        ;
+
+        valueLookupBuilder(BlockTags.SLABS)
+
+            .add(ModBlocks.CALCITE_SLAB)
+            .add(ModBlocks.POLISHED_CALCITE_SLAB)
+            .add(ModBlocks.CALCITE_BRICK_SLAB)
+        ;
+
+        valueLookupBuilder(BlockTags.WALLS)
+
+            .add(ModBlocks.CALCITE_WALL)
+            .add(ModBlocks.POLISHED_CALCITE_WALL)
+            .add(ModBlocks.CALCITE_BRICK_WALL)
+        ;
+
         valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
 
+            .add(ModBlocks.CALCITE_STAIRS)
+            .add(ModBlocks.CALCITE_SLAB)
+            .add(ModBlocks.CALCITE_WALL)
+
             .add(ModBlocks.POLISHED_CALCITE)
+            .add(ModBlocks.POLISHED_CALCITE_STAIRS)
+            .add(ModBlocks.POLISHED_CALCITE_SLAB)
+            .add(ModBlocks.POLISHED_CALCITE_WALL)
+
             .add(ModBlocks.CALCITE_BRICKS)
+            .add(ModBlocks.CALCITE_BRICK_STAIRS)
+            .add(ModBlocks.CALCITE_BRICK_SLAB)
+            .add(ModBlocks.CALCITE_BRICK_WALL)
         ;
 
         valueLookupBuilder(BlockTags.NEEDS_STONE_TOOL)

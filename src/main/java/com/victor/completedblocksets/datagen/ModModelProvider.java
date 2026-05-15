@@ -6,7 +6,10 @@ import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
+import net.minecraft.client.data.models.MultiVariant;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.data.BlockFamily;
+import net.minecraft.world.level.block.Blocks;
 
 public class ModModelProvider extends FabricModelProvider
 {
@@ -21,8 +24,23 @@ public class ModModelProvider extends FabricModelProvider
         //blockModelGenerators.createTrivialCube(ModBlocks.EXAMPLE_BLOCK);
 
         // Calcite Block Set
-        blockModelGenerators.createTrivialCube(ModBlocks.POLISHED_CALCITE);
-        blockModelGenerators.createTrivialCube(ModBlocks.CALCITE_BRICKS);
+        blockModelGenerators.family(Blocks.CALCITE)
+                .stairs(ModBlocks.CALCITE_STAIRS)
+                .slab(ModBlocks.CALCITE_SLAB)
+                .wall(ModBlocks.CALCITE_WALL)
+        ;
+
+        blockModelGenerators.family(ModBlocks.POLISHED_CALCITE)
+                .stairs(ModBlocks.POLISHED_CALCITE_STAIRS)
+                .slab(ModBlocks.POLISHED_CALCITE_SLAB)
+                .wall(ModBlocks.POLISHED_CALCITE_WALL)
+        ;
+
+        blockModelGenerators.family(ModBlocks.CALCITE_BRICKS)
+                .stairs(ModBlocks.CALCITE_BRICK_STAIRS)
+                .slab(ModBlocks.CALCITE_BRICK_SLAB)
+                .wall(ModBlocks.CALCITE_BRICK_WALL)
+        ;
     }
 
     @Override
