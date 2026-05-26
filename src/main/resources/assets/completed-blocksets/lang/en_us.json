@@ -3,6 +3,9 @@
 
   "block.completed-blocksets.example_block": "Example Block",
 
+  "block.completed-blocksets.amethyst_stairs": "Amethyst Stairs",
+  "block.completed-blocksets.amethyst_slab": "Amethyst Slab",
+
   "block.completed-blocksets.calcite_stairs": "Calcite Stairs",
   "block.completed-blocksets.calcite_slab": "Calcite Slab",
   "block.completed-blocksets.calcite_wall": "Calcite Wall",
@@ -11,11 +14,63 @@
   "block.completed-blocksets.polished_calcite_stairs": "Polished Calcite Stairs",
   "block.completed-blocksets.polished_calcite_slab": "Polished Calcite Slab",
   "block.completed-blocksets.polished_calcite_wall": "Polished Calcite Wall",
+  "block.completed-blocksets.polished_calcite_button": "Polished Calcite Button",
+  "block.completed-blocksets.polished_calcite_pressure_plate": "Polished Calcite Pressure Plate",
 
   "block.completed-blocksets.calcite_bricks": "Calcite Bricks",
   "block.completed-blocksets.calcite_brick_stairs": "Calcite Brick Stairs",
   "block.completed-blocksets.calcite_brick_slab": "Calcite Brick Slab",
   "block.completed-blocksets.calcite_brick_wall": "Calcite Brick Wall",
+
+  "block.completed-blocksets.smooth_basalt_stairs": "Smooth Basalt Stairs",
+  "block.completed-blocksets.smooth_basalt_slab": "Smooth Basalt Slab",
+  "block.completed-blocksets.smooth_basalt_wall": "Smooth Basalt Wall",
+
+  "block.completed-blocksets.stone_wall": "Stone Wall",
+  "block.completed-blocksets.smooth_stone_stairs": "Smooth Stone Stairs",
+  "block.completed-blocksets.polished_deepslate_pressure_plate": "Polished Deepslate Pressure Plate",
+
+  "block.completed-blocksets.packed_mud_stairs": "Packed Mud Stairs",
+  "block.completed-blocksets.packed_mud_slab": "Packed Mud Slab",
+  "block.completed-blocksets.packed_mud_wall": "Packed Mud Wall",
+
+  "block.completed-blocksets.smooth_sandstone_wall": "Smooth Sandstone Wall",
+  "block.completed-blocksets.smooth_red_sandstone_wall": "Smooth Red Sandstone Wall",
+  "block.completed-blocksets.cut_sandstone_stairs": "Cut Sandstone Stairs",
+  "block.completed-blocksets.cut_sandstone_wall": "Cut Sandstone Wall",
+  "block.completed-blocksets.cut_red_sandstone_stairs": "Cut Red Sandstone Stairs",
+  "block.completed-blocksets.cut_red_sandstone_wall": "Cut Red Sandstone Wall",
+
+  "block.completed-blocksets.prismarine_brick_wall": "Prismarine Brick Wall",
+  "block.completed-blocksets.dark_prismarine_wall": "Dark Prismarine Wall",
+  "block.completed-blocksets.purpur_wall": "Purpur Wall",
+
+  "block.completed-blocksets.netherrack_stairs": "Netherrack Stairs",
+  "block.completed-blocksets.netherrack_slab": "Netherrack Slab",
+  "block.completed-blocksets.netherrack_wall": "Netherrack Wall",
+
+  "block.completed-blocksets.end_stone_stairs": "End Stone Stairs",
+  "block.completed-blocksets.end_stone_slab": "End Stone Slab",
+  "block.completed-blocksets.end_stone_wall": "End Stone Wall",
+
+  "block.completed-blocksets.polished_end_stone": "Polished End Stone",
+  "block.completed-blocksets.polished_end_stone_stairs": "Polished End Stone Stairs",
+  "block.completed-blocksets.polished_end_stone_slab": "Polished End Stone Slab",
+  "block.completed-blocksets.polished_end_stone_wall": "Polished End Stone Wall",
+
+  "block.completed-blocksets.polished_granite_wall": "Polished Granite Wall",
+  "block.completed-blocksets.polished_andesite_wall": "Polished Andesite Wall",
+  "block.completed-blocksets.polished_diorite_wall": "Polished Diorite Wall",
+
+  "block.completed-blocksets.quartz_wall": "Quartz Wall",
+  "block.completed-blocksets.smooth_quartz_wall": "Smooth Quartz Wall",
+
+  "block.completed-blocksets.quartz_brick_stairs": "Quartz Brick Stairs",
+  "block.completed-blocksets.quartz_brick_slab": "Quartz Brick Slab",
+  "block.completed-blocksets.quartz_brick_wall": "Quartz Brick Wall",
+
+  "block.completed-blocksets.gold_trapdoor": "Gold Trapdoor",
+  "block.completed-blocksets.gold_door": "Gold Door",
 
   "creativemodetab.completed-blocksets.completed_blocksets": "Completed Blocksets"
 }

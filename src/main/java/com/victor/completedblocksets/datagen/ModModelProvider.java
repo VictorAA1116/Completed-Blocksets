@@ -23,6 +23,12 @@ public class ModModelProvider extends FabricModelProvider
     {
         //blockModelGenerators.createTrivialCube(ModBlocks.EXAMPLE_BLOCK);
 
+        // Amethyst Block Set
+        blockModelGenerators.family(Blocks.AMETHYST_BLOCK)
+                .stairs(ModBlocks.AMETHYST_STAIRS)
+                .slab(ModBlocks.AMETHYST_SLAB)
+        ;
+
         // Calcite Block Set
         blockModelGenerators.family(Blocks.CALCITE)
                 .stairs(ModBlocks.CALCITE_STAIRS)
@@ -34,6 +40,8 @@ public class ModModelProvider extends FabricModelProvider
                 .stairs(ModBlocks.POLISHED_CALCITE_STAIRS)
                 .slab(ModBlocks.POLISHED_CALCITE_SLAB)
                 .wall(ModBlocks.POLISHED_CALCITE_WALL)
+                .button(ModBlocks.POLISHED_CALCITE_BUTTON)
+                .pressurePlate(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE)
         ;
 
         blockModelGenerators.family(ModBlocks.CALCITE_BRICKS)

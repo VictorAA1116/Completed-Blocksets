@@ -19,7 +19,11 @@ public class ModCreativeModeTabs
                     .title(Component.translatable("creativemodetab.completed-blocksets.completed_blocksets"))
                     .displayItems((parameters, output) -> {
 
-                        output.accept(ModItems.EXAMPLE_ITEM);
+                        //output.accept(ModItems.EXAMPLE_ITEM);
+
+                        // Amethyst Block Set
+                        output.accept(ModBlocks.AMETHYST_STAIRS);
+                        output.accept(ModBlocks.AMETHYST_SLAB);
 
                         // Calcite Block Set
                         output.accept(ModBlocks.CALCITE_STAIRS);
@@ -31,6 +35,8 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.POLISHED_CALCITE_STAIRS);
                         output.accept(ModBlocks.POLISHED_CALCITE_SLAB);
                         output.accept(ModBlocks.POLISHED_CALCITE_WALL);
+                        output.accept(ModBlocks.POLISHED_CALCITE_BUTTON);
+                        output.accept(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE);
 
                         // Calcite Brick Block Set
                         output.accept(ModBlocks.CALCITE_BRICKS);

@@ -4,16 +4,6 @@ import com.victor.completedblocksets.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootSubProvider;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.enchantment.Enchantment;
-import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.storage.loot.LootTable;
-import net.minecraft.world.level.storage.loot.entries.LootItem;
-import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
-import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
-import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -27,6 +17,10 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
     @Override
     public void generate()
     {
+        // Amethyst Block Set
+        dropSelf(ModBlocks.AMETHYST_STAIRS);
+        add(ModBlocks.AMETHYST_SLAB, this::createSlabItemTable);
+
         // Calcite Block Set
         dropSelf(ModBlocks.CALCITE_STAIRS);
         add(ModBlocks.CALCITE_SLAB, this::createSlabItemTable);
@@ -37,6 +31,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.POLISHED_CALCITE_STAIRS);
         add(ModBlocks.POLISHED_CALCITE_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.POLISHED_CALCITE_WALL);
+        dropSelf(ModBlocks.POLISHED_CALCITE_BUTTON);
+        dropSelf(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE);
 
         // Calcite Brick Block Set
         dropSelf(ModBlocks.CALCITE_BRICKS);
