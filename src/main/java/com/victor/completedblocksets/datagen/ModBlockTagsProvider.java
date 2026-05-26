@@ -25,6 +25,10 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.CALCITE_STAIRS)
             .add(ModBlocks.POLISHED_CALCITE_STAIRS)
             .add(ModBlocks.CALCITE_BRICK_STAIRS)
+
+            .add(ModBlocks.SMOOTH_BASALT_STAIRS)
+
+            .add(ModBlocks.SMOOTH_STONE_STAIRS)
         ;
 
         valueLookupBuilder(BlockTags.SLABS)
@@ -34,6 +38,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.CALCITE_SLAB)
             .add(ModBlocks.POLISHED_CALCITE_SLAB)
             .add(ModBlocks.CALCITE_BRICK_SLAB)
+
+            .add(ModBlocks.SMOOTH_BASALT_SLAB)
         ;
 
         valueLookupBuilder(BlockTags.WALLS)
@@ -41,6 +47,10 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.CALCITE_WALL)
             .add(ModBlocks.POLISHED_CALCITE_WALL)
             .add(ModBlocks.CALCITE_BRICK_WALL)
+
+            .add(ModBlocks.SMOOTH_BASALT_WALL)
+
+            .add(ModBlocks.STONE_WALL)
         ;
 
         valueLookupBuilder(BlockTags.BUTTONS)
@@ -71,6 +81,14 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.CALCITE_BRICK_STAIRS)
             .add(ModBlocks.CALCITE_BRICK_SLAB)
             .add(ModBlocks.CALCITE_BRICK_WALL)
+
+            .add(ModBlocks.SMOOTH_BASALT_STAIRS)
+            .add(ModBlocks.SMOOTH_BASALT_SLAB)
+            .add(ModBlocks.SMOOTH_BASALT_WALL)
+
+            .add(ModBlocks.SMOOTH_STONE_STAIRS)
+
+            .add(ModBlocks.STONE_WALL)
         ;
 
         valueLookupBuilder(BlockTags.NEEDS_STONE_TOOL)

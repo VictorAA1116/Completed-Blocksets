@@ -49,6 +49,23 @@ public class ModModelProvider extends FabricModelProvider
                 .slab(ModBlocks.CALCITE_BRICK_SLAB)
                 .wall(ModBlocks.CALCITE_BRICK_WALL)
         ;
+
+        // Smooth Basalt Block Set
+        blockModelGenerators.family(Blocks.SMOOTH_BASALT)
+                .stairs(ModBlocks.SMOOTH_BASALT_STAIRS)
+                .slab(ModBlocks.SMOOTH_BASALT_SLAB)
+                .wall(ModBlocks.SMOOTH_BASALT_WALL)
+        ;
+
+        // Smooth Stone Block Set
+        blockModelGenerators.family(Blocks.SMOOTH_STONE)
+                .stairs(ModBlocks.SMOOTH_STONE_STAIRS)
+        ;
+
+        // Stone Block Set
+        blockModelGenerators.family(Blocks.STONE)
+                .wall(ModBlocks.STONE_WALL)
+        ;
     }
 
     @Override

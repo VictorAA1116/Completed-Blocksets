@@ -44,6 +44,17 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.CALCITE_BRICK_SLAB);
                         output.accept(ModBlocks.CALCITE_BRICK_WALL);
 
+                        // Smooth Basalt Block Set
+                        output.accept(ModBlocks.SMOOTH_BASALT_STAIRS);
+                        output.accept(ModBlocks.SMOOTH_BASALT_SLAB);
+                        output.accept(ModBlocks.SMOOTH_BASALT_WALL);
+
+                        // Smooth Stone Block Set
+                        output.accept(ModBlocks.SMOOTH_STONE_STAIRS);
+
+                        // Stone Block Set
+                        output.accept(ModBlocks.STONE_WALL);
+
                     }).build());
 
     public static void registerCreativeModeTabs()

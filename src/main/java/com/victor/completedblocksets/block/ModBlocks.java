@@ -178,7 +178,7 @@ public class ModBlocks
                     .mapColor(MapColor.TERRACOTTA_WHITE)
                     .sound(SoundType.CALCITE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .strength(0.5F)
+                    .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
                     .forceSolidOn()
                     .noCollision()
@@ -241,9 +241,63 @@ public class ModBlocks
     // Smooth Basalt Block Set
     //
 
+    public static final Block SMOOTH_BASALT_STAIRS = registerBlock("smooth_basalt_stairs",
+            properties -> new StairBlock( Blocks.SMOOTH_BASALT.defaultBlockState(), properties
+                    .strength(1.25f, 4.2f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.BASALT)
+                    .mapColor(MapColor.COLOR_BLACK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block SMOOTH_BASALT_SLAB = registerBlock("smooth_basalt_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.25f, 4.2f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.BASALT)
+                    .mapColor(MapColor.COLOR_BLACK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block SMOOTH_BASALT_WALL = registerBlock("smooth_basalt_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.25f, 4.2f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.BASALT)
+                    .mapColor(MapColor.COLOR_BLACK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Smooth Stone Block Set
+    //
+
+    public static final Block SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs",
+            properties -> new StairBlock( Blocks.SMOOTH_BASALT.defaultBlockState(), properties
+                    .strength(1.25f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
     //
     // Stone Block Set
     //
+
+    public static final Block STONE_WALL = registerBlock("stone_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.25f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function)
     {

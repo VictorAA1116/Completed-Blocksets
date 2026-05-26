@@ -39,6 +39,17 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.CALCITE_BRICK_STAIRS);
         add(ModBlocks.CALCITE_BRICK_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.CALCITE_BRICK_WALL);
+
+        // Smooth Basalt Block Set
+        dropSelf(ModBlocks.SMOOTH_BASALT_STAIRS);
+        add(ModBlocks.SMOOTH_BASALT_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.SMOOTH_BASALT_WALL);
+
+        // Smooth Stone Block Set
+        dropSelf(ModBlocks.SMOOTH_STONE_STAIRS);
+
+        // Stone Block Set
+        dropSelf(ModBlocks.STONE_WALL);
     }
 
 //    public LootTable.Builder createMultipleOreDrops(final Block block, Item item,float minDrops, float maxDrops)
