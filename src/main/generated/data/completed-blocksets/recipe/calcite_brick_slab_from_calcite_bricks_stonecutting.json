@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "completed-blocksets:calcite_bricks",
+  "result": {
+    "count": 2,
+    "id": "completed-blocksets:calcite_brick_slab"
+  }
+}

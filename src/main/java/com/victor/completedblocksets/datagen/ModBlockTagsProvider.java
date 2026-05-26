@@ -26,6 +26,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.POLISHED_CALCITE_STAIRS)
             .add(ModBlocks.CALCITE_BRICK_STAIRS)
 
+            .add(ModBlocks.PACKED_MUD_STAIRS)
+
             .add(ModBlocks.SMOOTH_BASALT_STAIRS)
 
             .add(ModBlocks.SMOOTH_STONE_STAIRS)
@@ -39,6 +41,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.POLISHED_CALCITE_SLAB)
             .add(ModBlocks.CALCITE_BRICK_SLAB)
 
+            .add(ModBlocks.PACKED_MUD_SLAB)
+
             .add(ModBlocks.SMOOTH_BASALT_SLAB)
         ;
 
@@ -47,6 +51,14 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.CALCITE_WALL)
             .add(ModBlocks.POLISHED_CALCITE_WALL)
             .add(ModBlocks.CALCITE_BRICK_WALL)
+
+            .add(ModBlocks.DARK_PRISMARINE_WALL)
+
+            .add(ModBlocks.PACKED_MUD_WALL)
+
+            .add(ModBlocks.PRISMARINE_BRICK_WALL)
+
+            .add(ModBlocks.PURPUR_WALL)
 
             .add(ModBlocks.SMOOTH_BASALT_WALL)
 
@@ -61,6 +73,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
         valueLookupBuilder(BlockTags.PRESSURE_PLATES)
 
             .add(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE)
+
+            .add(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE)
         ;
 
         valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
@@ -81,6 +95,12 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.CALCITE_BRICK_STAIRS)
             .add(ModBlocks.CALCITE_BRICK_SLAB)
             .add(ModBlocks.CALCITE_BRICK_WALL)
+
+            .add(ModBlocks.DARK_PRISMARINE_WALL)
+
+            .add(ModBlocks.PRISMARINE_BRICK_WALL)
+
+            .add(ModBlocks.PURPUR_WALL)
 
             .add(ModBlocks.SMOOTH_BASALT_STAIRS)
             .add(ModBlocks.SMOOTH_BASALT_SLAB)

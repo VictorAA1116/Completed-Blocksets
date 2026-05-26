@@ -1,0 +1,25 @@
+{
+  "values": [
+    "completed-blocksets:amethyst_stairs",
+    "completed-blocksets:amethyst_slab",
+    "completed-blocksets:calcite_stairs",
+    "completed-blocksets:calcite_slab",
+    "completed-blocksets:calcite_wall",
+    "completed-blocksets:polished_calcite",
+    "completed-blocksets:polished_calcite_stairs",
+    "completed-blocksets:polished_calcite_slab",
+    "completed-blocksets:polished_calcite_wall",
+    "completed-blocksets:calcite_bricks",
+    "completed-blocksets:calcite_brick_stairs",
+    "completed-blocksets:calcite_brick_slab",
+    "completed-blocksets:calcite_brick_wall",
+    "completed-blocksets:dark_prismarine_wall",
+    "completed-blocksets:prismarine_brick_wall",
+    "completed-blocksets:purpur_wall",
+    "completed-blocksets:smooth_basalt_stairs",
+    "completed-blocksets:smooth_basalt_slab",
+    "completed-blocksets:smooth_basalt_wall",
+    "completed-blocksets:smooth_stone_stairs",
+    "completed-blocksets:stone_wall"
+  ]
+}

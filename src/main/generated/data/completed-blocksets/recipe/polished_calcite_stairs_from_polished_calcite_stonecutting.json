@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "completed-blocksets:polished_calcite",
+  "result": {
+    "id": "completed-blocksets:polished_calcite_stairs"
+  }
+}

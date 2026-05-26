@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "completed-blocksets:block/calcite_bricks",
+    "side": "completed-blocksets:block/calcite_bricks",
+    "top": "completed-blocksets:block/calcite_bricks"
+  }
+}

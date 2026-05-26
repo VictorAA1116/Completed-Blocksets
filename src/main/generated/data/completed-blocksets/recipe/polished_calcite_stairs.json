@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "calcite",
+  "key": {
+    "#": "completed-blocksets:polished_calcite"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "completed-blocksets:polished_calcite_stairs"
+  }
+}

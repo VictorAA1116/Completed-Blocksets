@@ -40,6 +40,23 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         add(ModBlocks.CALCITE_BRICK_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.CALCITE_BRICK_WALL);
 
+        // Dark Prismarine Block Set
+        dropSelf(ModBlocks.DARK_PRISMARINE_WALL);
+
+        // Deep Slate Block Set
+        dropSelf(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
+
+        // Packed Mud Block Set
+        dropSelf(ModBlocks.PACKED_MUD_STAIRS);
+        add(ModBlocks.PACKED_MUD_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.PACKED_MUD_WALL);
+
+        // Prismarine Bricks Block Set
+        dropSelf(ModBlocks.PRISMARINE_BRICK_WALL);
+
+        // Purpur Block Set
+        dropSelf(ModBlocks.PURPUR_WALL);
+
         // Smooth Basalt Block Set
         dropSelf(ModBlocks.SMOOTH_BASALT_STAIRS);
         add(ModBlocks.SMOOTH_BASALT_SLAB, this::createSlabItemTable);

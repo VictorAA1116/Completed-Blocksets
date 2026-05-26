@@ -189,9 +189,31 @@ public class ModBlocks
     // Dark Prismarine Block Set
     //
 
+    public static final Block DARK_PRISMARINE_WALL = registerBlock("dark_prismarine_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.5f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.DIAMOND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
     //
     // Deepslate Block Set
     //
+
+    public static final Block POLISHED_DEEPSLATE_PRESSURE_PLATE = registerBlock("polished_deepslate_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.STONE, properties
+                    .mapColor(MapColor.DEEPSLATE)
+                    .sound(SoundType.DEEPSLATE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(0.5f)
+                    .pushReaction(PushReaction.DESTROY)
+                    .forceSolidOn()
+                    .noCollision()
+            )
+    );
 
     //
     // End Stone Block Set
@@ -208,6 +230,31 @@ public class ModBlocks
     //
     // Packed Mud Block Set
     //
+
+    public static final Block PACKED_MUD_STAIRS = registerBlock("packed_mud_stairs",
+            properties -> new StairBlock(Blocks.PACKED_MUD.defaultBlockState(), properties
+                    .strength(1.0f, 3.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.PACKED_MUD)
+                    .mapColor(MapColor.DIRT)
+            )
+    );
+
+    public static final Block PACKED_MUD_SLAB = registerBlock("packed_mud_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.0f, 3.0f)
+                    .sound(SoundType.PACKED_MUD)
+                    .mapColor(MapColor.DIRT)
+            )
+    );
+
+    public static final Block PACKED_MUD_WALL = registerBlock("packed_mud_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.0f,3.0f)
+                    .sound(SoundType.PACKED_MUD)
+                    .mapColor(MapColor.DIRT)
+            )
+    );
 
     //
     // Polished End Stone Block Set
@@ -226,8 +273,32 @@ public class ModBlocks
     //
 
     //
+    // Prismarine Brick Block Set
+    //
+
+    public static final Block PRISMARINE_BRICK_WALL = registerBlock("prismarine_brick_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.5f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.COLOR_CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
     // Purpur Block Set
     //
+
+    public static final Block PURPUR_WALL = registerBlock("purpur_wall",
+            properties -> new WallBlock(properties
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.COLOR_MAGENTA)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
 
     //
     // Quartz Block Set

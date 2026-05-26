@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "completed-blocksets:polished_calcite"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "completed-blocksets:polished_calcite_pressure_plate"
+  }
+}

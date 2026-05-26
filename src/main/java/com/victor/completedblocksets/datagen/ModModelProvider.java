@@ -50,6 +50,33 @@ public class ModModelProvider extends FabricModelProvider
                 .wall(ModBlocks.CALCITE_BRICK_WALL)
         ;
 
+        // Dark Prismarine Block Set
+        blockModelGenerators.family(Blocks.DARK_PRISMARINE)
+                .wall(ModBlocks.DARK_PRISMARINE_WALL)
+        ;
+
+        // Deep Slate Block Set
+        blockModelGenerators.family(Blocks.POLISHED_DEEPSLATE)
+                .pressurePlate(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE)
+        ;
+
+        // Packed Mud Block Set
+        blockModelGenerators.family(Blocks.PACKED_MUD)
+                .stairs(ModBlocks.PACKED_MUD_STAIRS)
+                .slab(ModBlocks.PACKED_MUD_SLAB)
+                .wall(ModBlocks.PACKED_MUD_WALL)
+        ;
+
+        // Prismarine Bricks Block Set
+        blockModelGenerators.family(Blocks.PRISMARINE_BRICKS)
+                .wall(ModBlocks.PRISMARINE_BRICK_WALL)
+        ;
+
+        // Purpur Block Set
+        blockModelGenerators.family(Blocks.PURPUR_BLOCK)
+                .wall(ModBlocks.PURPUR_WALL)
+        ;
+
         // Smooth Basalt Block Set
         blockModelGenerators.family(Blocks.SMOOTH_BASALT)
                 .stairs(ModBlocks.SMOOTH_BASALT_STAIRS)

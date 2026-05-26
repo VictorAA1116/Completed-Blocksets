@@ -44,6 +44,23 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.CALCITE_BRICK_SLAB);
                         output.accept(ModBlocks.CALCITE_BRICK_WALL);
 
+                        // Dark Prismarine Block Set
+                        output.accept(ModBlocks.DARK_PRISMARINE_WALL);
+
+                        // Deep Slate Block Set
+                        output.accept(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
+
+                        // Packed Mud Block Set
+                        output.accept(ModBlocks.PACKED_MUD_STAIRS);
+                        output.accept(ModBlocks.PACKED_MUD_SLAB);
+                        output.accept(ModBlocks.PACKED_MUD_WALL);
+
+                        // Prismarine Bricks Block Set
+                        output.accept(ModBlocks.PRISMARINE_BRICK_WALL);
+
+                        // Purpur Block Set
+                        output.accept(ModBlocks.PURPUR_WALL);
+
                         // Smooth Basalt Block Set
                         output.accept(ModBlocks.SMOOTH_BASALT_STAIRS);
                         output.accept(ModBlocks.SMOOTH_BASALT_SLAB);
