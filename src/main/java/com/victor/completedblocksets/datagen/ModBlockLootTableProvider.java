@@ -121,6 +121,86 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
 
         // Stone Block Set
         dropSelf(ModBlocks.STONE_WALL);
+
+        // White Concrete Block Set
+        dropSelf(ModBlocks.WHITE_CONCRETE_STAIRS);
+        add(ModBlocks.WHITE_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.WHITE_CONCRETE_WALL);
+
+        // Light Gray Concrete Block Set
+        dropSelf(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);
+        add(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
+
+        // Gray Concrete Block Set
+        dropSelf(ModBlocks.GRAY_CONCRETE_STAIRS);
+        add(ModBlocks.GRAY_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.GRAY_CONCRETE_WALL);
+
+        // Black Concrete Block Set
+        dropSelf(ModBlocks.BLACK_CONCRETE_STAIRS);
+        add(ModBlocks.BLACK_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.BLACK_CONCRETE_WALL);
+
+        // Red Concrete Block Set
+        dropSelf(ModBlocks.RED_CONCRETE_STAIRS);
+        add(ModBlocks.RED_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.RED_CONCRETE_WALL);
+
+        // Orange Concrete Block Set
+        dropSelf(ModBlocks.ORANGE_CONCRETE_STAIRS);
+        add(ModBlocks.ORANGE_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.ORANGE_CONCRETE_WALL);
+
+        // Yellow Concrete Block Set
+        dropSelf(ModBlocks.YELLOW_CONCRETE_STAIRS);
+        add(ModBlocks.YELLOW_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.YELLOW_CONCRETE_WALL);
+
+        // Lime Concrete Block Set
+        dropSelf(ModBlocks.LIME_CONCRETE_STAIRS);
+        add(ModBlocks.LIME_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.LIME_CONCRETE_WALL);
+
+        // Green Concrete Block Set
+        dropSelf(ModBlocks.GREEN_CONCRETE_STAIRS);
+        add(ModBlocks.GREEN_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.GREEN_CONCRETE_WALL);
+
+        // Cyan Concrete Block Set
+        dropSelf(ModBlocks.CYAN_CONCRETE_STAIRS);
+        add(ModBlocks.CYAN_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.CYAN_CONCRETE_WALL);
+
+        // Light Blue Concrete Block Set
+        dropSelf(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS);
+        add(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.LIGHT_BLUE_CONCRETE_WALL);
+
+        // Blue Concrete Block Set
+        dropSelf(ModBlocks.BLUE_CONCRETE_STAIRS);
+        add(ModBlocks.BLUE_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.BLUE_CONCRETE_WALL);
+
+        // Purple Concrete Block Set
+        dropSelf(ModBlocks.PURPLE_CONCRETE_STAIRS);
+        add(ModBlocks.PURPLE_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.PURPLE_CONCRETE_WALL);
+
+        // Magenta Concrete Block Set
+        dropSelf(ModBlocks.MAGENTA_CONCRETE_STAIRS);
+        add(ModBlocks.MAGENTA_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.MAGENTA_CONCRETE_WALL);
+
+        // Pink Concrete Block Set
+        dropSelf(ModBlocks.PINK_CONCRETE_STAIRS);
+        add(ModBlocks.PINK_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.PINK_CONCRETE_WALL);
+
+        // Brown Concrete Block Set
+        dropSelf(ModBlocks.BROWN_CONCRETE_STAIRS);
+        add(ModBlocks.BROWN_CONCRETE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.BROWN_CONCRETE_WALL);
     }
 
 //    public LootTable.Builder createMultipleOreDrops(final Block block, Item item,float minDrops, float maxDrops)

@@ -178,6 +178,118 @@ public class ModModelProvider extends FabricModelProvider
         blockModelGenerators.family(Blocks.STONE)
                 .wall(ModBlocks.STONE_WALL)
         ;
+
+        // White Concrete Block Set
+        blockModelGenerators.family(Blocks.WHITE_CONCRETE)
+                .stairs(ModBlocks.WHITE_CONCRETE_STAIRS)
+                .slab(ModBlocks.WHITE_CONCRETE_SLAB)
+                .wall(ModBlocks.WHITE_CONCRETE_WALL)
+        ;
+
+        // Light Gray Concrete Block Set
+        blockModelGenerators.family(Blocks.LIGHT_GRAY_CONCRETE)
+                .stairs(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS)
+                .slab(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB)
+                .wall(ModBlocks.LIGHT_GRAY_CONCRETE_WALL)
+        ;
+
+        // Gray Concrete Block Set
+        blockModelGenerators.family(Blocks.GRAY_CONCRETE)
+                .stairs(ModBlocks.GRAY_CONCRETE_STAIRS)
+                .slab(ModBlocks.GRAY_CONCRETE_SLAB)
+                .wall(ModBlocks.GRAY_CONCRETE_WALL)
+        ;
+
+        // Black Concrete Block Set
+        blockModelGenerators.family(Blocks.BLACK_CONCRETE)
+                .stairs(ModBlocks.BLACK_CONCRETE_STAIRS)
+                .slab(ModBlocks.BLACK_CONCRETE_SLAB)
+                .wall(ModBlocks.BLACK_CONCRETE_WALL)
+        ;
+
+        // Red Concrete Block Set
+        blockModelGenerators.family(Blocks.RED_CONCRETE)
+                .stairs(ModBlocks.RED_CONCRETE_STAIRS)
+                .slab(ModBlocks.RED_CONCRETE_SLAB)
+                .wall(ModBlocks.RED_CONCRETE_WALL)
+        ;
+
+        // Orange Concrete Block Set
+        blockModelGenerators.family(Blocks.ORANGE_CONCRETE)
+                .stairs(ModBlocks.ORANGE_CONCRETE_STAIRS)
+                .slab(ModBlocks.ORANGE_CONCRETE_SLAB)
+                .wall(ModBlocks.ORANGE_CONCRETE_WALL)
+        ;
+
+        // Yellow Concrete Block Set
+        blockModelGenerators.family(Blocks.YELLOW_CONCRETE)
+                .stairs(ModBlocks.YELLOW_CONCRETE_STAIRS)
+                .slab(ModBlocks.YELLOW_CONCRETE_SLAB)
+                .wall(ModBlocks.YELLOW_CONCRETE_WALL)
+        ;
+
+        // Lime Concrete Block Set
+        blockModelGenerators.family(Blocks.LIME_CONCRETE)
+                .stairs(ModBlocks.LIME_CONCRETE_STAIRS)
+                .slab(ModBlocks.LIME_CONCRETE_SLAB)
+                .wall(ModBlocks.LIME_CONCRETE_WALL)
+        ;
+
+        // Green Concrete Block Set
+        blockModelGenerators.family(Blocks.GREEN_CONCRETE)
+                .stairs(ModBlocks.GREEN_CONCRETE_STAIRS)
+                .slab(ModBlocks.GREEN_CONCRETE_SLAB)
+                .wall(ModBlocks.GREEN_CONCRETE_WALL)
+        ;
+
+        // Cyan Concrete Block Set
+        blockModelGenerators.family(Blocks.CYAN_CONCRETE)
+                .stairs(ModBlocks.CYAN_CONCRETE_STAIRS)
+                .slab(ModBlocks.CYAN_CONCRETE_SLAB)
+                .wall(ModBlocks.CYAN_CONCRETE_WALL)
+        ;
+
+        // Light Blue Concrete Block Set
+        blockModelGenerators.family(Blocks.LIGHT_BLUE_CONCRETE)
+                .stairs(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS)
+                .slab(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB)
+                .wall(ModBlocks.LIGHT_BLUE_CONCRETE_WALL)
+        ;
+
+        // Blue Concrete Block Set
+        blockModelGenerators.family(Blocks.BLUE_CONCRETE)
+                .stairs(ModBlocks.BLUE_CONCRETE_STAIRS)
+                .slab(ModBlocks.BLUE_CONCRETE_SLAB)
+                .wall(ModBlocks.BLUE_CONCRETE_WALL)
+        ;
+
+        // Purple Concrete Block Set
+        blockModelGenerators.family(Blocks.PURPLE_CONCRETE)
+                .stairs(ModBlocks.PURPLE_CONCRETE_STAIRS)
+                .slab(ModBlocks.PURPLE_CONCRETE_SLAB)
+                .wall(ModBlocks.PURPLE_CONCRETE_WALL)
+        ;
+
+        // Magenta Concrete Block Set
+        blockModelGenerators.family(Blocks.MAGENTA_CONCRETE)
+                .stairs(ModBlocks.MAGENTA_CONCRETE_STAIRS)
+                .slab(ModBlocks.MAGENTA_CONCRETE_SLAB)
+                .wall(ModBlocks.MAGENTA_CONCRETE_WALL)
+        ;
+
+        // Pink Concrete Block Set
+        blockModelGenerators.family(Blocks.PINK_CONCRETE)
+                .stairs(ModBlocks.PINK_CONCRETE_STAIRS)
+                .slab(ModBlocks.PINK_CONCRETE_SLAB)
+                .wall(ModBlocks.PINK_CONCRETE_WALL)
+        ;
+
+        // Brown Concrete Block Set
+        blockModelGenerators.family(Blocks.BROWN_CONCRETE)
+                .stairs(ModBlocks.BROWN_CONCRETE_STAIRS)
+                .slab(ModBlocks.BROWN_CONCRETE_SLAB)
+                .wall(ModBlocks.BROWN_CONCRETE_WALL)
+        ;
     }
 
     @Override

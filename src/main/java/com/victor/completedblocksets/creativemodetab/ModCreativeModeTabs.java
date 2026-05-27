@@ -19,8 +19,6 @@ public class ModCreativeModeTabs
                     .title(Component.translatable("creativemodetab.completed-blocksets.completed_blocksets"))
                     .displayItems((parameters, output) -> {
 
-                        //output.accept(ModItems.EXAMPLE_ITEM);
-
                         // Amethyst Block Set
                         output.accept(ModBlocks.AMETHYST_STAIRS);
                         output.accept(ModBlocks.AMETHYST_SLAB);
@@ -125,6 +123,86 @@ public class ModCreativeModeTabs
 
                         // Stone Block Set
                         output.accept(ModBlocks.STONE_WALL);
+
+                        // White Concrete Block Set
+                        output.accept(ModBlocks.WHITE_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.WHITE_CONCRETE_SLAB);
+                        output.accept(ModBlocks.WHITE_CONCRETE_WALL);
+
+                        // Light Gray Concrete Block Set
+                        output.accept(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB);
+                        output.accept(ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
+
+                        // Gray Concrete Block Set
+                        output.accept(ModBlocks.GRAY_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.GRAY_CONCRETE_SLAB);
+                        output.accept(ModBlocks.GRAY_CONCRETE_WALL);
+
+                        // Black Concrete Block Set
+                        output.accept(ModBlocks.BLACK_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.BLACK_CONCRETE_SLAB);
+                        output.accept(ModBlocks.BLACK_CONCRETE_WALL);
+
+                        // Red Concrete Block Set
+                        output.accept(ModBlocks.RED_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.RED_CONCRETE_SLAB);
+                        output.accept(ModBlocks.RED_CONCRETE_WALL);
+
+                        // Orange Concrete Block Set
+                        output.accept(ModBlocks.ORANGE_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.ORANGE_CONCRETE_SLAB);
+                        output.accept(ModBlocks.ORANGE_CONCRETE_WALL);
+
+                        // Yellow Concrete Block Set
+                        output.accept(ModBlocks.YELLOW_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.YELLOW_CONCRETE_SLAB);
+                        output.accept(ModBlocks.YELLOW_CONCRETE_WALL);
+
+                        // Lime Concrete Block Set
+                        output.accept(ModBlocks.LIME_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.LIME_CONCRETE_SLAB);
+                        output.accept(ModBlocks.LIME_CONCRETE_WALL);
+
+                        // Green Concrete Block Set
+                        output.accept(ModBlocks.GREEN_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.GREEN_CONCRETE_SLAB);
+                        output.accept(ModBlocks.GREEN_CONCRETE_WALL);
+
+                        // Cyan Concrete Block Set
+                        output.accept(ModBlocks.CYAN_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.CYAN_CONCRETE_SLAB);
+                        output.accept(ModBlocks.CYAN_CONCRETE_WALL);
+
+                        // Light Blue Concrete Block Set
+                        output.accept(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB);
+                        output.accept(ModBlocks.LIGHT_BLUE_CONCRETE_WALL);
+
+                        // Blue Concrete Block Set
+                        output.accept(ModBlocks.BLUE_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.BLUE_CONCRETE_SLAB);
+                        output.accept(ModBlocks.BLUE_CONCRETE_WALL);
+
+                        // Purple Concrete Block Set
+                        output.accept(ModBlocks.PURPLE_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.PURPLE_CONCRETE_SLAB);
+                        output.accept(ModBlocks.PURPLE_CONCRETE_WALL);
+
+                        // Magenta Concrete Block Set
+                        output.accept(ModBlocks.MAGENTA_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.MAGENTA_CONCRETE_SLAB);
+                        output.accept(ModBlocks.MAGENTA_CONCRETE_WALL);
+
+                        // Pink Concrete Block Set
+                        output.accept(ModBlocks.PINK_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.PINK_CONCRETE_SLAB);
+                        output.accept(ModBlocks.PINK_CONCRETE_WALL);
+
+                        // Brown Concrete Block Set
+                        output.accept(ModBlocks.BROWN_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.BROWN_CONCRETE_SLAB);
+                        output.accept(ModBlocks.BROWN_CONCRETE_WALL);
 
                     }).build());
 

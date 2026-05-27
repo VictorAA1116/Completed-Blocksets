@@ -21,6 +21,22 @@
     "completed-blocksets:smooth_red_sandstone_wall",
     "completed-blocksets:cut_sandstone_wall",
     "completed-blocksets:cut_red_sandstone_wall",
-    "completed-blocksets:stone_wall"
+    "completed-blocksets:stone_wall",
+    "completed-blocksets:white_concrete_wall",
+    "completed-blocksets:light_gray_concrete_wall",
+    "completed-blocksets:gray_concrete_wall",
+    "completed-blocksets:black_concrete_wall",
+    "completed-blocksets:red_concrete_wall",
+    "completed-blocksets:orange_concrete_wall",
+    "completed-blocksets:yellow_concrete_wall",
+    "completed-blocksets:lime_concrete_wall",
+    "completed-blocksets:green_concrete_wall",
+    "completed-blocksets:cyan_concrete_wall",
+    "completed-blocksets:light_blue_concrete_wall",
+    "completed-blocksets:blue_concrete_wall",
+    "completed-blocksets:purple_concrete_wall",
+    "completed-blocksets:magenta_concrete_wall",
+    "completed-blocksets:pink_concrete_wall",
+    "completed-blocksets:brown_concrete_wall"
   ]
 }

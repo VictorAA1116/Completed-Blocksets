@@ -12,6 +12,22 @@
     "completed-blocksets:smooth_basalt_stairs",
     "completed-blocksets:smooth_stone_stairs",
     "completed-blocksets:cut_sandstone_stairs",
-    "completed-blocksets:cut_red_sandstone_stairs"
+    "completed-blocksets:cut_red_sandstone_stairs",
+    "completed-blocksets:white_concrete_stairs",
+    "completed-blocksets:light_gray_concrete_stairs",
+    "completed-blocksets:gray_concrete_stairs",
+    "completed-blocksets:black_concrete_stairs",
+    "completed-blocksets:red_concrete_stairs",
+    "completed-blocksets:orange_concrete_stairs",
+    "completed-blocksets:yellow_concrete_stairs",
+    "completed-blocksets:lime_concrete_stairs",
+    "completed-blocksets:green_concrete_stairs",
+    "completed-blocksets:cyan_concrete_stairs",
+    "completed-blocksets:light_blue_concrete_stairs",
+    "completed-blocksets:blue_concrete_stairs",
+    "completed-blocksets:purple_concrete_stairs",
+    "completed-blocksets:magenta_concrete_stairs",
+    "completed-blocksets:pink_concrete_stairs",
+    "completed-blocksets:brown_concrete_stairs"
   ]
 }

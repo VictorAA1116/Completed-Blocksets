@@ -9,6 +9,22 @@
     "completed-blocksets:packed_mud_slab",
     "completed-blocksets:polished_end_stone_slab",
     "completed-blocksets:quartz_brick_slab",
-    "completed-blocksets:smooth_basalt_slab"
+    "completed-blocksets:smooth_basalt_slab",
+    "completed-blocksets:white_concrete_slab",
+    "completed-blocksets:light_gray_concrete_slab",
+    "completed-blocksets:gray_concrete_slab",
+    "completed-blocksets:black_concrete_slab",
+    "completed-blocksets:red_concrete_slab",
+    "completed-blocksets:orange_concrete_slab",
+    "completed-blocksets:yellow_concrete_slab",
+    "completed-blocksets:lime_concrete_slab",
+    "completed-blocksets:green_concrete_slab",
+    "completed-blocksets:cyan_concrete_slab",
+    "completed-blocksets:light_blue_concrete_slab",
+    "completed-blocksets:blue_concrete_slab",
+    "completed-blocksets:purple_concrete_slab",
+    "completed-blocksets:magenta_concrete_slab",
+    "completed-blocksets:pink_concrete_slab",
+    "completed-blocksets:brown_concrete_slab"
   ]
 }

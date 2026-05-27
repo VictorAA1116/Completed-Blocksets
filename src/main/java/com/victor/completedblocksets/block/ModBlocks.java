@@ -7,6 +7,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -673,6 +674,534 @@ public class ModBlocks
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
                     .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // White Concrete Block Set
+    //
+    public static final Block WHITE_CONCRETE_STAIRS = registerBlock("white_concrete_stairs",
+            properties -> new StairBlock(Blocks.WHITE_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.WHITE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block WHITE_CONCRETE_SLAB = registerBlock("white_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.WHITE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block WHITE_CONCRETE_WALL = registerBlock("white_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.WHITE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Light Gray Concrete Block Set
+    //
+    public static final Block LIGHT_GRAY_CONCRETE_STAIRS = registerBlock("light_gray_concrete_stairs",
+            properties -> new StairBlock(Blocks.LIGHT_GRAY_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block LIGHT_GRAY_CONCRETE_SLAB = registerBlock("light_gray_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block LIGHT_GRAY_CONCRETE_WALL = registerBlock("light_gray_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Gray Concrete Block Set
+    //
+    public static final Block GRAY_CONCRETE_STAIRS = registerBlock("gray_concrete_stairs",
+            properties -> new StairBlock(Blocks.GRAY_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block GRAY_CONCRETE_SLAB = registerBlock("gray_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block GRAY_CONCRETE_WALL = registerBlock("gray_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Black Concrete Block Set
+    //
+    public static final Block BLACK_CONCRETE_STAIRS = registerBlock("black_concrete_stairs",
+            properties -> new StairBlock(Blocks.BLACK_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block BLACK_CONCRETE_SLAB = registerBlock("black_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block BLACK_CONCRETE_WALL = registerBlock("black_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Red Concrete Block Set
+    //
+    public static final Block RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
+            properties -> new StairBlock(Blocks.RED_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.RED)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block RED_CONCRETE_SLAB = registerBlock("red_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.RED)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block RED_CONCRETE_WALL = registerBlock("red_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.RED)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Orange Concrete Block Set
+    //
+    public static final Block ORANGE_CONCRETE_STAIRS = registerBlock("orange_concrete_stairs",
+            properties -> new StairBlock(Blocks.ORANGE_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block ORANGE_CONCRETE_SLAB = registerBlock("orange_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block ORANGE_CONCRETE_WALL = registerBlock("orange_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Yellow Concrete Block Set
+    //
+    public static final Block YELLOW_CONCRETE_STAIRS = registerBlock("yellow_concrete_stairs",
+            properties -> new StairBlock(Blocks.YELLOW_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.YELLOW)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block YELLOW_CONCRETE_SLAB = registerBlock("yellow_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.YELLOW)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block YELLOW_CONCRETE_WALL = registerBlock("yellow_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.YELLOW)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Lime Concrete Block Set
+    //
+    public static final Block LIME_CONCRETE_STAIRS = registerBlock("lime_concrete_stairs",
+            properties -> new StairBlock(Blocks.LIME_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIME)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block LIME_CONCRETE_SLAB = registerBlock("lime_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIME)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block LIME_CONCRETE_WALL = registerBlock("lime_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIME)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Green Concrete Block Set
+    //
+    public static final Block GREEN_CONCRETE_STAIRS = registerBlock("green_concrete_stairs",
+            properties -> new StairBlock(Blocks.GREEN_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GREEN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block GREEN_CONCRETE_SLAB = registerBlock("green_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GREEN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block GREEN_CONCRETE_WALL = registerBlock("green_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GREEN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Cyan Concrete Block Set
+    //
+    public static final Block CYAN_CONCRETE_STAIRS = registerBlock("cyan_concrete_stairs",
+            properties -> new StairBlock(Blocks.CYAN_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block CYAN_CONCRETE_SLAB = registerBlock("cyan_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block CYAN_CONCRETE_WALL = registerBlock("cyan_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Light Blue Concrete Block Set
+    //
+    public static final Block LIGHT_BLUE_CONCRETE_STAIRS = registerBlock("light_blue_concrete_stairs",
+            properties -> new StairBlock(Blocks.LIGHT_BLUE_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block LIGHT_BLUE_CONCRETE_SLAB = registerBlock("light_blue_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block LIGHT_BLUE_CONCRETE_WALL = registerBlock("light_blue_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Blue Concrete Block Set
+    //
+    public static final Block BLUE_CONCRETE_STAIRS = registerBlock("blue_concrete_stairs",
+            properties -> new StairBlock(Blocks.BLUE_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block BLUE_CONCRETE_SLAB = registerBlock("blue_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block BLUE_CONCRETE_WALL = registerBlock("blue_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Purple Concrete Block Set
+    //
+    public static final Block PURPLE_CONCRETE_STAIRS = registerBlock("purple_concrete_stairs",
+            properties -> new StairBlock(Blocks.PURPLE_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PURPLE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block PURPLE_CONCRETE_SLAB = registerBlock("purple_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PURPLE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block PURPLE_CONCRETE_WALL = registerBlock("purple_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PURPLE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Magenta Concrete Block Set
+    //
+    public static final Block MAGENTA_CONCRETE_STAIRS = registerBlock("magenta_concrete_stairs",
+            properties -> new StairBlock(Blocks.MAGENTA_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.MAGENTA)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block MAGENTA_CONCRETE_SLAB = registerBlock("magenta_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.MAGENTA)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block MAGENTA_CONCRETE_WALL = registerBlock("magenta_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.MAGENTA)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Pink Concrete Block Set
+    //
+    public static final Block PINK_CONCRETE_STAIRS = registerBlock("pink_concrete_stairs",
+            properties -> new StairBlock(Blocks.PINK_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PINK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block PINK_CONCRETE_SLAB = registerBlock("pink_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PINK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block PINK_CONCRETE_WALL = registerBlock("pink_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PINK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Brown Concrete Block Set
+    //
+    public static final Block BROWN_CONCRETE_STAIRS = registerBlock("brown_concrete_stairs",
+            properties -> new StairBlock(Blocks.BROWN_CONCRETE.defaultBlockState(), properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BROWN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block BROWN_CONCRETE_SLAB = registerBlock("brown_concrete_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BROWN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block BROWN_CONCRETE_WALL = registerBlock("brown_concrete_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BROWN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
             )
     );
