@@ -67,6 +67,10 @@ public class ModModelProvider extends FabricModelProvider
                 .wall(ModBlocks.END_STONE_WALL)
         ;
 
+        // Gold Block Set
+        blockModelGenerators.createDoor(ModBlocks.GOLD_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.GOLD_TRAPDOOR);
+
         // Netherrack Block Set
         blockModelGenerators.family(Blocks.NETHERRACK)
                 .stairs(ModBlocks.NETHERRACK_STAIRS)

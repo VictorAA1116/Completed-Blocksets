@@ -253,6 +253,18 @@ public class ModBlocks
     // Gold Block Set
     //
 
+    public static final Block GOLD_DOOR = registerBlock("gold_door",
+            properties -> new DoorBlock(BlockSetType.IRON, properties
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()));
+
+    public static final Block GOLD_TRAPDOOR = registerBlock("gold_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.IRON, properties
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()));
+
     //
     // Netherrack Block Set
     //

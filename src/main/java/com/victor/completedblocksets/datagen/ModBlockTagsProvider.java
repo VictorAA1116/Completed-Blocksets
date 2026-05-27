@@ -117,6 +117,16 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE)
         ;
 
+        valueLookupBuilder(BlockTags.DOORS)
+
+            .add(ModBlocks.GOLD_DOOR)
+        ;
+
+        valueLookupBuilder(BlockTags.TRAPDOORS)
+
+            .add(ModBlocks.GOLD_TRAPDOOR)
+        ;
+
         valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
 
             .add(ModBlocks.AMETHYST_STAIRS)
@@ -141,6 +151,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.END_STONE_STAIRS)
             .add(ModBlocks.END_STONE_SLAB)
             .add(ModBlocks.END_STONE_WALL)
+
+            .add(ModBlocks.GOLD_DOOR)
+            .add(ModBlocks.GOLD_TRAPDOOR)
 
             .add(ModBlocks.NETHERRACK_STAIRS)
             .add(ModBlocks.NETHERRACK_SLAB)

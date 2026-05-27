@@ -55,6 +55,10 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.END_STONE_SLAB);
                         output.accept(ModBlocks.END_STONE_WALL);
 
+                        // Gold Block Set
+                        output.accept(ModBlocks.GOLD_DOOR);
+                        output.accept(ModBlocks.GOLD_TRAPDOOR);
+
                         // Netherrack Block Set
                         output.accept(ModBlocks.NETHERRACK_STAIRS);
                         output.accept(ModBlocks.NETHERRACK_SLAB);

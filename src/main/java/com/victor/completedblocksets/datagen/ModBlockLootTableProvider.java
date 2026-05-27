@@ -51,6 +51,10 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         add(ModBlocks.END_STONE_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.END_STONE_WALL);
 
+        // Gold Block Set
+        add(ModBlocks.GOLD_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.GOLD_TRAPDOOR);
+
         // Netherrack Block Set
         dropSelf(ModBlocks.NETHERRACK_STAIRS);
         add(ModBlocks.NETHERRACK_SLAB, this::createSlabItemTable);
