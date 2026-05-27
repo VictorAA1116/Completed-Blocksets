@@ -41,6 +41,10 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.SMOOTH_BASALT_STAIRS)
 
             .add(ModBlocks.SMOOTH_STONE_STAIRS)
+
+            .add(ModBlocks.CUT_SANDSTONE_STAIRS)
+
+            .add(ModBlocks.CUT_RED_SANDSTONE_STAIRS)
         ;
 
         valueLookupBuilder(BlockTags.SLABS)
@@ -101,6 +105,14 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.SMOOTH_BASALT_WALL)
 
             .add(ModBlocks.SMOOTH_QUARTZ_WALL)
+
+            .add(ModBlocks.SMOOTH_SANDSTONE_WALL)
+
+            .add(ModBlocks.SMOOTH_RED_SANDSTONE_WALL)
+
+            .add(ModBlocks.CUT_SANDSTONE_WALL)
+
+            .add(ModBlocks.CUT_RED_SANDSTONE_WALL)
 
             .add(ModBlocks.STONE_WALL)
         ;
@@ -183,6 +195,13 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.SMOOTH_BASALT_STAIRS)
             .add(ModBlocks.SMOOTH_BASALT_SLAB)
             .add(ModBlocks.SMOOTH_BASALT_WALL)
+
+            .add(ModBlocks.SMOOTH_SANDSTONE_WALL)
+            .add(ModBlocks.SMOOTH_RED_SANDSTONE_WALL)
+            .add(ModBlocks.CUT_SANDSTONE_WALL)
+            .add(ModBlocks.CUT_RED_SANDSTONE_WALL)
+            .add(ModBlocks.CUT_SANDSTONE_STAIRS)
+            .add(ModBlocks.CUT_RED_SANDSTONE_STAIRS)
 
             .add(ModBlocks.SMOOTH_STONE_STAIRS)
 

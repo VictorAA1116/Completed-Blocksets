@@ -38,6 +38,12 @@
     "completed-blocksets:smooth_basalt_stairs",
     "completed-blocksets:smooth_basalt_slab",
     "completed-blocksets:smooth_basalt_wall",
+    "completed-blocksets:smooth_sandstone_wall",
+    "completed-blocksets:smooth_red_sandstone_wall",
+    "completed-blocksets:cut_sandstone_wall",
+    "completed-blocksets:cut_red_sandstone_wall",
+    "completed-blocksets:cut_sandstone_stairs",
+    "completed-blocksets:cut_red_sandstone_stairs",
     "completed-blocksets:smooth_stone_stairs",
     "completed-blocksets:smooth_quartz_wall",
     "completed-blocksets:stone_wall"

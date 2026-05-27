@@ -136,6 +136,34 @@ public class ModModelProvider extends FabricModelProvider
                 .wall(ModBlocks.SMOOTH_BASALT_WALL)
         ;
 
+        // Smooth Sandstone Block Set
+        blockModelGenerators.family(Blocks.SMOOTH_SANDSTONE)
+                .wall(ModBlocks.SMOOTH_SANDSTONE_WALL)
+        ;
+
+        // Smooth Red Sandstone Block Set
+        blockModelGenerators.family(Blocks.SMOOTH_RED_SANDSTONE)
+                .wall(ModBlocks.SMOOTH_RED_SANDSTONE_WALL)
+        ;
+
+        // Cut Sandstone Block Set
+        blockModelGenerators.family(Blocks.CUT_SANDSTONE)
+                .stairs(ModBlocks.CUT_SANDSTONE_STAIRS)
+        ;
+
+        blockModelGenerators.family(ModBlocks.CUT_SANDSTONE_TEXTURE)
+                .wall(ModBlocks.CUT_SANDSTONE_WALL)
+        ;
+
+        // Cut Red Sandstone Block Set
+        blockModelGenerators.family(Blocks.CUT_RED_SANDSTONE)
+                .stairs(ModBlocks.CUT_RED_SANDSTONE_STAIRS)
+        ;
+
+        blockModelGenerators.family(ModBlocks.CUT_RED_SANDSTONE_TEXTURE)
+                .wall(ModBlocks.CUT_RED_SANDSTONE_WALL)
+        ;
+
         // Smooth Stone Block Set
         blockModelGenerators.family(Blocks.SMOOTH_STONE)
                 .stairs(ModBlocks.SMOOTH_STONE_STAIRS)

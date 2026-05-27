@@ -17,6 +17,10 @@
     "completed-blocksets:quartz_brick_wall",
     "completed-blocksets:smooth_basalt_wall",
     "completed-blocksets:smooth_quartz_wall",
+    "completed-blocksets:smooth_sandstone_wall",
+    "completed-blocksets:smooth_red_sandstone_wall",
+    "completed-blocksets:cut_sandstone_wall",
+    "completed-blocksets:cut_red_sandstone_wall",
     "completed-blocksets:stone_wall"
   ]
 }

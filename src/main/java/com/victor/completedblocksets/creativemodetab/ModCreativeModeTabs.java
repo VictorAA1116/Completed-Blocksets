@@ -103,6 +103,20 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.SMOOTH_BASALT_SLAB);
                         output.accept(ModBlocks.SMOOTH_BASALT_WALL);
 
+                        // Smooth Sandstone Block Set
+                        output.accept(ModBlocks.SMOOTH_SANDSTONE_WALL);
+
+                        // Smooth Red Sandstone Block Set
+                        output.accept(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+
+                        // Cut Sandstone Block Set
+                        output.accept(ModBlocks.CUT_SANDSTONE_STAIRS);
+                        output.accept(ModBlocks.CUT_SANDSTONE_WALL);
+
+                        // Cut Red Sandstone Block Set
+                        output.accept(ModBlocks.CUT_RED_SANDSTONE_STAIRS);
+                        output.accept(ModBlocks.CUT_RED_SANDSTONE_WALL);
+
                         // Smooth Stone Block Set
                         output.accept(ModBlocks.SMOOTH_STONE_STAIRS);
 

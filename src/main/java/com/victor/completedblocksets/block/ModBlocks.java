@@ -257,13 +257,17 @@ public class ModBlocks
             properties -> new DoorBlock(BlockSetType.IRON, properties
                     .strength(3f)
                     .requiresCorrectToolForDrops()
-                    .noOcclusion()));
+                    .noOcclusion()
+            )
+    );
 
     public static final Block GOLD_TRAPDOOR = registerBlock("gold_trapdoor",
             properties -> new TrapDoorBlock(BlockSetType.IRON, properties
                     .strength(3f)
                     .requiresCorrectToolForDrops()
-                    .noOcclusion()));
+                    .noOcclusion()
+            )
+    );
 
     //
     // Netherrack Block Set
@@ -501,8 +505,100 @@ public class ModBlocks
     );
 
     //
-    // Sandstone Block Set
+    // Smooth Sandstone Block Set
     //
+
+    public static final Block SMOOTH_SANDSTONE_WALL = registerBlock("smooth_sandstone_wall",
+            properties -> new WallBlock(properties
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Smooth Red Sandstone Block Set
+    //
+
+    public static final Block SMOOTH_RED_SANDSTONE_WALL = registerBlock("smooth_red_sandstone_wall",
+            properties -> new WallBlock(properties
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Cut Sandstone Block Set
+    //
+
+    public static final Block CUT_SANDSTONE_TEXTURE = registerBlock("cut_sandstone_texture",
+            properties -> new Block(properties
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block CUT_SANDSTONE_STAIRS = registerBlock("cut_sandstone_stairs",
+            properties -> new StairBlock(Blocks.CUT_SANDSTONE.defaultBlockState(), properties
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block CUT_SANDSTONE_WALL = registerBlock("cut_sandstone_wall",
+            properties -> new WallBlock(properties
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Cut Red Sandstone Block Set
+    //
+
+    public static final Block CUT_RED_SANDSTONE_TEXTURE = registerBlock("cut_red_sandstone_texture",
+            properties -> new Block(properties
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block CUT_RED_SANDSTONE_STAIRS = registerBlock("cut_red_sandstone_stairs",
+            properties -> new StairBlock(Blocks.CUT_RED_SANDSTONE.defaultBlockState(), properties
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block CUT_RED_SANDSTONE_WALL = registerBlock("cut_red_sandstone_wall",
+            properties -> new WallBlock(properties
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
 
     //
     // Smooth Basalt Block Set

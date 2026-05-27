@@ -99,6 +99,20 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         add(ModBlocks.SMOOTH_BASALT_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.SMOOTH_BASALT_WALL);
 
+        // Smooth Sandstone Block Set
+        dropSelf(ModBlocks.SMOOTH_SANDSTONE_WALL);
+
+        // Smooth Red Sandstone Block Set
+        dropSelf(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+
+        // Cut Sandstone Block Set
+        dropSelf(ModBlocks.CUT_SANDSTONE_STAIRS);
+        dropSelf(ModBlocks.CUT_SANDSTONE_WALL);
+
+        // Cut Red Sandstone Block Set
+        dropSelf(ModBlocks.CUT_RED_SANDSTONE_STAIRS);
+        dropSelf(ModBlocks.CUT_RED_SANDSTONE_WALL);
+
         // Smooth Stone Block Set
         dropSelf(ModBlocks.SMOOTH_STONE_STAIRS);
 
