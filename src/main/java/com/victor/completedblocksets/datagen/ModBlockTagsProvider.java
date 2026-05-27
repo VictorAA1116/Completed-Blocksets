@@ -26,7 +26,13 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.POLISHED_CALCITE_STAIRS)
             .add(ModBlocks.CALCITE_BRICK_STAIRS)
 
+            .add(ModBlocks.END_STONE_STAIRS)
+
+            .add(ModBlocks.NETHERRACK_STAIRS)
+
             .add(ModBlocks.PACKED_MUD_STAIRS)
+
+            .add(ModBlocks.POLISHED_END_STONE_STAIRS)
 
             .add(ModBlocks.SMOOTH_BASALT_STAIRS)
 
@@ -41,7 +47,13 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.POLISHED_CALCITE_SLAB)
             .add(ModBlocks.CALCITE_BRICK_SLAB)
 
+            .add(ModBlocks.END_STONE_SLAB)
+
+            .add(ModBlocks.NETHERRACK_SLAB)
+
             .add(ModBlocks.PACKED_MUD_SLAB)
+
+            .add(ModBlocks.POLISHED_END_STONE_SLAB)
 
             .add(ModBlocks.SMOOTH_BASALT_SLAB)
         ;
@@ -54,7 +66,13 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
 
             .add(ModBlocks.DARK_PRISMARINE_WALL)
 
+            .add(ModBlocks.END_STONE_WALL)
+
+            .add(ModBlocks.NETHERRACK_WALL)
+
             .add(ModBlocks.PACKED_MUD_WALL)
+
+            .add(ModBlocks.POLISHED_END_STONE_WALL)
 
             .add(ModBlocks.PRISMARINE_BRICK_WALL)
 
@@ -97,6 +115,19 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.CALCITE_BRICK_WALL)
 
             .add(ModBlocks.DARK_PRISMARINE_WALL)
+
+            .add(ModBlocks.END_STONE_STAIRS)
+            .add(ModBlocks.END_STONE_SLAB)
+            .add(ModBlocks.END_STONE_WALL)
+
+            .add(ModBlocks.NETHERRACK_STAIRS)
+            .add(ModBlocks.NETHERRACK_SLAB)
+            .add(ModBlocks.NETHERRACK_WALL)
+
+            .add(ModBlocks.POLISHED_END_STONE)
+            .add(ModBlocks.POLISHED_END_STONE_STAIRS)
+            .add(ModBlocks.POLISHED_END_STONE_SLAB)
+            .add(ModBlocks.POLISHED_END_STONE_WALL)
 
             .add(ModBlocks.PRISMARINE_BRICK_WALL)
 

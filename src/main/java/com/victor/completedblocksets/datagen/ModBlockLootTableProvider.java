@@ -46,10 +46,26 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         // Deep Slate Block Set
         dropSelf(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
 
+        // End Stone Block Set
+        dropSelf(ModBlocks.END_STONE_STAIRS);
+        add(ModBlocks.END_STONE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.END_STONE_WALL);
+
+        // Netherrack Block Set
+        dropSelf(ModBlocks.NETHERRACK_STAIRS);
+        add(ModBlocks.NETHERRACK_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.NETHERRACK_WALL);
+
         // Packed Mud Block Set
         dropSelf(ModBlocks.PACKED_MUD_STAIRS);
         add(ModBlocks.PACKED_MUD_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.PACKED_MUD_WALL);
+
+        // Polished End Stone Block Set
+        dropSelf(ModBlocks.POLISHED_END_STONE);
+        dropSelf(ModBlocks.POLISHED_END_STONE_STAIRS);
+        add(ModBlocks.POLISHED_END_STONE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.POLISHED_END_STONE_WALL);
 
         // Prismarine Bricks Block Set
         dropSelf(ModBlocks.PRISMARINE_BRICK_WALL);

@@ -24,7 +24,7 @@ public class ModBlocks
     //
 
     public static final Block AMETHYST_STAIRS = registerBlock("amethyst_stairs",
-            properties -> new StairBlock(Blocks.CALCITE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.AMETHYST_BLOCK.defaultBlockState(), properties
                     .strength(1.5f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)
@@ -219,6 +219,36 @@ public class ModBlocks
     // End Stone Block Set
     //
 
+    public static final Block END_STONE_STAIRS = registerBlock("end_stone_stairs",
+            properties -> new StairBlock(Blocks.END_STONE.defaultBlockState(), properties
+                    .strength(3.0f, 9.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block END_STONE_SLAB = registerBlock("end_stone_slab",
+            properties -> new SlabBlock(properties
+                    .strength(3.0f, 9.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block END_STONE_WALL = registerBlock("end_stone_wall",
+            properties -> new WallBlock(properties
+                    .strength(3.0f, 9.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
     //
     // Gold Block Set
     //
@@ -226,6 +256,36 @@ public class ModBlocks
     //
     // Netherrack Block Set
     //
+
+    public static final Block NETHERRACK_STAIRS = registerBlock("netherrack_stairs",
+            properties -> new StairBlock(Blocks.NETHERRACK.defaultBlockState(), properties
+                    .strength(0.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHERRACK)
+                    .mapColor(MapColor.NETHER)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block NETHERRACK_SLAB = registerBlock("netherrack_slab",
+            properties -> new SlabBlock(properties
+                    .strength(0.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHERRACK)
+                    .mapColor(MapColor.NETHER)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block NETHERRACK_WALL = registerBlock("netherrack_wall",
+            properties -> new WallBlock(properties
+                    .strength(0.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHERRACK)
+                    .mapColor(MapColor.NETHER)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
 
     //
     // Packed Mud Block Set
@@ -259,6 +319,46 @@ public class ModBlocks
     //
     // Polished End Stone Block Set
     //
+
+    public static final Block POLISHED_END_STONE = registerBlock("polished_end_stone",
+            properties -> new Block(properties
+                    .strength(3.0f, 9.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block POLISHED_END_STONE_STAIRS = registerBlock("polished_end_stone_stairs",
+            properties -> new StairBlock(Blocks.END_STONE.defaultBlockState(), properties
+                    .strength(3.0f, 9.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block POLISHED_END_STONE_SLAB = registerBlock("polished_end_stone_slab",
+            properties -> new SlabBlock(properties
+                    .strength(3.0f, 9.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block POLISHED_END_STONE_WALL = registerBlock("polished_end_stone_wall",
+            properties -> new WallBlock(properties
+                    .strength(3.0f, 9.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
 
     //
     // Polished Granite Block Set
@@ -313,7 +413,7 @@ public class ModBlocks
     //
 
     public static final Block SMOOTH_BASALT_STAIRS = registerBlock("smooth_basalt_stairs",
-            properties -> new StairBlock( Blocks.SMOOTH_BASALT.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.SMOOTH_BASALT.defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.BASALT)
@@ -347,7 +447,7 @@ public class ModBlocks
     //
 
     public static final Block SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs",
-            properties -> new StairBlock( Blocks.SMOOTH_BASALT.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.SMOOTH_STONE.defaultBlockState(), properties
                     .strength(1.25f, 6.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)

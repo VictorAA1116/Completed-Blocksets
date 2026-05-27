@@ -50,10 +50,26 @@ public class ModCreativeModeTabs
                         // Deep Slate Block Set
                         output.accept(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
 
+                        // End Stone Block Set
+                        output.accept(ModBlocks.END_STONE_STAIRS);
+                        output.accept(ModBlocks.END_STONE_SLAB);
+                        output.accept(ModBlocks.END_STONE_WALL);
+
+                        // Netherrack Block Set
+                        output.accept(ModBlocks.NETHERRACK_STAIRS);
+                        output.accept(ModBlocks.NETHERRACK_SLAB);
+                        output.accept(ModBlocks.NETHERRACK_WALL);
+
                         // Packed Mud Block Set
                         output.accept(ModBlocks.PACKED_MUD_STAIRS);
                         output.accept(ModBlocks.PACKED_MUD_SLAB);
                         output.accept(ModBlocks.PACKED_MUD_WALL);
+
+                        // Polished End Stone Block Set
+                        output.accept(ModBlocks.POLISHED_END_STONE);
+                        output.accept(ModBlocks.POLISHED_END_STONE_STAIRS);
+                        output.accept(ModBlocks.POLISHED_END_STONE_SLAB);
+                        output.accept(ModBlocks.POLISHED_END_STONE_WALL);
 
                         // Prismarine Bricks Block Set
                         output.accept(ModBlocks.PRISMARINE_BRICK_WALL);

@@ -60,11 +60,32 @@ public class ModModelProvider extends FabricModelProvider
                 .pressurePlate(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE)
         ;
 
+        // End Stone Block Set
+        blockModelGenerators.family(Blocks.END_STONE)
+                .stairs(ModBlocks.END_STONE_STAIRS)
+                .slab(ModBlocks.END_STONE_SLAB)
+                .wall(ModBlocks.END_STONE_WALL)
+        ;
+
+        // Netherrack Block Set
+        blockModelGenerators.family(Blocks.NETHERRACK)
+                .stairs(ModBlocks.NETHERRACK_STAIRS)
+                .slab(ModBlocks.NETHERRACK_SLAB)
+                .wall(ModBlocks.NETHERRACK_WALL)
+        ;
+
         // Packed Mud Block Set
         blockModelGenerators.family(Blocks.PACKED_MUD)
                 .stairs(ModBlocks.PACKED_MUD_STAIRS)
                 .slab(ModBlocks.PACKED_MUD_SLAB)
                 .wall(ModBlocks.PACKED_MUD_WALL)
+        ;
+
+        // Polished End Stone Block Set
+        blockModelGenerators.family(ModBlocks.POLISHED_END_STONE)
+                .stairs(ModBlocks.POLISHED_END_STONE_STAIRS)
+                .slab(ModBlocks.POLISHED_END_STONE_SLAB)
+                .wall(ModBlocks.POLISHED_END_STONE_WALL)
         ;
 
         // Prismarine Bricks Block Set
