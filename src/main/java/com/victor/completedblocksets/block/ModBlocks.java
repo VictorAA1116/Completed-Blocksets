@@ -434,6 +434,60 @@ public class ModBlocks
     // Quartz Block Set
     //
 
+    public static final Block QUARTZ_TEXTURE = registerBlock("quartz_texture",
+            properties -> new Block(properties
+                    .strength(0.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block QUARTZ_WALL = registerBlock("quartz_wall",
+            properties -> new WallBlock(properties
+                    .strength(0.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Quartz Bricks Block Set
+    //
+
+    public static final Block QUARTZ_BRICK_STAIRS = registerBlock("quartz_brick_stairs",
+            properties -> new StairBlock(Blocks.QUARTZ_BRICKS.defaultBlockState(), properties
+                    .strength(0.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block QUARTZ_BRICK_SLAB = registerBlock("quartz_brick_slab",
+            properties -> new SlabBlock(properties
+                    .strength(0.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block QUARTZ_BRICK_WALL = registerBlock("quartz_brick_wall",
+            properties -> new WallBlock(properties
+                    .strength(0.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
     //
     // Sandstone Block Set
     //
@@ -482,6 +536,21 @@ public class ModBlocks
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
                     .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+
+    //
+    // Smooth Quartz Block Set
+    //
+
+    public static final Block SMOOTH_QUARTZ_WALL = registerBlock("smooth_quartz_wall",
+            properties -> new WallBlock(properties
+                    .strength(0.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
                     .instrument(NoteBlockInstrument.BASEDRUM)
             )
     );

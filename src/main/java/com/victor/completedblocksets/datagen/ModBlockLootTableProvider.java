@@ -82,6 +82,14 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         // Purpur Block Set
         dropSelf(ModBlocks.PURPUR_WALL);
 
+        // Quartz Block Set
+        dropSelf(ModBlocks.QUARTZ_WALL);
+
+        // Quartz Brick Block Set
+        dropSelf(ModBlocks.QUARTZ_BRICK_STAIRS);
+        add(ModBlocks.QUARTZ_BRICK_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.QUARTZ_BRICK_WALL);
+
         // Smooth Basalt Block Set
         dropSelf(ModBlocks.SMOOTH_BASALT_STAIRS);
         add(ModBlocks.SMOOTH_BASALT_SLAB, this::createSlabItemTable);
@@ -89,6 +97,9 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
 
         // Smooth Stone Block Set
         dropSelf(ModBlocks.SMOOTH_STONE_STAIRS);
+
+        // Smooth Quartz Block Set
+        dropSelf(ModBlocks.SMOOTH_QUARTZ_WALL);
 
         // Stone Block Set
         dropSelf(ModBlocks.STONE_WALL);

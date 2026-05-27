@@ -86,6 +86,14 @@ public class ModCreativeModeTabs
                         // Purpur Block Set
                         output.accept(ModBlocks.PURPUR_WALL);
 
+                        // Quartz Block Set
+                        output.accept(ModBlocks.QUARTZ_WALL);
+
+                        // Quartz Bricks Block Set
+                        output.accept(ModBlocks.QUARTZ_BRICK_STAIRS);
+                        output.accept(ModBlocks.QUARTZ_BRICK_SLAB);
+                        output.accept(ModBlocks.QUARTZ_BRICK_WALL);
+
                         // Smooth Basalt Block Set
                         output.accept(ModBlocks.SMOOTH_BASALT_STAIRS);
                         output.accept(ModBlocks.SMOOTH_BASALT_SLAB);
@@ -93,6 +101,9 @@ public class ModCreativeModeTabs
 
                         // Smooth Stone Block Set
                         output.accept(ModBlocks.SMOOTH_STONE_STAIRS);
+
+                        // Smooth Quartz Block Set
+                        output.accept(ModBlocks.SMOOTH_QUARTZ_WALL);
 
                         // Stone Block Set
                         output.accept(ModBlocks.STONE_WALL);

@@ -113,6 +113,18 @@ public class ModModelProvider extends FabricModelProvider
                 .wall(ModBlocks.PURPUR_WALL)
         ;
 
+        // Quartz Block Set
+        blockModelGenerators.family(ModBlocks.QUARTZ_TEXTURE)
+                .wall(ModBlocks.QUARTZ_WALL)
+        ;
+
+        // Quartz Bricks Block Set
+        blockModelGenerators.family(Blocks.QUARTZ_BRICKS)
+                .stairs(ModBlocks.QUARTZ_BRICK_STAIRS)
+                .slab(ModBlocks.QUARTZ_BRICK_SLAB)
+                .wall(ModBlocks.QUARTZ_BRICK_WALL)
+        ;
+
         // Smooth Basalt Block Set
         blockModelGenerators.family(Blocks.SMOOTH_BASALT)
                 .stairs(ModBlocks.SMOOTH_BASALT_STAIRS)
@@ -123,6 +135,11 @@ public class ModModelProvider extends FabricModelProvider
         // Smooth Stone Block Set
         blockModelGenerators.family(Blocks.SMOOTH_STONE)
                 .stairs(ModBlocks.SMOOTH_STONE_STAIRS)
+        ;
+
+        // Smooth Quartz Block Set
+        blockModelGenerators.family(Blocks.SMOOTH_QUARTZ)
+                .wall(ModBlocks.SMOOTH_QUARTZ_WALL)
         ;
 
         // Stone Block Set

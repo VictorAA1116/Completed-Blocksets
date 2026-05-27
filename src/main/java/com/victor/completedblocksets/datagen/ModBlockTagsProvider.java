@@ -23,7 +23,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.AMETHYST_STAIRS)
 
             .add(ModBlocks.CALCITE_STAIRS)
+
             .add(ModBlocks.POLISHED_CALCITE_STAIRS)
+
             .add(ModBlocks.CALCITE_BRICK_STAIRS)
 
             .add(ModBlocks.END_STONE_STAIRS)
@@ -33,6 +35,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.PACKED_MUD_STAIRS)
 
             .add(ModBlocks.POLISHED_END_STONE_STAIRS)
+
+            .add(ModBlocks.QUARTZ_BRICK_STAIRS)
 
             .add(ModBlocks.SMOOTH_BASALT_STAIRS)
 
@@ -44,7 +48,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.AMETHYST_SLAB)
 
             .add(ModBlocks.CALCITE_SLAB)
+
             .add(ModBlocks.POLISHED_CALCITE_SLAB)
+
             .add(ModBlocks.CALCITE_BRICK_SLAB)
 
             .add(ModBlocks.END_STONE_SLAB)
@@ -55,13 +61,17 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
 
             .add(ModBlocks.POLISHED_END_STONE_SLAB)
 
+            .add(ModBlocks.QUARTZ_BRICK_SLAB)
+
             .add(ModBlocks.SMOOTH_BASALT_SLAB)
         ;
 
         valueLookupBuilder(BlockTags.WALLS)
 
             .add(ModBlocks.CALCITE_WALL)
+
             .add(ModBlocks.POLISHED_CALCITE_WALL)
+
             .add(ModBlocks.CALCITE_BRICK_WALL)
 
             .add(ModBlocks.DARK_PRISMARINE_WALL)
@@ -84,7 +94,13 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
 
             .add(ModBlocks.PURPUR_WALL)
 
+            .add(ModBlocks.QUARTZ_WALL)
+
+            .add(ModBlocks.QUARTZ_BRICK_WALL)
+
             .add(ModBlocks.SMOOTH_BASALT_WALL)
+
+            .add(ModBlocks.SMOOTH_QUARTZ_WALL)
 
             .add(ModBlocks.STONE_WALL)
         ;
@@ -145,11 +161,19 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
 
             .add(ModBlocks.PURPUR_WALL)
 
+            .add(ModBlocks.QUARTZ_WALL)
+
+            .add(ModBlocks.QUARTZ_BRICK_STAIRS)
+            .add(ModBlocks.QUARTZ_BRICK_SLAB)
+            .add(ModBlocks.QUARTZ_BRICK_WALL)
+
             .add(ModBlocks.SMOOTH_BASALT_STAIRS)
             .add(ModBlocks.SMOOTH_BASALT_SLAB)
             .add(ModBlocks.SMOOTH_BASALT_WALL)
 
             .add(ModBlocks.SMOOTH_STONE_STAIRS)
+
+            .add(ModBlocks.SMOOTH_QUARTZ_WALL)
 
             .add(ModBlocks.STONE_WALL)
         ;
