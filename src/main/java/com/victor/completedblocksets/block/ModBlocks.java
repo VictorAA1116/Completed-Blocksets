@@ -361,16 +361,46 @@ public class ModBlocks
     );
 
     //
-    // Polished Granite Block Set
-    //
-
-    //
     // Polished Andesite Block Set
     //
+
+    public static final Block POLISHED_ANDESITE_WALL = registerBlock("polished_andesite_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.5f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
 
     //
     // Polished Diorite Block Set
     //
+
+    public static final Block POLISHED_DIORITE_WALL = registerBlock("polished_diorite_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.5f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
+    // Polished Granite Block Set
+    //
+
+    public static final Block POLISHED_GRANITE_WALL = registerBlock("polished_granite_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.5f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.DIRT)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
 
     //
     // Prismarine Brick Block Set

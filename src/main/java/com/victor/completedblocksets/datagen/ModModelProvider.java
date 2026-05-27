@@ -81,11 +81,26 @@ public class ModModelProvider extends FabricModelProvider
                 .wall(ModBlocks.PACKED_MUD_WALL)
         ;
 
+        // Polished Andesite Block Set
+        blockModelGenerators.family(Blocks.POLISHED_ANDESITE)
+                .wall(ModBlocks.POLISHED_ANDESITE_WALL)
+        ;
+
+        // Polished Diorite Block Set
+        blockModelGenerators.family(Blocks.POLISHED_DIORITE)
+                .wall(ModBlocks.POLISHED_DIORITE_WALL)
+        ;
+
         // Polished End Stone Block Set
         blockModelGenerators.family(ModBlocks.POLISHED_END_STONE)
                 .stairs(ModBlocks.POLISHED_END_STONE_STAIRS)
                 .slab(ModBlocks.POLISHED_END_STONE_SLAB)
                 .wall(ModBlocks.POLISHED_END_STONE_WALL)
+        ;
+
+        // Polished Granite Block Set
+        blockModelGenerators.family(Blocks.POLISHED_GRANITE)
+                .wall(ModBlocks.POLISHED_GRANITE_WALL)
         ;
 
         // Prismarine Bricks Block Set

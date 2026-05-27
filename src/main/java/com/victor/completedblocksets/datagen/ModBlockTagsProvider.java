@@ -72,7 +72,13 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
 
             .add(ModBlocks.PACKED_MUD_WALL)
 
+            .add(ModBlocks.POLISHED_ANDESITE_WALL)
+
+            .add(ModBlocks.POLISHED_DIORITE_WALL)
+
             .add(ModBlocks.POLISHED_END_STONE_WALL)
+
+            .add(ModBlocks.POLISHED_GRANITE_WALL)
 
             .add(ModBlocks.PRISMARINE_BRICK_WALL)
 
@@ -124,10 +130,16 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.NETHERRACK_SLAB)
             .add(ModBlocks.NETHERRACK_WALL)
 
+            .add(ModBlocks.POLISHED_ANDESITE_WALL)
+
+            .add(ModBlocks.POLISHED_DIORITE_WALL)
+
             .add(ModBlocks.POLISHED_END_STONE)
             .add(ModBlocks.POLISHED_END_STONE_STAIRS)
             .add(ModBlocks.POLISHED_END_STONE_SLAB)
             .add(ModBlocks.POLISHED_END_STONE_WALL)
+
+            .add(ModBlocks.POLISHED_GRANITE_WALL)
 
             .add(ModBlocks.PRISMARINE_BRICK_WALL)
 

@@ -65,11 +65,20 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.PACKED_MUD_SLAB);
                         output.accept(ModBlocks.PACKED_MUD_WALL);
 
+                        // Polished Andesite Block Set
+                        output.accept(ModBlocks.POLISHED_ANDESITE_WALL);
+
+                        // Polished Diorite Block Set
+                        output.accept(ModBlocks.POLISHED_DIORITE_WALL);
+
                         // Polished End Stone Block Set
                         output.accept(ModBlocks.POLISHED_END_STONE);
                         output.accept(ModBlocks.POLISHED_END_STONE_STAIRS);
                         output.accept(ModBlocks.POLISHED_END_STONE_SLAB);
                         output.accept(ModBlocks.POLISHED_END_STONE_WALL);
+
+                        // Polished Granite Block Set
+                        output.accept(ModBlocks.POLISHED_GRANITE_WALL);
 
                         // Prismarine Bricks Block Set
                         output.accept(ModBlocks.PRISMARINE_BRICK_WALL);

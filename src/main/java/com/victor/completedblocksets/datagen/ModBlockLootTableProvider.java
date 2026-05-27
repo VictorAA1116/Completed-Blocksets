@@ -61,11 +61,20 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         add(ModBlocks.PACKED_MUD_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.PACKED_MUD_WALL);
 
+        // Polished Andesite Block Set
+        dropSelf(ModBlocks.POLISHED_ANDESITE_WALL);
+
+        // Polished Diorite Block Set
+        dropSelf(ModBlocks.POLISHED_DIORITE_WALL);
+
         // Polished End Stone Block Set
         dropSelf(ModBlocks.POLISHED_END_STONE);
         dropSelf(ModBlocks.POLISHED_END_STONE_STAIRS);
         add(ModBlocks.POLISHED_END_STONE_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.POLISHED_END_STONE_WALL);
+
+        // Polished Granite Block Set
+        dropSelf(ModBlocks.POLISHED_GRANITE_WALL);
 
         // Prismarine Bricks Block Set
         dropSelf(ModBlocks.PRISMARINE_BRICK_WALL);
