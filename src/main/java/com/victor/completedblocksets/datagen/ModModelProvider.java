@@ -130,6 +130,13 @@ public class ModModelProvider extends FabricModelProvider
                 .wall(ModBlocks.QUARTZ_BRICK_WALL)
         ;
 
+        // Resin Block Set
+        blockModelGenerators.family(Blocks.RESIN_BLOCK)
+                .stairs(ModBlocks.RESIN_STAIRS)
+                .slab(ModBlocks.RESIN_SLAB)
+                .wall(ModBlocks.RESIN_WALL)
+        ;
+
         // Smooth Basalt Block Set
         blockModelGenerators.family(Blocks.SMOOTH_BASALT)
                 .stairs(ModBlocks.SMOOTH_BASALT_STAIRS)

@@ -95,6 +95,11 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         add(ModBlocks.QUARTZ_BRICK_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.QUARTZ_BRICK_WALL);
 
+        // Resin Block Set
+        dropSelf(ModBlocks.RESIN_STAIRS);
+        add(ModBlocks.RESIN_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.RESIN_WALL);
+
         // Smooth Basalt Block Set
         dropSelf(ModBlocks.SMOOTH_BASALT_STAIRS);
         add(ModBlocks.SMOOTH_BASALT_SLAB, this::createSlabItemTable);

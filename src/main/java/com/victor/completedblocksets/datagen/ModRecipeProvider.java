@@ -261,6 +261,17 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUARTZ_BRICK_SLAB, Blocks.QUARTZ_BLOCK, 2);
                 stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUARTZ_BRICK_WALL, Blocks.QUARTZ_BLOCK);
 
+                // Resin Block Set
+                stairBuilder(ModBlocks.RESIN_STAIRS, Ingredient.of(Blocks.RESIN_BLOCK))
+                        .unlockedBy(getHasName(Blocks.RESIN_BLOCK), has(Blocks.RESIN_BLOCK))
+                        .group("resin")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RESIN_SLAB, Blocks.RESIN_BLOCK);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RESIN_WALL, Blocks.RESIN_BLOCK);
+
                 // Smooth Basalt Block Set
                 stairBuilder(ModBlocks.SMOOTH_BASALT_STAIRS, Ingredient.of(Blocks.SMOOTH_BASALT))
                         .unlockedBy(getHasName(Blocks.SMOOTH_BASALT), has(Blocks.SMOOTH_BASALT))

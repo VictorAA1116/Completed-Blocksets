@@ -514,6 +514,34 @@ public class ModBlocks
     );
 
     //
+    // Resin Block Set
+    //
+
+    public static final Block RESIN_STAIRS = registerBlock("resin_stairs",
+            properties -> new StairBlock(Blocks.RESIN_BLOCK.defaultBlockState(), properties
+                    .sound(SoundType.RESIN)
+                    .mapColor(MapColor.TERRACOTTA_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block RESIN_SLAB = registerBlock("resin_slab",
+            properties -> new SlabBlock(properties
+                    .sound(SoundType.RESIN)
+                    .mapColor(MapColor.TERRACOTTA_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block RESIN_WALL = registerBlock("resin_wall",
+            properties -> new WallBlock(properties
+                    .sound(SoundType.RESIN)
+                    .mapColor(MapColor.TERRACOTTA_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
     // Smooth Sandstone Block Set
     //
 

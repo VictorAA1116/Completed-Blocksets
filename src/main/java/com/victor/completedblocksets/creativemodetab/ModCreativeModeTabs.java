@@ -100,6 +100,11 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.QUARTZ_BRICK_SLAB);
                         output.accept(ModBlocks.QUARTZ_BRICK_WALL);
 
+                        // Resin Block Set
+                        output.accept(ModBlocks.RESIN_STAIRS);
+                        output.accept(ModBlocks.RESIN_SLAB);
+                        output.accept(ModBlocks.RESIN_WALL);
+
                         // Smooth Basalt Block Set
                         output.accept(ModBlocks.SMOOTH_BASALT_STAIRS);
                         output.accept(ModBlocks.SMOOTH_BASALT_SLAB);
@@ -274,6 +279,11 @@ public class ModCreativeModeTabs
             entries.insertAfter(Blocks.QUARTZ_BRICKS, ModBlocks.QUARTZ_BRICK_STAIRS);
             entries.insertAfter(ModBlocks.QUARTZ_BRICK_STAIRS, ModBlocks.QUARTZ_BRICK_SLAB);
             entries.insertAfter(ModBlocks.QUARTZ_BRICK_SLAB, ModBlocks.QUARTZ_BRICK_WALL);
+
+            entries.insertAfter(Blocks.MUD_BRICK_WALL, Blocks.RESIN_BLOCK);
+            entries.insertAfter(Blocks.RESIN_BLOCK, ModBlocks.RESIN_STAIRS);
+            entries.insertAfter(ModBlocks.RESIN_STAIRS, ModBlocks.RESIN_SLAB);
+            entries.insertAfter(ModBlocks.RESIN_SLAB, ModBlocks.RESIN_WALL);
 
             entries.insertAfter(Blocks.SMOOTH_BASALT, ModBlocks.SMOOTH_BASALT_STAIRS);
             entries.insertAfter(ModBlocks.SMOOTH_BASALT_STAIRS, ModBlocks.SMOOTH_BASALT_SLAB);

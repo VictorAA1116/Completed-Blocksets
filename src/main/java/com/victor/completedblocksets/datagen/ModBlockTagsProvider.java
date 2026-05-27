@@ -38,6 +38,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
 
             .add(ModBlocks.QUARTZ_BRICK_STAIRS)
 
+            .add(ModBlocks.RESIN_STAIRS)
+
             .add(ModBlocks.SMOOTH_BASALT_STAIRS)
 
             .add(ModBlocks.SMOOTH_STONE_STAIRS)
@@ -83,6 +85,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.POLISHED_END_STONE_SLAB)
 
             .add(ModBlocks.QUARTZ_BRICK_SLAB)
+
+            .add(ModBlocks.RESIN_SLAB)
 
             .add(ModBlocks.SMOOTH_BASALT_SLAB)
 
@@ -135,6 +139,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.QUARTZ_WALL)
 
             .add(ModBlocks.QUARTZ_BRICK_WALL)
+
+            .add(ModBlocks.RESIN_WALL)
 
             .add(ModBlocks.SMOOTH_BASALT_WALL)
 
