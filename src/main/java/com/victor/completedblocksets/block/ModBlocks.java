@@ -169,7 +169,6 @@ public class ModBlocks
                     .strength(3f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.CALCITE)
-                    .mapColor(MapColor.TERRACOTTA_WHITE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
             )
     );
@@ -203,6 +202,15 @@ public class ModBlocks
     //
     // Deepslate Block Set
     //
+
+    public static final Block POLISHED_DEEPSLATE_BUTTON = registerBlock("polished_deepslate_button",
+            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
 
     public static final Block POLISHED_DEEPSLATE_PRESSURE_PLATE = registerBlock("polished_deepslate_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.STONE, properties

@@ -3,13 +3,16 @@ package com.victor.completedblocksets.creativemodetab;
 import com.victor.completedblocksets.CompletedBlocksets;
 import com.victor.completedblocksets.block.ModBlocks;
 import com.victor.completedblocksets.item.ModItems;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Blocks;
 
 public class ModCreativeModeTabs
 {
@@ -46,6 +49,7 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.DARK_PRISMARINE_WALL);
 
                         // Deep Slate Block Set
+                        output.accept(ModBlocks.POLISHED_DEEPSLATE_BUTTON);
                         output.accept(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
 
                         // End Stone Block Set
@@ -206,8 +210,174 @@ public class ModCreativeModeTabs
 
                     }).build());
 
+    public static void modifyTabs()
+    {
+        // Building Blocks Tab
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.BUILDING_BLOCKS).register(entries -> {
+
+            entries.insertAfter(Blocks.AMETHYST_BLOCK, ModBlocks.AMETHYST_STAIRS);
+            entries.insertAfter(ModBlocks.AMETHYST_STAIRS, ModBlocks.AMETHYST_SLAB);
+
+            entries.insertAfter(Blocks.CHISELED_TUFF_BRICKS, Blocks.CALCITE);
+            entries.insertAfter(Blocks.CALCITE, ModBlocks.CALCITE_STAIRS);
+            entries.insertAfter(ModBlocks.CALCITE_STAIRS, ModBlocks.CALCITE_SLAB);
+            entries.insertAfter(ModBlocks.CALCITE_SLAB, ModBlocks.CALCITE_WALL);
+
+            entries.insertAfter(ModBlocks.CALCITE_WALL, ModBlocks.POLISHED_CALCITE);
+            entries.insertAfter(ModBlocks.POLISHED_CALCITE, ModBlocks.POLISHED_CALCITE_STAIRS);
+            entries.insertAfter(ModBlocks.POLISHED_CALCITE_STAIRS, ModBlocks.POLISHED_CALCITE_SLAB);
+            entries.insertAfter(ModBlocks.POLISHED_CALCITE_SLAB, ModBlocks.POLISHED_CALCITE_WALL);
+            entries.insertAfter(ModBlocks.POLISHED_CALCITE_WALL, ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE);
+            entries.insertAfter(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE, ModBlocks.POLISHED_CALCITE_BUTTON);
+
+            entries.insertAfter(ModBlocks.POLISHED_CALCITE_BUTTON, ModBlocks.CALCITE_BRICKS);
+            entries.insertAfter(ModBlocks.CALCITE_BRICKS, ModBlocks.CALCITE_BRICK_STAIRS);
+            entries.insertAfter(ModBlocks.CALCITE_BRICK_STAIRS, ModBlocks.CALCITE_BRICK_SLAB);
+            entries.insertAfter(ModBlocks.CALCITE_BRICK_SLAB, ModBlocks.CALCITE_BRICK_WALL);
+
+            entries.insertAfter(Blocks.DARK_PRISMARINE_SLAB, ModBlocks.DARK_PRISMARINE_WALL);
+
+            entries.insertAfter(Blocks.POLISHED_DEEPSLATE_WALL, ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
+            entries.insertAfter(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE, ModBlocks.POLISHED_DEEPSLATE_BUTTON);
+
+            entries.insertAfter(Blocks.END_STONE, ModBlocks.END_STONE_STAIRS);
+            entries.insertAfter(ModBlocks.END_STONE_STAIRS, ModBlocks.END_STONE_SLAB);
+            entries.insertAfter(ModBlocks.END_STONE_SLAB, ModBlocks.END_STONE_WALL);
+
+            entries.insertAfter(Blocks.GOLD_BLOCK, ModBlocks.GOLD_DOOR);
+            entries.insertAfter(ModBlocks.GOLD_DOOR, ModBlocks.GOLD_TRAPDOOR);
+
+            entries.insertAfter(Blocks.NETHERRACK, ModBlocks.NETHERRACK_STAIRS);
+            entries.insertAfter(ModBlocks.NETHERRACK_STAIRS, ModBlocks.NETHERRACK_SLAB);
+            entries.insertAfter(ModBlocks.NETHERRACK_SLAB, ModBlocks.NETHERRACK_WALL);
+
+            entries.insertAfter(Blocks.PACKED_MUD, ModBlocks.PACKED_MUD_STAIRS);
+            entries.insertAfter(ModBlocks.PACKED_MUD_STAIRS, ModBlocks.PACKED_MUD_SLAB);
+            entries.insertAfter(ModBlocks.PACKED_MUD_SLAB, ModBlocks.PACKED_MUD_WALL);
+
+            entries.insertAfter(Blocks.POLISHED_ANDESITE_SLAB, ModBlocks.POLISHED_ANDESITE_WALL);
+            entries.insertAfter(Blocks.POLISHED_DIORITE_SLAB, ModBlocks.POLISHED_DIORITE_WALL);
+
+            entries.insertAfter(ModBlocks.END_STONE_WALL, ModBlocks.POLISHED_END_STONE);
+            entries.insertAfter(ModBlocks.POLISHED_END_STONE, ModBlocks.POLISHED_END_STONE_STAIRS);
+            entries.insertAfter(ModBlocks.POLISHED_END_STONE_STAIRS, ModBlocks.POLISHED_END_STONE_SLAB);
+            entries.insertAfter(ModBlocks.POLISHED_END_STONE_SLAB, ModBlocks.POLISHED_END_STONE_WALL);
+
+            entries.insertAfter(Blocks.POLISHED_GRANITE_SLAB, ModBlocks.POLISHED_GRANITE_WALL);
+
+            entries.insertAfter(Blocks.PRISMARINE_BRICK_SLAB, ModBlocks.PRISMARINE_BRICK_WALL);
+
+            entries.insertAfter(Blocks.PURPUR_SLAB, ModBlocks.PURPUR_WALL);
+
+            entries.insertAfter(Blocks.QUARTZ_SLAB, ModBlocks.QUARTZ_WALL);
+
+            entries.insertAfter(Blocks.QUARTZ_BRICKS, ModBlocks.QUARTZ_BRICK_STAIRS);
+            entries.insertAfter(ModBlocks.QUARTZ_BRICK_STAIRS, ModBlocks.QUARTZ_BRICK_SLAB);
+            entries.insertAfter(ModBlocks.QUARTZ_BRICK_SLAB, ModBlocks.QUARTZ_BRICK_WALL);
+
+            entries.insertAfter(Blocks.SMOOTH_BASALT, ModBlocks.SMOOTH_BASALT_STAIRS);
+            entries.insertAfter(ModBlocks.SMOOTH_BASALT_STAIRS, ModBlocks.SMOOTH_BASALT_SLAB);
+            entries.insertAfter(ModBlocks.SMOOTH_BASALT_SLAB, ModBlocks.SMOOTH_BASALT_WALL);
+
+            entries.insertAfter(Blocks.SMOOTH_SANDSTONE_SLAB, ModBlocks.SMOOTH_SANDSTONE_WALL);
+
+            entries.insertAfter(Blocks.SMOOTH_RED_SANDSTONE_SLAB, ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+
+            entries.insertAfter(Blocks.CUT_SANDSTONE, ModBlocks.CUT_SANDSTONE_STAIRS);
+            entries.insertAfter(Blocks.CUT_SANDSTONE_SLAB, ModBlocks.CUT_SANDSTONE_WALL);
+
+            entries.insertAfter(Blocks.CUT_RED_SANDSTONE, ModBlocks.CUT_RED_SANDSTONE_STAIRS);
+            entries.insertAfter(Blocks.CUT_RED_SANDSTONE_SLAB, ModBlocks.CUT_RED_SANDSTONE_WALL);
+
+            entries.insertAfter(Blocks.SMOOTH_STONE, ModBlocks.SMOOTH_STONE_STAIRS);
+
+            entries.insertAfter(Blocks.SMOOTH_QUARTZ_SLAB, ModBlocks.SMOOTH_QUARTZ_WALL);
+
+            entries.insertAfter(Blocks.STONE_SLAB, ModBlocks.STONE_WALL);
+
+        });
+
+        // Colored Blocks Tab
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COLORED_BLOCKS).register(entries -> {
+
+            entries.insertAfter(Blocks.WHITE_CONCRETE, ModBlocks.WHITE_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.WHITE_CONCRETE_STAIRS, ModBlocks.WHITE_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.WHITE_CONCRETE_SLAB, ModBlocks.WHITE_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.LIGHT_GRAY_CONCRETE, ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS, ModBlocks.LIGHT_GRAY_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB, ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.GRAY_CONCRETE, ModBlocks.GRAY_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.GRAY_CONCRETE_STAIRS, ModBlocks.GRAY_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.GRAY_CONCRETE_SLAB, ModBlocks.GRAY_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.BLACK_CONCRETE, ModBlocks.BLACK_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.BLACK_CONCRETE_STAIRS, ModBlocks.BLACK_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.BLACK_CONCRETE_SLAB, ModBlocks.BLACK_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.RED_CONCRETE, ModBlocks.RED_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.RED_CONCRETE_STAIRS, ModBlocks.RED_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.RED_CONCRETE_SLAB, ModBlocks.RED_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.ORANGE_CONCRETE, ModBlocks.ORANGE_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.ORANGE_CONCRETE_STAIRS, ModBlocks.ORANGE_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.ORANGE_CONCRETE_SLAB, ModBlocks.ORANGE_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.YELLOW_CONCRETE, ModBlocks.YELLOW_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.YELLOW_CONCRETE_STAIRS, ModBlocks.YELLOW_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.YELLOW_CONCRETE_SLAB, ModBlocks.YELLOW_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.LIME_CONCRETE, ModBlocks.LIME_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.LIME_CONCRETE_STAIRS, ModBlocks.LIME_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.LIME_CONCRETE_SLAB, ModBlocks.LIME_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.GREEN_CONCRETE, ModBlocks.GREEN_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.GREEN_CONCRETE_STAIRS, ModBlocks.GREEN_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.GREEN_CONCRETE_SLAB, ModBlocks.GREEN_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.CYAN_CONCRETE, ModBlocks.CYAN_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.CYAN_CONCRETE_STAIRS, ModBlocks.CYAN_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.CYAN_CONCRETE_SLAB, ModBlocks.CYAN_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.LIGHT_BLUE_CONCRETE, ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS, ModBlocks.LIGHT_BLUE_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB, ModBlocks.LIGHT_BLUE_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.BLUE_CONCRETE, ModBlocks.BLUE_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.BLUE_CONCRETE_STAIRS, ModBlocks.BLUE_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.BLUE_CONCRETE_SLAB, ModBlocks.BLUE_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.PURPLE_CONCRETE, ModBlocks.PURPLE_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.PURPLE_CONCRETE_STAIRS, ModBlocks.PURPLE_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.PURPLE_CONCRETE_SLAB, ModBlocks.PURPLE_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.MAGENTA_CONCRETE, ModBlocks.MAGENTA_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.MAGENTA_CONCRETE_STAIRS, ModBlocks.MAGENTA_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.MAGENTA_CONCRETE_SLAB, ModBlocks.MAGENTA_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.PINK_CONCRETE, ModBlocks.PINK_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.PINK_CONCRETE_STAIRS, ModBlocks.PINK_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.PINK_CONCRETE_SLAB, ModBlocks.PINK_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.BROWN_CONCRETE, ModBlocks.BROWN_CONCRETE_STAIRS);
+            entries.insertAfter(ModBlocks.BROWN_CONCRETE_STAIRS, ModBlocks.BROWN_CONCRETE_SLAB);
+            entries.insertAfter(ModBlocks.BROWN_CONCRETE_SLAB, ModBlocks.BROWN_CONCRETE_WALL);
+
+        });
+
+        // Redstone Blocks Tab
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.REDSTONE_BLOCKS).register(entries -> {
+
+            entries.insertAfter(Blocks.OAK_DOOR, ModBlocks.GOLD_DOOR);
+            entries.insertAfter(Blocks.OAK_TRAPDOOR, ModBlocks.GOLD_TRAPDOOR);
+
+        });
+    }
+
     public static void registerCreativeModeTabs()
     {
         CompletedBlocksets.LOGGER.info("Registering Creative Mode Tabs for " + CompletedBlocksets.MOD_ID);
+        modifyTabs();
     }
 }

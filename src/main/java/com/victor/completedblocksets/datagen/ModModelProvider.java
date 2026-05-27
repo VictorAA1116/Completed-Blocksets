@@ -57,6 +57,7 @@ public class ModModelProvider extends FabricModelProvider
 
         // Deep Slate Block Set
         blockModelGenerators.family(Blocks.POLISHED_DEEPSLATE)
+                .button(ModBlocks.POLISHED_DEEPSLATE_BUTTON)
                 .pressurePlate(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE)
         ;
 

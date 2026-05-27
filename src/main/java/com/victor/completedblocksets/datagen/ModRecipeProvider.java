@@ -119,6 +119,12 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 // Deep Slate Block Set
                 pressurePlate(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE, Blocks.DEEPSLATE);
 
+                buttonBuilder(ModBlocks.POLISHED_DEEPSLATE_BUTTON, Ingredient.of(Blocks.DEEPSLATE))
+                        .unlockedBy(getHasName(Blocks.DEEPSLATE), has(Blocks.DEEPSLATE))
+                        .group("polished_deepslate")
+                        .save(output)
+                ;
+
                 // End Stone Block Set
                 stairBuilder(ModBlocks.END_STONE_STAIRS, Ingredient.of(Blocks.END_STONE))
                         .unlockedBy(getHasName(Blocks.END_STONE), has(Blocks.END_STONE))

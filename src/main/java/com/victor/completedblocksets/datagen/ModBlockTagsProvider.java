@@ -171,6 +171,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
         valueLookupBuilder(BlockTags.BUTTONS)
 
             .add(ModBlocks.POLISHED_CALCITE_BUTTON)
+
+            .add(ModBlocks.POLISHED_DEEPSLATE_BUTTON)
         ;
 
         valueLookupBuilder(BlockTags.PRESSURE_PLATES)

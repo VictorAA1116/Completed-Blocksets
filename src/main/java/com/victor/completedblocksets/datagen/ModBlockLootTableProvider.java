@@ -44,6 +44,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.DARK_PRISMARINE_WALL);
 
         // Deep Slate Block Set
+        dropSelf(ModBlocks.POLISHED_DEEPSLATE_BUTTON);
         dropSelf(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
 
         // End Stone Block Set
