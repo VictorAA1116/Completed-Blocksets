@@ -176,16 +176,32 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
 
         valueLookupBuilder(BlockTags.BUTTONS)
 
+            .add(ModBlocks.POLISHED_ANDESITE_BUTTON)
+
             .add(ModBlocks.POLISHED_CALCITE_BUTTON)
 
+            .add(ModBlocks.POLISHED_DIORITE_BUTTON)
+
             .add(ModBlocks.POLISHED_DEEPSLATE_BUTTON)
+
+            .add(ModBlocks.POLISHED_END_STONE_BUTTON)
+
+            .add(ModBlocks.POLISHED_GRANITE_BUTTON)
         ;
 
         valueLookupBuilder(BlockTags.PRESSURE_PLATES)
 
+            .add(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE)
+
             .add(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE)
 
+            .add(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE)
+
             .add(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE)
+
+            .add(ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE)
+
+            .add(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE)
         ;
 
         valueLookupBuilder(BlockTags.DOORS)

@@ -31,8 +31,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.POLISHED_CALCITE_STAIRS);
         add(ModBlocks.POLISHED_CALCITE_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.POLISHED_CALCITE_WALL);
-        dropSelf(ModBlocks.POLISHED_CALCITE_BUTTON);
         dropSelf(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE);
+        dropSelf(ModBlocks.POLISHED_CALCITE_BUTTON);
 
         // Calcite Brick Block Set
         dropSelf(ModBlocks.CALCITE_BRICKS);
@@ -44,8 +44,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.DARK_PRISMARINE_WALL);
 
         // Deep Slate Block Set
-        dropSelf(ModBlocks.POLISHED_DEEPSLATE_BUTTON);
         dropSelf(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
+        dropSelf(ModBlocks.POLISHED_DEEPSLATE_BUTTON);
 
         // End Stone Block Set
         dropSelf(ModBlocks.END_STONE_STAIRS);
@@ -68,18 +68,26 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
 
         // Polished Andesite Block Set
         dropSelf(ModBlocks.POLISHED_ANDESITE_WALL);
+        dropSelf(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
+        dropSelf(ModBlocks.POLISHED_ANDESITE_BUTTON);
 
         // Polished Diorite Block Set
         dropSelf(ModBlocks.POLISHED_DIORITE_WALL);
+        dropSelf(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
+        dropSelf(ModBlocks.POLISHED_DIORITE_BUTTON);
 
         // Polished End Stone Block Set
         dropSelf(ModBlocks.POLISHED_END_STONE);
         dropSelf(ModBlocks.POLISHED_END_STONE_STAIRS);
         add(ModBlocks.POLISHED_END_STONE_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.POLISHED_END_STONE_WALL);
+        dropSelf(ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE);
+        dropSelf(ModBlocks.POLISHED_END_STONE_BUTTON);
 
         // Polished Granite Block Set
         dropSelf(ModBlocks.POLISHED_GRANITE_WALL);
+        dropSelf(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
+        dropSelf(ModBlocks.POLISHED_GRANITE_BUTTON);
 
         // Prismarine Bricks Block Set
         dropSelf(ModBlocks.PRISMARINE_BRICK_WALL);

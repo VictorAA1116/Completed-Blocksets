@@ -14,8 +14,8 @@
   "block.completed-blocksets.polished_calcite_stairs": "Polished Calcite Stairs",
   "block.completed-blocksets.polished_calcite_slab": "Polished Calcite Slab",
   "block.completed-blocksets.polished_calcite_wall": "Polished Calcite Wall",
-  "block.completed-blocksets.polished_calcite_button": "Polished Calcite Button",
   "block.completed-blocksets.polished_calcite_pressure_plate": "Polished Calcite Pressure Plate",
+  "block.completed-blocksets.polished_calcite_button": "Polished Calcite Button",
 
   "block.completed-blocksets.calcite_bricks": "Calcite Bricks",
   "block.completed-blocksets.calcite_brick_stairs": "Calcite Brick Stairs",
@@ -30,8 +30,9 @@
 
   "block.completed-blocksets.smooth_stone_stairs": "Smooth Stone Stairs",
 
-  "block.completed-blocksets.polished_deepslate_button": "Polished Deepslate Button",
+
   "block.completed-blocksets.polished_deepslate_pressure_plate": "Polished Deepslate Pressure Plate",
+  "block.completed-blocksets.polished_deepslate_button": "Polished Deepslate Button",
 
   "block.completed-blocksets.packed_mud_stairs": "Packed Mud Stairs",
   "block.completed-blocksets.packed_mud_slab": "Packed Mud Slab",
@@ -62,10 +63,20 @@
   "block.completed-blocksets.polished_end_stone_stairs": "Polished End Stone Stairs",
   "block.completed-blocksets.polished_end_stone_slab": "Polished End Stone Slab",
   "block.completed-blocksets.polished_end_stone_wall": "Polished End Stone Wall",
+  "block.completed-blocksets.polished_end_stone_pressure_plate": "Polished End Stone Pressure Plate",
+  "block.completed-blocksets.polished_end_stone_button": "Polished End Stone Button",
+
+  "block.completed-blocksets.polished_andesite_wall": "Polished Andesite Wall",
+  "block.completed-blocksets.polished_andesite_pressure_plate": "Polished Andesite Pressure Plate",
+  "block.completed-blocksets.polished_andesite_button": "Polished Andesite Button",
+
+  "block.completed-blocksets.polished_diorite_wall": "Polished Diorite Wall",
+  "block.completed-blocksets.polished_diorite_pressure_plate": "Polished Diorite Pressure Plate",
+  "block.completed-blocksets.polished_diorite_button": "Polished Diorite Button",
 
   "block.completed-blocksets.polished_granite_wall": "Polished Granite Wall",
-  "block.completed-blocksets.polished_andesite_wall": "Polished Andesite Wall",
-  "block.completed-blocksets.polished_diorite_wall": "Polished Diorite Wall",
+  "block.completed-blocksets.polished_granite_pressure_plate": "Polished Granite Pressure Plate",
+  "block.completed-blocksets.polished_granite_button": "Polished Granite Button",
 
   "block.completed-blocksets.quartz_wall": "Quartz Wall",
   "block.completed-blocksets.smooth_quartz_wall": "Smooth Quartz Wall",

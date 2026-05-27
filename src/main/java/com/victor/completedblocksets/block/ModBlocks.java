@@ -120,6 +120,24 @@ public class ModBlocks
             )
     );
 
+    public static final Block POLISHED_CALCITE_PRESSURE_PLATE = registerBlock("polished_calcite_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.STONE, properties
+                    .mapColor(MapColor.TERRACOTTA_WHITE)
+                    .sound(SoundType.CALCITE)
+                    .strength(0.5f)
+                    .pushReaction(PushReaction.DESTROY)
+                    .forceSolidOn()
+                    .noCollision()
+            )
+    );
+
+    public static final Block POLISHED_CALCITE_BUTTON = registerBlock("polished_calcite_button",
+            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
+                    .strength(3f)
+                    .sound(SoundType.CALCITE)
+            )
+    );
+
     //
     // Calcite Bricks Block Set
     //
@@ -164,27 +182,6 @@ public class ModBlocks
             )
     );
 
-    public static final Block POLISHED_CALCITE_BUTTON = registerBlock("polished_calcite_button",
-            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
-                    .strength(3f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.CALCITE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block POLISHED_CALCITE_PRESSURE_PLATE = registerBlock("polished_calcite_pressure_plate",
-            properties -> new PressurePlateBlock(BlockSetType.STONE, properties
-                    .mapColor(MapColor.TERRACOTTA_WHITE)
-                    .sound(SoundType.CALCITE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-                    .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
-                    .forceSolidOn()
-                    .noCollision()
-            )
-    );
-
     //
     // Dark Prismarine Block Set
     //
@@ -203,24 +200,21 @@ public class ModBlocks
     // Deepslate Block Set
     //
 
-    public static final Block POLISHED_DEEPSLATE_BUTTON = registerBlock("polished_deepslate_button",
-            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
-                    .strength(3f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.DEEPSLATE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
     public static final Block POLISHED_DEEPSLATE_PRESSURE_PLATE = registerBlock("polished_deepslate_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.STONE, properties
                     .mapColor(MapColor.DEEPSLATE)
                     .sound(SoundType.DEEPSLATE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
                     .forceSolidOn()
                     .noCollision()
+            )
+    );
+
+    public static final Block POLISHED_DEEPSLATE_BUTTON = registerBlock("polished_deepslate_button",
+            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
+                    .strength(3f)
+                    .sound(SoundType.DEEPSLATE)
             )
     );
 
@@ -385,6 +379,24 @@ public class ModBlocks
             )
     );
 
+    public static final Block POLISHED_END_STONE_PRESSURE_PLATE = registerBlock("polished_end_stone_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.STONE, properties
+                    .mapColor(MapColor.SAND)
+                    .sound(SoundType.STONE)
+                    .strength(0.5f)
+                    .pushReaction(PushReaction.DESTROY)
+                    .forceSolidOn()
+                    .noCollision()
+            )
+    );
+
+    public static final Block POLISHED_END_STONE_BUTTON = registerBlock("polished_end_stone_button",
+            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
+                    .strength(3f)
+                    .sound(SoundType.STONE)
+            )
+    );
+
     //
     // Polished Andesite Block Set
     //
@@ -396,6 +408,24 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(MapColor.STONE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block POLISHED_ANDESITE_PRESSURE_PLATE = registerBlock("polished_andesite_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.STONE, properties
+                    .mapColor(MapColor.STONE)
+                    .sound(SoundType.STONE)
+                    .strength(0.5f)
+                    .pushReaction(PushReaction.DESTROY)
+                    .forceSolidOn()
+                    .noCollision()
+            )
+    );
+
+    public static final Block POLISHED_ANDESITE_BUTTON = registerBlock("polished_andesite_button",
+            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
+                    .strength(3f)
+                    .sound(SoundType.STONE)
             )
     );
 
@@ -413,6 +443,24 @@ public class ModBlocks
             )
     );
 
+    public static final Block POLISHED_DIORITE_PRESSURE_PLATE = registerBlock("polished_diorite_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.STONE, properties
+                    .mapColor(MapColor.QUARTZ)
+                    .sound(SoundType.STONE)
+                    .strength(0.5f)
+                    .pushReaction(PushReaction.DESTROY)
+                    .forceSolidOn()
+                    .noCollision()
+            )
+    );
+
+    public static final Block POLISHED_DIORITE_BUTTON = registerBlock("polished_diorite_button",
+            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
+                    .strength(3f)
+                    .sound(SoundType.STONE)
+            )
+    );
+
     //
     // Polished Granite Block Set
     //
@@ -424,6 +472,24 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(MapColor.DIRT)
                     .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block POLISHED_GRANITE_PRESSURE_PLATE = registerBlock("polished_granite_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.STONE, properties
+                    .mapColor(MapColor.DIRT)
+                    .sound(SoundType.STONE)
+                    .strength(0.5f)
+                    .pushReaction(PushReaction.DESTROY)
+                    .forceSolidOn()
+                    .noCollision()
+            )
+    );
+
+    public static final Block POLISHED_GRANITE_BUTTON = registerBlock("polished_granite_button",
+            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
+                    .strength(3f)
+                    .sound(SoundType.STONE)
             )
     );
 

@@ -36,8 +36,8 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.POLISHED_CALCITE_STAIRS);
                         output.accept(ModBlocks.POLISHED_CALCITE_SLAB);
                         output.accept(ModBlocks.POLISHED_CALCITE_WALL);
-                        output.accept(ModBlocks.POLISHED_CALCITE_BUTTON);
                         output.accept(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.POLISHED_CALCITE_BUTTON);
 
                         // Calcite Brick Block Set
                         output.accept(ModBlocks.CALCITE_BRICKS);
@@ -49,8 +49,9 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.DARK_PRISMARINE_WALL);
 
                         // Deep Slate Block Set
-                        output.accept(ModBlocks.POLISHED_DEEPSLATE_BUTTON);
+
                         output.accept(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.POLISHED_DEEPSLATE_BUTTON);
 
                         // End Stone Block Set
                         output.accept(ModBlocks.END_STONE_STAIRS);
@@ -73,18 +74,26 @@ public class ModCreativeModeTabs
 
                         // Polished Andesite Block Set
                         output.accept(ModBlocks.POLISHED_ANDESITE_WALL);
+                        output.accept(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.POLISHED_ANDESITE_BUTTON);
 
                         // Polished Diorite Block Set
                         output.accept(ModBlocks.POLISHED_DIORITE_WALL);
+                        output.accept(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.POLISHED_DIORITE_BUTTON);
 
                         // Polished End Stone Block Set
                         output.accept(ModBlocks.POLISHED_END_STONE);
                         output.accept(ModBlocks.POLISHED_END_STONE_STAIRS);
                         output.accept(ModBlocks.POLISHED_END_STONE_SLAB);
                         output.accept(ModBlocks.POLISHED_END_STONE_WALL);
+                        output.accept(ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.POLISHED_END_STONE_BUTTON);
 
                         // Polished Granite Block Set
                         output.accept(ModBlocks.POLISHED_GRANITE_WALL);
+                        output.accept(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.POLISHED_GRANITE_BUTTON);
 
                         // Prismarine Bricks Block Set
                         output.accept(ModBlocks.PRISMARINE_BRICK_WALL);
@@ -261,14 +270,23 @@ public class ModCreativeModeTabs
             entries.insertAfter(ModBlocks.PACKED_MUD_SLAB, ModBlocks.PACKED_MUD_WALL);
 
             entries.insertAfter(Blocks.POLISHED_ANDESITE_SLAB, ModBlocks.POLISHED_ANDESITE_WALL);
+            entries.insertAfter(ModBlocks.POLISHED_ANDESITE_WALL, ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
+            entries.insertAfter(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE, ModBlocks.POLISHED_ANDESITE_BUTTON);
+
             entries.insertAfter(Blocks.POLISHED_DIORITE_SLAB, ModBlocks.POLISHED_DIORITE_WALL);
+            entries.insertAfter(ModBlocks.POLISHED_DIORITE_WALL, ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
+            entries.insertAfter(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE, ModBlocks.POLISHED_DIORITE_BUTTON);
 
             entries.insertAfter(ModBlocks.END_STONE_WALL, ModBlocks.POLISHED_END_STONE);
             entries.insertAfter(ModBlocks.POLISHED_END_STONE, ModBlocks.POLISHED_END_STONE_STAIRS);
             entries.insertAfter(ModBlocks.POLISHED_END_STONE_STAIRS, ModBlocks.POLISHED_END_STONE_SLAB);
             entries.insertAfter(ModBlocks.POLISHED_END_STONE_SLAB, ModBlocks.POLISHED_END_STONE_WALL);
+            entries.insertAfter(ModBlocks.POLISHED_END_STONE_WALL, ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE);
+            entries.insertAfter(ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE, ModBlocks.POLISHED_END_STONE_BUTTON);
 
             entries.insertAfter(Blocks.POLISHED_GRANITE_SLAB, ModBlocks.POLISHED_GRANITE_WALL);
+            entries.insertAfter(ModBlocks.POLISHED_GRANITE_WALL, ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
+            entries.insertAfter(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE, ModBlocks.POLISHED_GRANITE_BUTTON);
 
             entries.insertAfter(Blocks.PRISMARINE_BRICK_SLAB, ModBlocks.PRISMARINE_BRICK_WALL);
 

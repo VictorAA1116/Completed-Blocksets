@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "minecraft:polished_andesite"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "completed-blocksets:polished_andesite_pressure_plate"
+  }
+}

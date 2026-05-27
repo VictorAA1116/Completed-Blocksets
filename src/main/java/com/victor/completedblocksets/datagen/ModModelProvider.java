@@ -40,8 +40,8 @@ public class ModModelProvider extends FabricModelProvider
                 .stairs(ModBlocks.POLISHED_CALCITE_STAIRS)
                 .slab(ModBlocks.POLISHED_CALCITE_SLAB)
                 .wall(ModBlocks.POLISHED_CALCITE_WALL)
-                .button(ModBlocks.POLISHED_CALCITE_BUTTON)
                 .pressurePlate(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_CALCITE_BUTTON)
         ;
 
         blockModelGenerators.family(ModBlocks.CALCITE_BRICKS)
@@ -57,8 +57,8 @@ public class ModModelProvider extends FabricModelProvider
 
         // Deep Slate Block Set
         blockModelGenerators.family(Blocks.POLISHED_DEEPSLATE)
-                .button(ModBlocks.POLISHED_DEEPSLATE_BUTTON)
                 .pressurePlate(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_DEEPSLATE_BUTTON)
         ;
 
         // End Stone Block Set
@@ -89,11 +89,15 @@ public class ModModelProvider extends FabricModelProvider
         // Polished Andesite Block Set
         blockModelGenerators.family(Blocks.POLISHED_ANDESITE)
                 .wall(ModBlocks.POLISHED_ANDESITE_WALL)
+                .pressurePlate(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_ANDESITE_BUTTON)
         ;
 
         // Polished Diorite Block Set
         blockModelGenerators.family(Blocks.POLISHED_DIORITE)
                 .wall(ModBlocks.POLISHED_DIORITE_WALL)
+                .pressurePlate(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_DIORITE_BUTTON)
         ;
 
         // Polished End Stone Block Set
@@ -101,11 +105,15 @@ public class ModModelProvider extends FabricModelProvider
                 .stairs(ModBlocks.POLISHED_END_STONE_STAIRS)
                 .slab(ModBlocks.POLISHED_END_STONE_SLAB)
                 .wall(ModBlocks.POLISHED_END_STONE_WALL)
+                .pressurePlate(ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_END_STONE_BUTTON)
         ;
 
         // Polished Granite Block Set
         blockModelGenerators.family(Blocks.POLISHED_GRANITE)
                 .wall(ModBlocks.POLISHED_GRANITE_WALL)
+                .pressurePlate(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_GRANITE_BUTTON)
         ;
 
         // Prismarine Bricks Block Set

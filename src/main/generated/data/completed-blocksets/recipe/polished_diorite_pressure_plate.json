@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "minecraft:polished_diorite"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "completed-blocksets:polished_diorite_pressure_plate"
+  }
+}
