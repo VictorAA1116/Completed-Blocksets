@@ -319,6 +319,15 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.GOLD_TRAPDOOR)
         ;
 
+        valueLookupBuilder(BlockTags.BARS)
+
+            .add(ModBlocks.GOLD_BARS)
+        ;
+
+        valueLookupBuilder(BlockTags.CHAINS)
+            .add(ModBlocks.GOLD_CHAIN)
+        ;
+
         valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
 
             .add(ModBlocks.AMETHYST_STAIRS)
@@ -346,6 +355,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
 
             .add(ModBlocks.GOLD_DOOR)
             .add(ModBlocks.GOLD_TRAPDOOR)
+            .add(ModBlocks.GOLD_BARS)
+            .add(ModBlocks.GOLD_CHAIN)
 
             .add(ModBlocks.NETHERRACK_STAIRS)
             .add(ModBlocks.NETHERRACK_SLAB)

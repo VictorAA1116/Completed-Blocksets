@@ -55,6 +55,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         // Gold Block Set
         add(ModBlocks.GOLD_DOOR, this::createDoorTable);
         dropSelf(ModBlocks.GOLD_TRAPDOOR);
+        dropSelf(ModBlocks.GOLD_BARS);
+        dropSelf(ModBlocks.GOLD_CHAIN);
 
         // Netherrack Block Set
         dropSelf(ModBlocks.NETHERRACK_STAIRS);

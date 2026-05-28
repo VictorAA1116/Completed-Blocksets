@@ -30,7 +30,6 @@
 
   "block.completed-blocksets.smooth_stone_stairs": "Smooth Stone Stairs",
 
-
   "block.completed-blocksets.polished_deepslate_pressure_plate": "Polished Deepslate Pressure Plate",
   "block.completed-blocksets.polished_deepslate_button": "Polished Deepslate Button",
 
@@ -91,6 +90,8 @@
 
   "block.completed-blocksets.gold_trapdoor": "Gold Trapdoor",
   "block.completed-blocksets.gold_door": "Gold Door",
+  "block.completed-blocksets.gold_bars": "Gold Bars",
+  "block.completed-blocksets.gold_chain": "Gold Chain",
 
   "block.completed-blocksets.white_concrete_stairs": "White Concrete Stairs",
   "block.completed-blocksets.white_concrete_slab": "White Concrete Slab",

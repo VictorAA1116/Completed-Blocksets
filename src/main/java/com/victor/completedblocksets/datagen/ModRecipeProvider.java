@@ -148,11 +148,34 @@ public class ModRecipeProvider extends FabricRecipeProvider
                         .save(output)
                 ;
 
-                trapdoorBuilder(ModBlocks.GOLD_TRAPDOOR, Ingredient.of(Items.GOLD_INGOT))
+                shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GOLD_TRAPDOOR)
+                        .pattern("##")
+                        .pattern("##")
+                        .define('#', Items.GOLD_INGOT)
                         .unlockedBy(getHasName(Items.GOLD_INGOT), has(Items.GOLD_INGOT))
                         .group("gold")
                         .save(output)
                 ;
+
+                 shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GOLD_BARS)
+                         .pattern("###")
+                         .pattern("###")
+                         .define('#', Items.GOLD_INGOT)
+                         .unlockedBy(getHasName(Items.GOLD_INGOT), has(Items.GOLD_INGOT))
+                         .group("gold")
+                         .save(output)
+                 ;
+
+                 shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GOLD_CHAIN)
+                         .pattern(".")
+                         .pattern("#")
+                         .pattern(".")
+                         .define('#', Items.GOLD_INGOT)
+                         .define('.', Items.GOLD_NUGGET)
+                         .unlockedBy(getHasName(Items.GOLD_NUGGET), has(Items.GOLD_NUGGET))
+                         .group("gold")
+                         .save(output)
+                 ;
 
                 // Netherrack Block Set
                 stairBuilder(ModBlocks.NETHERRACK_STAIRS, Ingredient.of(Blocks.NETHERRACK))

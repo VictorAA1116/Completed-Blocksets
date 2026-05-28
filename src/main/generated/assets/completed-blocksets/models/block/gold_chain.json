@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_chain",
+  "textures": {
+    "texture": "completed-blocksets:block/gold_chain"
+  }
+}

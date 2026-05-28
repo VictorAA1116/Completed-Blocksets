@@ -258,7 +258,7 @@ public class ModBlocks
 
     public static final Block GOLD_DOOR = registerBlock("gold_door",
             properties -> new DoorBlock(BlockSetType.IRON, properties
-                    .strength(3f)
+                    .strength(3.0f)
                     .requiresCorrectToolForDrops()
                     .noOcclusion()
             )
@@ -266,9 +266,28 @@ public class ModBlocks
 
     public static final Block GOLD_TRAPDOOR = registerBlock("gold_trapdoor",
             properties -> new TrapDoorBlock(BlockSetType.IRON, properties
-                    .strength(3f)
+                    .strength(3.0f)
                     .requiresCorrectToolForDrops()
                     .noOcclusion()
+            )
+    );
+
+    public static final Block GOLD_BARS = registerBlock("gold_bars",
+            properties -> new IronBarsBlock(properties
+                    .strength(3.0f, 6.0f)
+                    .sound(SoundType.METAL)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+            )
+    );
+
+    public static final Block GOLD_CHAIN = registerBlock("gold_chain",
+            properties -> new ChainBlock(properties
+                    .strength(3.0f, 6.0f)
+                    .sound(SoundType.CHAIN)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .forceSolidOn()
             )
     );
 

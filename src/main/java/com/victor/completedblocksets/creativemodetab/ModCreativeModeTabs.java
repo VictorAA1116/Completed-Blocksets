@@ -61,6 +61,8 @@ public class ModCreativeModeTabs
                         // Gold Block Set
                         output.accept(ModBlocks.GOLD_DOOR);
                         output.accept(ModBlocks.GOLD_TRAPDOOR);
+                        output.accept(ModBlocks.GOLD_BARS);
+                        output.accept(ModBlocks.GOLD_CHAIN);
 
                         // Netherrack Block Set
                         output.accept(ModBlocks.NETHERRACK_STAIRS);
@@ -423,8 +425,10 @@ public class ModCreativeModeTabs
             entries.insertAfter(ModBlocks.END_STONE_STAIRS, ModBlocks.END_STONE_SLAB);
             entries.insertAfter(ModBlocks.END_STONE_SLAB, ModBlocks.END_STONE_WALL);
 
-            entries.insertAfter(Blocks.GOLD_BLOCK, ModBlocks.GOLD_DOOR);
+            entries.insertAfter(Blocks.GOLD_BLOCK, ModBlocks.GOLD_BARS);
+            entries.insertAfter(ModBlocks.GOLD_BARS, ModBlocks.GOLD_DOOR);
             entries.insertAfter(ModBlocks.GOLD_DOOR, ModBlocks.GOLD_TRAPDOOR);
+            entries.insertAfter(Blocks.LIGHT_WEIGHTED_PRESSURE_PLATE, ModBlocks.GOLD_CHAIN);
 
             entries.insertAfter(Blocks.NETHERRACK, ModBlocks.NETHERRACK_STAIRS);
             entries.insertAfter(ModBlocks.NETHERRACK_STAIRS, ModBlocks.NETHERRACK_SLAB);
@@ -688,6 +692,13 @@ public class ModCreativeModeTabs
             entries.insertAfter(Blocks.BROWN_GLAZED_TERRACOTTA, ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS);
             entries.insertAfter(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS, ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB);
             entries.insertAfter(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB, ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL);
+
+        });
+
+        // Functional Blocks Tab
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> {
+
+            entries.insertAfter(Blocks.IRON_CHAIN, ModBlocks.GOLD_CHAIN);
 
         });
 

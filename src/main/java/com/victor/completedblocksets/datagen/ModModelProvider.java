@@ -8,7 +8,9 @@ import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.MultiVariant;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.client.data.models.model.TexturedModel;
 import net.minecraft.data.BlockFamily;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Blocks;
 
 public class ModModelProvider extends FabricModelProvider
@@ -71,6 +73,9 @@ public class ModModelProvider extends FabricModelProvider
         // Gold Block Set
         blockModelGenerators.createDoor(ModBlocks.GOLD_DOOR);
         blockModelGenerators.createTrapdoor(ModBlocks.GOLD_TRAPDOOR);
+        blockModelGenerators.createBarsAndItem(ModBlocks.GOLD_BARS);
+        blockModelGenerators.registerSimpleFlatItemModel(ModBlocks.GOLD_CHAIN, "_item");
+        blockModelGenerators.createAxisAlignedPillarBlockCustomModel(ModBlocks.GOLD_CHAIN, BlockModelGenerators.plainVariant(TexturedModel.CHAIN.create(ModBlocks.GOLD_CHAIN, blockModelGenerators.modelOutput)));
 
         // Netherrack Block Set
         blockModelGenerators.family(Blocks.NETHERRACK)
