@@ -296,6 +296,81 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         add(ModBlocks.BROWN_TERRACOTTA_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.BROWN_TERRACOTTA_WALL);
 
+        // White Glazed Terracotta Block Set
+        dropSelf(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL);
+
+        // Light Gray Glazed Terracotta Block Set
+        dropSelf(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL);
+
+        // Gray Glazed Terracotta Block Set
+        dropSelf(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL);
+
+        // Black Glazed Terracotta Block Set
+        dropSelf(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL);
+
+        // Red Glazed Terracotta Block Set
+        dropSelf(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.RED_GLAZED_TERRACOTTA_WALL);
+
+        // Orange Glazed Terracotta Block Set
+        dropSelf(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL);
+
+        // Yellow Glazed Terracotta Block Set
+        dropSelf(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL);
+
+        // Lime Glazed Terracotta Block Set
+        dropSelf(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.LIME_GLAZED_TERRACOTTA_WALL);
+
+        // Green Glazed Terracotta Block Set
+        dropSelf(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL);
+
+        // Cyan Glazed Terracotta Block Set
+        dropSelf(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL);
+
+        // Light Blue Glazed Terracotta Block Set
+        dropSelf(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL);
+
+        // Blue Glazed Terracotta Block Set
+        dropSelf(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL);
+
+        // Purple Glazed Terracotta Block Set
+        dropSelf(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL);
+
+        // Magenta Glazed Terracotta Block Set
+        dropSelf(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL);
+
+        // Brown Glazed Terracotta Block Set
+        dropSelf(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS);
+        add(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL);
+
     }
 
 //    public LootTable.Builder createMultipleOreDrops(final Block block, Item item,float minDrops, float maxDrops)

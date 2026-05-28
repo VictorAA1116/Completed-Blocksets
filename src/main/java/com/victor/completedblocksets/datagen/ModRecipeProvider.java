@@ -874,6 +874,246 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_TERRACOTTA_SLAB, Blocks.BROWN_TERRACOTTA, 2);
                 stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_TERRACOTTA_WALL, Blocks.BROWN_TERRACOTTA);
 
+                // White Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.WHITE_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.WHITE_GLAZED_TERRACOTTA), has(Blocks.WHITE_GLAZED_TERRACOTTA))
+                        .group("white_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB, Blocks.WHITE_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL, Blocks.WHITE_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS, Blocks.WHITE_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB, Blocks.WHITE_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL, Blocks.WHITE_GLAZED_TERRACOTTA);
+
+                // Light Gray Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA), has(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA))
+                        .group("light_gray_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB, Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL, Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS, Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB, Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL, Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA);
+
+                // Gray Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.GRAY_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.GRAY_GLAZED_TERRACOTTA), has(Blocks.GRAY_GLAZED_TERRACOTTA))
+                        .group("gray_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB, Blocks.GRAY_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL, Blocks.GRAY_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS, Blocks.GRAY_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB, Blocks.GRAY_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL, Blocks.GRAY_GLAZED_TERRACOTTA);
+
+                // Black Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.BLACK_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.BLACK_GLAZED_TERRACOTTA), has(Blocks.BLACK_GLAZED_TERRACOTTA))
+                        .group("black_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB, Blocks.BLACK_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL, Blocks.BLACK_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS, Blocks.BLACK_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB, Blocks.BLACK_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL, Blocks.BLACK_GLAZED_TERRACOTTA);
+
+                // Red Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.RED_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.RED_GLAZED_TERRACOTTA), has(Blocks.RED_GLAZED_TERRACOTTA))
+                        .group("red_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_GLAZED_TERRACOTTA_SLAB, Blocks.RED_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_GLAZED_TERRACOTTA_WALL, Blocks.RED_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS, Blocks.RED_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_GLAZED_TERRACOTTA_SLAB, Blocks.RED_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_GLAZED_TERRACOTTA_WALL, Blocks.RED_GLAZED_TERRACOTTA);
+
+                // Orange Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.ORANGE_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.ORANGE_GLAZED_TERRACOTTA), has(Blocks.ORANGE_GLAZED_TERRACOTTA))
+                        .group("orange_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB, Blocks.ORANGE_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL, Blocks.ORANGE_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS, Blocks.ORANGE_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB, Blocks.ORANGE_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL, Blocks.ORANGE_GLAZED_TERRACOTTA);
+
+                // Yellow Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.YELLOW_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.YELLOW_GLAZED_TERRACOTTA), has(Blocks.YELLOW_GLAZED_TERRACOTTA))
+                        .group("yellow_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB, Blocks.YELLOW_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL, Blocks.YELLOW_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS, Blocks.YELLOW_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB, Blocks.YELLOW_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL, Blocks.YELLOW_GLAZED_TERRACOTTA);
+
+                // Lime Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.LIME_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.LIME_GLAZED_TERRACOTTA), has(Blocks.LIME_GLAZED_TERRACOTTA))
+                        .group("lime_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB, Blocks.LIME_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_GLAZED_TERRACOTTA_WALL, Blocks.LIME_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS, Blocks.LIME_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB, Blocks.LIME_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_GLAZED_TERRACOTTA_WALL, Blocks.LIME_GLAZED_TERRACOTTA);
+
+                // Green Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.GREEN_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.GREEN_GLAZED_TERRACOTTA), has(Blocks.GREEN_GLAZED_TERRACOTTA))
+                        .group("green_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB, Blocks.GREEN_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL, Blocks.GREEN_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS, Blocks.GREEN_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB, Blocks.GREEN_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL, Blocks.GREEN_GLAZED_TERRACOTTA);
+
+                // Cyan Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.CYAN_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.CYAN_GLAZED_TERRACOTTA), has(Blocks.CYAN_GLAZED_TERRACOTTA))
+                        .group("cyan_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB, Blocks.CYAN_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL, Blocks.CYAN_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS, Blocks.CYAN_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB, Blocks.CYAN_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL, Blocks.CYAN_GLAZED_TERRACOTTA);
+
+                // Light Blue Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA), has(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA))
+                        .group("light_blue_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB, Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL, Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS, Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB, Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL, Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA);
+
+                // Blue Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.BLUE_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.BLUE_GLAZED_TERRACOTTA), has(Blocks.BLUE_GLAZED_TERRACOTTA))
+                        .group("blue_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB, Blocks.BLUE_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL, Blocks.BLUE_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS, Blocks.BLUE_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB, Blocks.BLUE_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL, Blocks.BLUE_GLAZED_TERRACOTTA);
+
+                // Purple Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.PURPLE_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.PURPLE_GLAZED_TERRACOTTA), has(Blocks.PURPLE_GLAZED_TERRACOTTA))
+                        .group("purple_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB, Blocks.PURPLE_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL, Blocks.PURPLE_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS, Blocks.PURPLE_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB, Blocks.PURPLE_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL, Blocks.PURPLE_GLAZED_TERRACOTTA);
+
+                // Magenta Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.MAGENTA_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.MAGENTA_GLAZED_TERRACOTTA), has(Blocks.MAGENTA_GLAZED_TERRACOTTA))
+                        .group("magenta_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB, Blocks.MAGENTA_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL, Blocks.MAGENTA_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS, Blocks.MAGENTA_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB, Blocks.MAGENTA_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL, Blocks.MAGENTA_GLAZED_TERRACOTTA);
+
+                // Pink Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.PINK_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.PINK_GLAZED_TERRACOTTA), has(Blocks.PINK_GLAZED_TERRACOTTA))
+                        .group("pink_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB, Blocks.PINK_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GLAZED_TERRACOTTA_WALL, Blocks.PINK_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS, Blocks.PINK_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB, Blocks.PINK_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GLAZED_TERRACOTTA_WALL, Blocks.PINK_GLAZED_TERRACOTTA);
+
+                // Brown Glazed Terracotta Block Set
+                stairBuilder(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS, Ingredient.of(Blocks.BROWN_GLAZED_TERRACOTTA))
+                        .unlockedBy(getHasName(Blocks.BROWN_GLAZED_TERRACOTTA), has(Blocks.BROWN_GLAZED_TERRACOTTA))
+                        .group("brown_glazed_terracotta")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB, Blocks.BROWN_GLAZED_TERRACOTTA);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL, Blocks.BROWN_GLAZED_TERRACOTTA);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS, Blocks.BROWN_GLAZED_TERRACOTTA);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB, Blocks.BROWN_GLAZED_TERRACOTTA, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL, Blocks.BROWN_GLAZED_TERRACOTTA);
+
                 // List<ItemLike> CALCITE_BLOCKS = List.of(ModBlocks.POLISHED_CALCITE, ModBlocks.CALCITE_BRICKS);
 
                 // shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CALCITE_BRICKS, 9)

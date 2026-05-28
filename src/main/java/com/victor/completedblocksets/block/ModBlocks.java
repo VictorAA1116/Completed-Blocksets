@@ -1869,6 +1869,583 @@ public class ModBlocks
             )
     );
 
+    //
+    // White Glazed Terracotta Block Set
+    //
+    public static final Block WHITE_GLAZED_TERRACOTTA_STAIRS = registerBlock("white_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.WHITE_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.WHITE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block WHITE_GLAZED_TERRACOTTA_SLAB = registerBlock("white_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.WHITE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block WHITE_GLAZED_TERRACOTTA_WALL = registerBlock("white_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.WHITE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Light Gray Glazed Terracotta Block Set
+    //
+    public static final Block LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS = registerBlock("light_gray_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB = registerBlock("light_gray_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block LIGHT_GRAY_GLAZED_TERRACOTTA_WALL = registerBlock("light_gray_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Gray Glazed Terracotta Block Set
+    //
+    public static final Block GRAY_GLAZED_TERRACOTTA_STAIRS = registerBlock("gray_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.GRAY_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block GRAY_GLAZED_TERRACOTTA_SLAB = registerBlock("gray_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block GRAY_GLAZED_TERRACOTTA_WALL = registerBlock("gray_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Black Glazed Terracotta Block Set
+    //
+    public static final Block BLACK_GLAZED_TERRACOTTA_STAIRS = registerBlock("black_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.BLACK_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block BLACK_GLAZED_TERRACOTTA_SLAB = registerBlock("black_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block BLACK_GLAZED_TERRACOTTA_WALL = registerBlock("black_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Red Glazed Terracotta Block Set
+    //
+    public static final Block RED_GLAZED_TERRACOTTA_STAIRS = registerBlock("red_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.RED_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.RED)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block RED_GLAZED_TERRACOTTA_SLAB = registerBlock("red_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.RED)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block RED_GLAZED_TERRACOTTA_WALL = registerBlock("red_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.RED)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Orange Glazed Terracotta Block Set
+    //
+    public static final Block ORANGE_GLAZED_TERRACOTTA_STAIRS = registerBlock("orange_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.ORANGE_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block ORANGE_GLAZED_TERRACOTTA_SLAB = registerBlock("orange_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block ORANGE_GLAZED_TERRACOTTA_WALL = registerBlock("orange_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Yellow Glazed Terracotta Block Set
+    //
+    public static final Block YELLOW_GLAZED_TERRACOTTA_STAIRS = registerBlock("yellow_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.YELLOW_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.YELLOW)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block YELLOW_GLAZED_TERRACOTTA_SLAB = registerBlock("yellow_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.YELLOW)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block YELLOW_GLAZED_TERRACOTTA_WALL = registerBlock("yellow_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.YELLOW)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Lime Glazed Terracotta Block Set
+    //
+    public static final Block LIME_GLAZED_TERRACOTTA_STAIRS = registerBlock("lime_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.LIME_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIME)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block LIME_GLAZED_TERRACOTTA_SLAB = registerBlock("lime_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIME)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block LIME_GLAZED_TERRACOTTA_WALL = registerBlock("lime_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIME)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Green Glazed Terracotta Block Set
+    //
+    public static final Block GREEN_GLAZED_TERRACOTTA_STAIRS = registerBlock("green_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.GREEN_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GREEN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block GREEN_GLAZED_TERRACOTTA_SLAB = registerBlock("green_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GREEN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block GREEN_GLAZED_TERRACOTTA_WALL = registerBlock("green_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.GREEN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Cyan Glazed Terracotta Block Set
+    //
+    public static final Block CYAN_GLAZED_TERRACOTTA_STAIRS = registerBlock("cyan_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.CYAN_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block CYAN_GLAZED_TERRACOTTA_SLAB = registerBlock("cyan_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block CYAN_GLAZED_TERRACOTTA_WALL = registerBlock("cyan_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Light Blue Glazed Terracotta Block Set
+    //
+    public static final Block LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS = registerBlock("light_blue_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB = registerBlock("light_blue_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block LIGHT_BLUE_GLAZED_TERRACOTTA_WALL = registerBlock("light_blue_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.LIGHT_BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Blue Terracotta Block Set
+    //
+    public static final Block BLUE_GLAZED_TERRACOTTA_STAIRS = registerBlock("blue_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.BLUE_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block BLUE_GLAZED_TERRACOTTA_SLAB = registerBlock("blue_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block BLUE_GLAZED_TERRACOTTA_WALL = registerBlock("blue_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BLUE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Purple Glazed Terracotta Block Set
+    //
+
+    public static final Block PURPLE_GLAZED_TERRACOTTA_STAIRS = registerBlock("purple_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.PURPLE_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PURPLE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block PURPLE_GLAZED_TERRACOTTA_SLAB = registerBlock("purple_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PURPLE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block PURPLE_GLAZED_TERRACOTTA_WALL = registerBlock("purple_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PURPLE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Magenta Glazed Terracotta Block Set
+    //
+    public static final Block MAGENTA_GLAZED_TERRACOTTA_STAIRS = registerBlock("magenta_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.MAGENTA_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.MAGENTA)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block MAGENTA_GLAZED_TERRACOTTA_SLAB = registerBlock("magenta_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.MAGENTA)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block MAGENTA_GLAZED_TERRACOTTA_WALL = registerBlock("magenta_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.MAGENTA)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Pink Glazed Terracotta Block Set
+    //
+    public static final Block PINK_GLAZED_TERRACOTTA_STAIRS = registerBlock("pink_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.PINK_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PINK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block PINK_GLAZED_TERRACOTTA_SLAB = registerBlock("pink_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PINK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block PINK_GLAZED_TERRACOTTA_WALL = registerBlock("pink_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.PINK)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    //
+    // Brown Glazed Terracotta Block Set
+    //
+    public static final Block BROWN_GLAZED_TERRACOTTA_STAIRS = registerBlock("brown_glazed_terracotta_stairs",
+            properties -> new StairBlock(Blocks.BROWN_GLAZED_TERRACOTTA.defaultBlockState(), properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BROWN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block BROWN_GLAZED_TERRACOTTA_SLAB = registerBlock("brown_glazed_terracotta_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BROWN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
+    public static final Block BROWN_GLAZED_TERRACOTTA_WALL = registerBlock("brown_glazed_terracotta_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(DyeColor.BROWN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .pushReaction(PushReaction.PUSH_ONLY)
+            )
+    );
+
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function)
     {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(CompletedBlocksets.MOD_ID, name))));

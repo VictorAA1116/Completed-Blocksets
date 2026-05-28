@@ -425,6 +425,119 @@ public class ModModelProvider extends FabricModelProvider
                 .slab(ModBlocks.BROWN_TERRACOTTA_SLAB)
                 .wall(ModBlocks.BROWN_TERRACOTTA_WALL)
         ;
+
+        // White Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.WHITE_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Light Gray Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Gray Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.GRAY_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Black Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.BLACK_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Red Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.RED_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.RED_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Orange Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.ORANGE_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Yellow Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Lime Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.LIME_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.LIME_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Green Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.GREEN_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Cyan Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.CYAN_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Light Blue Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Blue Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.BLUE_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Purple Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.PURPLE_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Magenta Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.MAGENTA_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Pink Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.PINK_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL)
+        ;
+
+        // Brown Glazed Terracotta Block Set
+        blockModelGenerators.family(Blocks.BROWN_GLAZED_TERRACOTTA)
+                .stairs(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS)
+                .slab(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB)
+                .wall(ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL)
+        ;
+
     }
 
     @Override
