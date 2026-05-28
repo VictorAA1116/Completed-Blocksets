@@ -29,6 +29,23 @@
     "completed-blocksets:purple_concrete_stairs",
     "completed-blocksets:magenta_concrete_stairs",
     "completed-blocksets:pink_concrete_stairs",
-    "completed-blocksets:brown_concrete_stairs"
+    "completed-blocksets:brown_concrete_stairs",
+    "completed-blocksets:terracotta_stairs",
+    "completed-blocksets:white_terracotta_stairs",
+    "completed-blocksets:light_gray_terracotta_stairs",
+    "completed-blocksets:gray_terracotta_stairs",
+    "completed-blocksets:black_terracotta_stairs",
+    "completed-blocksets:red_terracotta_stairs",
+    "completed-blocksets:orange_terracotta_stairs",
+    "completed-blocksets:yellow_terracotta_stairs",
+    "completed-blocksets:lime_terracotta_stairs",
+    "completed-blocksets:green_terracotta_stairs",
+    "completed-blocksets:cyan_terracotta_stairs",
+    "completed-blocksets:light_blue_terracotta_stairs",
+    "completed-blocksets:blue_terracotta_stairs",
+    "completed-blocksets:purple_terracotta_stairs",
+    "completed-blocksets:magenta_terracotta_stairs",
+    "completed-blocksets:pink_terracotta_stairs",
+    "completed-blocksets:brown_terracotta_stairs"
   ]
 }

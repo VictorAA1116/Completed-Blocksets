@@ -215,6 +215,87 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.BROWN_CONCRETE_STAIRS);
         add(ModBlocks.BROWN_CONCRETE_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.BROWN_CONCRETE_WALL);
+
+        // Terracotta Block Set
+        dropSelf(ModBlocks.TERRACOTTA_STAIRS);
+        add(ModBlocks.TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.TERRACOTTA_WALL);
+
+        // White Terracotta Block Set
+        dropSelf(ModBlocks.WHITE_TERRACOTTA_STAIRS);
+        add(ModBlocks.WHITE_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.WHITE_TERRACOTTA_WALL);
+
+        // Light Gray Terracotta Block Set
+        dropSelf(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS);
+        add(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL);
+
+        // Gray Terracotta Block Set
+        dropSelf(ModBlocks.GRAY_TERRACOTTA_STAIRS);
+        add(ModBlocks.GRAY_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.GRAY_TERRACOTTA_WALL);
+
+        // Black Terracotta Block Set
+        dropSelf(ModBlocks.BLACK_TERRACOTTA_STAIRS);
+        add(ModBlocks.BLACK_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.BLACK_TERRACOTTA_WALL);
+
+        // Red Terracotta Block Set
+        dropSelf(ModBlocks.RED_TERRACOTTA_STAIRS);
+        add(ModBlocks.RED_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.RED_TERRACOTTA_WALL);
+
+        // Orange Terracotta Block Set
+        dropSelf(ModBlocks.ORANGE_TERRACOTTA_STAIRS);
+        add(ModBlocks.ORANGE_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.ORANGE_TERRACOTTA_WALL);
+
+        // Yellow Terracotta Block Set
+        dropSelf(ModBlocks.YELLOW_TERRACOTTA_STAIRS);
+        add(ModBlocks.YELLOW_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.YELLOW_TERRACOTTA_WALL);
+
+        // Lime Terracotta Block Set
+        dropSelf(ModBlocks.LIME_TERRACOTTA_STAIRS);
+        add(ModBlocks.LIME_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.LIME_TERRACOTTA_WALL);
+
+        // Green Terracotta Block Set
+        dropSelf(ModBlocks.GREEN_TERRACOTTA_STAIRS);
+        add(ModBlocks.GREEN_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.GREEN_TERRACOTTA_WALL);
+
+        // Cyan Terracotta Block Set
+        dropSelf(ModBlocks.CYAN_TERRACOTTA_STAIRS);
+        add(ModBlocks.CYAN_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.CYAN_TERRACOTTA_WALL);
+
+        // Light Blue Terracotta Block Set
+        dropSelf(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS);
+        add(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL);
+
+        // Blue Terracotta Block Set
+        dropSelf(ModBlocks.BLUE_TERRACOTTA_STAIRS);
+        add(ModBlocks.BLUE_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.BLUE_TERRACOTTA_WALL);
+
+        // Purple Terracotta Block Set
+        dropSelf(ModBlocks.PURPLE_TERRACOTTA_STAIRS);
+        add(ModBlocks.PURPLE_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.PURPLE_TERRACOTTA_WALL);
+
+        // Magenta Terracotta Block Set
+        dropSelf(ModBlocks.MAGENTA_TERRACOTTA_STAIRS);
+        add(ModBlocks.MAGENTA_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.MAGENTA_TERRACOTTA_WALL);
+
+        // Brown Terracotta Block Set
+        dropSelf(ModBlocks.BROWN_TERRACOTTA_STAIRS);
+        add(ModBlocks.BROWN_TERRACOTTA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.BROWN_TERRACOTTA_WALL);
+
     }
 
 //    public LootTable.Builder createMultipleOreDrops(final Block block, Item item,float minDrops, float maxDrops)

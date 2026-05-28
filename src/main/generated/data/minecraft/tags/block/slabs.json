@@ -26,6 +26,23 @@
     "completed-blocksets:purple_concrete_slab",
     "completed-blocksets:magenta_concrete_slab",
     "completed-blocksets:pink_concrete_slab",
-    "completed-blocksets:brown_concrete_slab"
+    "completed-blocksets:brown_concrete_slab",
+    "completed-blocksets:terracotta_slab",
+    "completed-blocksets:white_terracotta_slab",
+    "completed-blocksets:light_gray_terracotta_slab",
+    "completed-blocksets:gray_terracotta_slab",
+    "completed-blocksets:black_terracotta_slab",
+    "completed-blocksets:red_terracotta_slab",
+    "completed-blocksets:orange_terracotta_slab",
+    "completed-blocksets:yellow_terracotta_slab",
+    "completed-blocksets:lime_terracotta_slab",
+    "completed-blocksets:green_terracotta_slab",
+    "completed-blocksets:cyan_terracotta_slab",
+    "completed-blocksets:light_blue_terracotta_slab",
+    "completed-blocksets:blue_terracotta_slab",
+    "completed-blocksets:purple_terracotta_slab",
+    "completed-blocksets:magenta_terracotta_slab",
+    "completed-blocksets:pink_terracotta_slab",
+    "completed-blocksets:brown_terracotta_slab"
   ]
 }

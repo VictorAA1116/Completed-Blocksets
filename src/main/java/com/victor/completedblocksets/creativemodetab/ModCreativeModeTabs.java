@@ -222,6 +222,91 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.BROWN_CONCRETE_SLAB);
                         output.accept(ModBlocks.BROWN_CONCRETE_WALL);
 
+                        // Terracotta Block Set
+                        output.accept(ModBlocks.TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.TERRACOTTA_WALL);
+
+                        // White Terracotta Block Set
+                        output.accept(ModBlocks.WHITE_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.WHITE_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.WHITE_TERRACOTTA_WALL);
+
+                        // Light Gray Terracotta Block Set
+                        output.accept(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL);
+
+                        // Gray Terracotta Block Set
+                        output.accept(ModBlocks.GRAY_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.GRAY_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.GRAY_TERRACOTTA_WALL);
+
+                        // Black Terracotta Block Set
+                        output.accept(ModBlocks.BLACK_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.BLACK_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.BLACK_TERRACOTTA_WALL);
+
+                        // Red Terracotta Block Set
+                        output.accept(ModBlocks.RED_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.RED_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.RED_TERRACOTTA_WALL);
+
+                        // Orange Terracotta Block Set
+                        output.accept(ModBlocks.ORANGE_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.ORANGE_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.ORANGE_TERRACOTTA_WALL);
+
+                        // Yellow Terracotta Block Set
+                        output.accept(ModBlocks.YELLOW_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.YELLOW_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.YELLOW_TERRACOTTA_WALL);
+
+                        // Lime Terracotta Block Set
+                        output.accept(ModBlocks.LIME_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.LIME_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.LIME_TERRACOTTA_WALL);
+
+                        // Green Terracotta Block Set
+                        output.accept(ModBlocks.GREEN_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.GREEN_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.GREEN_TERRACOTTA_WALL);
+
+                        // Cyan Terracotta Block Set
+                        output.accept(ModBlocks.CYAN_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.CYAN_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.CYAN_TERRACOTTA_WALL);
+
+                        // Light Blue Terracotta Block Set
+                        output.accept(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL);
+
+                        // Blue Terracotta Block Set
+                        output.accept(ModBlocks.BLUE_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.BLUE_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.BLUE_TERRACOTTA_WALL);
+
+                        // Purple Terracotta Block Set
+                        output.accept(ModBlocks.PURPLE_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.PURPLE_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.PURPLE_TERRACOTTA_WALL);
+
+                        // Magenta Terracotta Block Set
+                        output.accept(ModBlocks.MAGENTA_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.MAGENTA_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.MAGENTA_TERRACOTTA_WALL);
+
+                        // Pink Terracotta Block Set
+                        output.accept(ModBlocks.PINK_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.PINK_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.PINK_TERRACOTTA_WALL);
+
+                        // Brown Terracotta Block Set
+                        output.accept(ModBlocks.BROWN_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.BROWN_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.BROWN_TERRACOTTA_WALL);
+
                     }).build());
 
     public static void modifyTabs()
@@ -391,6 +476,74 @@ public class ModCreativeModeTabs
             entries.insertAfter(Blocks.BROWN_CONCRETE, ModBlocks.BROWN_CONCRETE_STAIRS);
             entries.insertAfter(ModBlocks.BROWN_CONCRETE_STAIRS, ModBlocks.BROWN_CONCRETE_SLAB);
             entries.insertAfter(ModBlocks.BROWN_CONCRETE_SLAB, ModBlocks.BROWN_CONCRETE_WALL);
+
+            entries.insertAfter(Blocks.TERRACOTTA, ModBlocks.TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.TERRACOTTA_STAIRS, ModBlocks.TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.TERRACOTTA_SLAB, ModBlocks.TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.WHITE_TERRACOTTA, ModBlocks.WHITE_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.WHITE_TERRACOTTA_STAIRS, ModBlocks.WHITE_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.WHITE_TERRACOTTA_SLAB, ModBlocks.WHITE_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.LIGHT_GRAY_TERRACOTTA, ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS, ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB, ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.GRAY_TERRACOTTA, ModBlocks.GRAY_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.GRAY_TERRACOTTA_STAIRS, ModBlocks.GRAY_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.GRAY_TERRACOTTA_SLAB, ModBlocks.GRAY_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.BLACK_TERRACOTTA, ModBlocks.BLACK_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.BLACK_TERRACOTTA_STAIRS, ModBlocks.BLACK_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.BLACK_TERRACOTTA_SLAB, ModBlocks.BLACK_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.RED_TERRACOTTA, ModBlocks.RED_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.RED_TERRACOTTA_STAIRS, ModBlocks.RED_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.RED_TERRACOTTA_SLAB, ModBlocks.RED_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.ORANGE_TERRACOTTA, ModBlocks.ORANGE_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.ORANGE_TERRACOTTA_STAIRS, ModBlocks.ORANGE_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.ORANGE_TERRACOTTA_SLAB, ModBlocks.ORANGE_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.YELLOW_TERRACOTTA, ModBlocks.YELLOW_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.YELLOW_TERRACOTTA_STAIRS, ModBlocks.YELLOW_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.YELLOW_TERRACOTTA_SLAB, ModBlocks.YELLOW_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.LIME_TERRACOTTA, ModBlocks.LIME_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.LIME_TERRACOTTA_STAIRS, ModBlocks.LIME_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.LIME_TERRACOTTA_SLAB, ModBlocks.LIME_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.GREEN_TERRACOTTA, ModBlocks.GREEN_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.GREEN_TERRACOTTA_STAIRS, ModBlocks.GREEN_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.GREEN_TERRACOTTA_SLAB, ModBlocks.GREEN_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.CYAN_TERRACOTTA, ModBlocks.CYAN_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.CYAN_TERRACOTTA_STAIRS, ModBlocks.CYAN_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.CYAN_TERRACOTTA_SLAB, ModBlocks.CYAN_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.LIGHT_BLUE_TERRACOTTA, ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS, ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB, ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.BLUE_TERRACOTTA, ModBlocks.BLUE_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.BLUE_TERRACOTTA_STAIRS, ModBlocks.BLUE_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.BLUE_TERRACOTTA_SLAB, ModBlocks.BLUE_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.PURPLE_TERRACOTTA, ModBlocks.PURPLE_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.PURPLE_TERRACOTTA_STAIRS, ModBlocks.PURPLE_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.PURPLE_TERRACOTTA_SLAB, ModBlocks.PURPLE_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.MAGENTA_TERRACOTTA, ModBlocks.MAGENTA_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.MAGENTA_TERRACOTTA_STAIRS, ModBlocks.MAGENTA_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.MAGENTA_TERRACOTTA_SLAB, ModBlocks.MAGENTA_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.PINK_TERRACOTTA, ModBlocks.PINK_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.PINK_TERRACOTTA_STAIRS, ModBlocks.PINK_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.PINK_TERRACOTTA_SLAB, ModBlocks.PINK_TERRACOTTA_WALL);
+
+            entries.insertAfter(Blocks.BROWN_TERRACOTTA, ModBlocks.BROWN_TERRACOTTA_STAIRS);
+            entries.insertAfter(ModBlocks.BROWN_TERRACOTTA_STAIRS, ModBlocks.BROWN_TERRACOTTA_SLAB);
+            entries.insertAfter(ModBlocks.BROWN_TERRACOTTA_SLAB, ModBlocks.BROWN_TERRACOTTA_WALL);
 
         });
 
