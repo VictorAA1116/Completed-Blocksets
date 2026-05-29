@@ -212,9 +212,9 @@ public class ModBlocks
             )
     );
 
-    public static final Block OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("oxidized_copper_pressure_plate",
-            properties -> new WeatheringCopperPressurePlateBlock(BlockSetType.COPPER, WeatheringCopper.WeatherState.OXIDIZED, properties
-                    .mapColor(Blocks.OXIDIZED_COPPER.defaultMapColor())
+    public static final Block WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("weathered_copper_pressure_plate",
+            properties -> new WeatheringCopperPressurePlateBlock(BlockSetType.COPPER, WeatheringCopper.WeatherState.WEATHERED, properties
+                    .mapColor(Blocks.WEATHERED_COPPER.defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
@@ -224,9 +224,9 @@ public class ModBlocks
             )
     );
 
-    public static final Block WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("weathered_copper_pressure_plate",
-            properties -> new WeatheringCopperPressurePlateBlock(BlockSetType.COPPER, WeatheringCopper.WeatherState.WEATHERED, properties
-                    .mapColor(Blocks.WEATHERED_COPPER.defaultMapColor())
+    public static final Block OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("oxidized_copper_pressure_plate",
+            properties -> new WeatheringCopperPressurePlateBlock(BlockSetType.COPPER, WeatheringCopper.WeatherState.OXIDIZED, properties
+                    .mapColor(Blocks.OXIDIZED_COPPER.defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
@@ -258,17 +258,6 @@ public class ModBlocks
             )
     );
 
-    public static final Block WAXED_OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("waxed_oxidized_copper_pressure_plate",
-            properties -> new PressurePlateBlock(BlockSetType.COPPER, properties
-                    .mapColor(Blocks.OXIDIZED_COPPER.defaultMapColor())
-                    .sound(SoundType.COPPER)
-                    .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
-                    .forceSolidOn()
-                    .noCollision()
-            )
-    );
-
     public static final Block WAXED_WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("waxed_weathered_copper_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.COPPER, properties
                     .mapColor(Blocks.WEATHERED_COPPER.defaultMapColor())
@@ -280,6 +269,16 @@ public class ModBlocks
             )
     );
 
+    public static final Block WAXED_OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("waxed_oxidized_copper_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.COPPER, properties
+                    .mapColor(Blocks.OXIDIZED_COPPER.defaultMapColor())
+                    .sound(SoundType.COPPER)
+                    .strength(0.5f)
+                    .pushReaction(PushReaction.DESTROY)
+                    .forceSolidOn()
+                    .noCollision()
+            )
+    );
 
     //
     // Dark Prismarine Block Set

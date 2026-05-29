@@ -160,7 +160,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
                         .save(output)
                 ;
 
-                 shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GOLD_BARS)
+                 shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GOLD_BARS, 16)
                          .pattern("###")
                          .pattern("###")
                          .define('#', Items.GOLD_INGOT)

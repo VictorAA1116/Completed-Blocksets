@@ -48,12 +48,12 @@ public class ModCreativeModeTabs
                         // Copper Block Set
                         output.accept(ModBlocks.COPPER_PRESSURE_PLATE);
                         output.accept(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE);
-                        output.accept(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE);
                         output.accept(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE);
+                        output.accept(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE);
                         output.accept(ModBlocks.WAXED_COPPER_PRESSURE_PLATE);
                         output.accept(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE);
-                        output.accept(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE);
                         output.accept(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE);
+                        output.accept(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE);
 
                         // Dark Prismarine Block Set
                         output.accept(ModBlocks.DARK_PRISMARINE_WALL);
@@ -424,6 +424,15 @@ public class ModCreativeModeTabs
             entries.insertAfter(ModBlocks.CALCITE_BRICKS, ModBlocks.CALCITE_BRICK_STAIRS);
             entries.insertAfter(ModBlocks.CALCITE_BRICK_STAIRS, ModBlocks.CALCITE_BRICK_SLAB);
             entries.insertAfter(ModBlocks.CALCITE_BRICK_SLAB, ModBlocks.CALCITE_BRICK_WALL);
+
+            entries.insertAfter(Blocks.COPPER_TRAPDOOR, ModBlocks.COPPER_PRESSURE_PLATE);
+            entries.insertAfter(Blocks.EXPOSED_COPPER_TRAPDOOR, ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE);
+            entries.insertAfter(Blocks.WEATHERED_COPPER_TRAPDOOR, ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE);
+            entries.insertAfter(Blocks.OXIDIZED_COPPER_TRAPDOOR, ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE);
+            entries.insertAfter(Blocks.WAXED_COPPER_TRAPDOOR, ModBlocks.WAXED_COPPER_PRESSURE_PLATE);
+            entries.insertAfter(Blocks.WAXED_EXPOSED_COPPER_TRAPDOOR, ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE);
+            entries.insertAfter(Blocks.WAXED_WEATHERED_COPPER_TRAPDOOR, ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE);
+            entries.insertAfter(Blocks.WAXED_OXIDIZED_COPPER_TRAPDOOR, ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE);
 
             entries.insertAfter(Blocks.DARK_PRISMARINE_SLAB, ModBlocks.DARK_PRISMARINE_WALL);
 
