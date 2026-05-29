@@ -52,6 +52,27 @@ public class ModModelProvider extends FabricModelProvider
                 .wall(ModBlocks.CALCITE_BRICK_WALL)
         ;
 
+        // Copper Block Set
+        blockModelGenerators.family(Blocks.COPPER_BLOCK)
+                .pressurePlate(ModBlocks.COPPER_PRESSURE_PLATE)
+                .pressurePlate(ModBlocks.WAXED_COPPER_PRESSURE_PLATE)
+        ;
+
+        blockModelGenerators.family(Blocks.EXPOSED_COPPER)
+                .pressurePlate(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE)
+                .pressurePlate(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE)
+        ;
+
+        blockModelGenerators.family(Blocks.OXIDIZED_COPPER)
+                .pressurePlate(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE)
+                .pressurePlate(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE)
+        ;
+
+        blockModelGenerators.family(Blocks.WEATHERED_COPPER)
+                .pressurePlate(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE)
+                .pressurePlate(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE)
+        ;
+
         // Dark Prismarine Block Set
         blockModelGenerators.family(Blocks.DARK_PRISMARINE)
                 .wall(ModBlocks.DARK_PRISMARINE_WALL)

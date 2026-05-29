@@ -307,6 +307,15 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider
             .add(ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE)
 
             .add(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE)
+
+            .add(ModBlocks.COPPER_PRESSURE_PLATE)
+            .add(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE)
+            .add(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE)
+            .add(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE)
+            .add(ModBlocks.WAXED_COPPER_PRESSURE_PLATE)
+            .add(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE)
+            .add(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE)
+            .add(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE)
         ;
 
         valueLookupBuilder(BlockTags.DOORS)

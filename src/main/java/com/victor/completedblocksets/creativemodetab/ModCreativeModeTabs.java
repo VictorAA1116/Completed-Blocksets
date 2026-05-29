@@ -45,11 +45,20 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.CALCITE_BRICK_SLAB);
                         output.accept(ModBlocks.CALCITE_BRICK_WALL);
 
+                        // Copper Block Set
+                        output.accept(ModBlocks.COPPER_PRESSURE_PLATE);
+                        output.accept(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE);
+                        output.accept(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE);
+                        output.accept(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE);
+                        output.accept(ModBlocks.WAXED_COPPER_PRESSURE_PLATE);
+                        output.accept(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE);
+                        output.accept(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE);
+                        output.accept(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE);
+
                         // Dark Prismarine Block Set
                         output.accept(ModBlocks.DARK_PRISMARINE_WALL);
 
                         // Deep Slate Block Set
-
                         output.accept(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
                         output.accept(ModBlocks.POLISHED_DEEPSLATE_BUTTON);
 

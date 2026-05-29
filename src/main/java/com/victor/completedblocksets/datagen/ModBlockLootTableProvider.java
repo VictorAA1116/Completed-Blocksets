@@ -40,6 +40,16 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         add(ModBlocks.CALCITE_BRICK_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.CALCITE_BRICK_WALL);
 
+        // Copper Block Set
+        dropSelf(ModBlocks.COPPER_PRESSURE_PLATE);
+        dropSelf(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE);
+        dropSelf(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE);
+        dropSelf(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE);
+        dropSelf(ModBlocks.WAXED_COPPER_PRESSURE_PLATE);
+        dropSelf(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE);
+        dropSelf(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE);
+        dropSelf(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE);
+
         // Dark Prismarine Block Set
         dropSelf(ModBlocks.DARK_PRISMARINE_WALL);
 
