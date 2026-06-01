@@ -3,12 +3,12 @@
 	"id": "completed-blocksets",
 	"version": "${version}",
 	"name": "Completed Blocksets",
-	"description": "A simple mod that completes the block sets of some of the vanilla blocks.",
+	"description": "A simple mod that adds in some of vanilla's seemingly missing blocks.",
 	"authors": [
 		"Victor Avila"
 	],
 	"contact": {
-		"portfolio": "https://victoraa1116.wixsite.com/portfolio"
+		"sources": "https://victoraa1116.wixsite.com/portfolio"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/completed-blocksets/icon.png",
