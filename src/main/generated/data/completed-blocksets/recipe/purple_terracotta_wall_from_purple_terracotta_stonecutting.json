@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:purple_terracotta",
-  "result": {
-    "id": "completed-blocksets:purple_terracotta_wall"
-  }
-}

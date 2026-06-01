@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "completed-blocksets:polished_end_stone",
-  "result": {
-    "id": "completed-blocksets:polished_end_stone_wall"
-  }
-}
