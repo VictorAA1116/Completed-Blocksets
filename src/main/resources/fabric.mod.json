@@ -3,13 +3,12 @@
 	"id": "completed-blocksets",
 	"version": "${version}",
 	"name": "Completed Blocksets",
-	"description": "A simple mod that completes the block sets of some of the vanilla blocks.",
+	"description": "A simple mod that adds in some of vanilla's seemingly missing blocks.",
 	"authors": [
 		"Victor Avila"
 	],
 	"contact": {
-		"website": "https://victoraa1116.wixsite.com/portfolio",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://victoraa1116.wixsite.com/portfolio"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/completed-blocksets/icon.png",
@@ -30,12 +29,5 @@
 		"minecraft": "~26.1.2",
 		"java": ">=25",
 		"fabric-api": "*"
-	},
-	"custom": {
-		"modmenu": {
-			"links": {
-				"modmenu.website" : "https://victoraa1116.wixsite.com/portfolio"
-			}
-		}
 	}
 }

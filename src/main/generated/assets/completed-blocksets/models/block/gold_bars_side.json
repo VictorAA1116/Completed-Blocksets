@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_bars_side",
-  "textures": {
-    "bars": "completed-blocksets:block/gold_bars",
-    "edge": "completed-blocksets:block/gold_bars"
-  }
-}

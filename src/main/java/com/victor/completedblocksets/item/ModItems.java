@@ -14,7 +14,7 @@ import java.util.function.Function;
 
 public class ModItems
 {
-    public static final Item EXAMPLE_ITEM = registerItem("example_item", Item::new);
+    //public static final Item EXAMPLE_ITEM = registerItem("example_item", Item::new);
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function)
     {
@@ -29,6 +29,6 @@ public class ModItems
     {
         CompletedBlocksets.LOGGER.info("Registering Mod Items for " + CompletedBlocksets.MOD_ID);
 
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> output.accept(EXAMPLE_ITEM));
+        //CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> output.accept(EXAMPLE_ITEM));
     }
 }

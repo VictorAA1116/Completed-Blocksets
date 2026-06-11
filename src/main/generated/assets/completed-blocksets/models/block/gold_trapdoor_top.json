@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_trapdoor_top",
-  "textures": {
-    "texture": "completed-blocksets:block/gold_trapdoor"
-  }
-}

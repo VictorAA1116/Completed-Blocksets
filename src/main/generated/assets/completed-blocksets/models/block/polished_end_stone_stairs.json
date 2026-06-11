@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "completed-blocksets:block/polished_end_stone",
-    "side": "completed-blocksets:block/polished_end_stone",
-    "top": "completed-blocksets:block/polished_end_stone"
-  }
-}
