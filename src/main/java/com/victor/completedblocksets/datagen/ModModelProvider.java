@@ -53,22 +53,22 @@ public class ModModelProvider extends FabricModelProvider
         ;
 
         // Copper Block Set
-        blockModelGenerators.family(Blocks.COPPER_BLOCK)
+        blockModelGenerators.family(Blocks.COPPER_BLOCK.weathering().unaffected())
                 .pressurePlate(ModBlocks.COPPER_PRESSURE_PLATE)
                 .pressurePlate(ModBlocks.WAXED_COPPER_PRESSURE_PLATE)
         ;
 
-        blockModelGenerators.family(Blocks.EXPOSED_COPPER)
+        blockModelGenerators.family(Blocks.COPPER_BLOCK.weathering().exposed())
                 .pressurePlate(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE)
                 .pressurePlate(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE)
         ;
 
-        blockModelGenerators.family(Blocks.OXIDIZED_COPPER)
+        blockModelGenerators.family(Blocks.COPPER_BLOCK.weathering().oxidized())
                 .pressurePlate(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE)
                 .pressurePlate(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE)
         ;
 
-        blockModelGenerators.family(Blocks.WEATHERED_COPPER)
+        blockModelGenerators.family(Blocks.COPPER_BLOCK.weathering().weathered())
                 .pressurePlate(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE)
                 .pressurePlate(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE)
         ;
@@ -222,112 +222,112 @@ public class ModModelProvider extends FabricModelProvider
         ;
 
         // White Concrete Block Set
-        blockModelGenerators.family(Blocks.WHITE_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.white())
                 .stairs(ModBlocks.WHITE_CONCRETE_STAIRS)
                 .slab(ModBlocks.WHITE_CONCRETE_SLAB)
                 .wall(ModBlocks.WHITE_CONCRETE_WALL)
         ;
 
         // Light Gray Concrete Block Set
-        blockModelGenerators.family(Blocks.LIGHT_GRAY_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.lightGray())
                 .stairs(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS)
                 .slab(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB)
                 .wall(ModBlocks.LIGHT_GRAY_CONCRETE_WALL)
         ;
 
         // Gray Concrete Block Set
-        blockModelGenerators.family(Blocks.GRAY_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.gray())
                 .stairs(ModBlocks.GRAY_CONCRETE_STAIRS)
                 .slab(ModBlocks.GRAY_CONCRETE_SLAB)
                 .wall(ModBlocks.GRAY_CONCRETE_WALL)
         ;
 
         // Black Concrete Block Set
-        blockModelGenerators.family(Blocks.BLACK_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.black())
                 .stairs(ModBlocks.BLACK_CONCRETE_STAIRS)
                 .slab(ModBlocks.BLACK_CONCRETE_SLAB)
                 .wall(ModBlocks.BLACK_CONCRETE_WALL)
         ;
 
         // Red Concrete Block Set
-        blockModelGenerators.family(Blocks.RED_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.red())
                 .stairs(ModBlocks.RED_CONCRETE_STAIRS)
                 .slab(ModBlocks.RED_CONCRETE_SLAB)
                 .wall(ModBlocks.RED_CONCRETE_WALL)
         ;
 
         // Orange Concrete Block Set
-        blockModelGenerators.family(Blocks.ORANGE_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.orange())
                 .stairs(ModBlocks.ORANGE_CONCRETE_STAIRS)
                 .slab(ModBlocks.ORANGE_CONCRETE_SLAB)
                 .wall(ModBlocks.ORANGE_CONCRETE_WALL)
         ;
 
         // Yellow Concrete Block Set
-        blockModelGenerators.family(Blocks.YELLOW_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.yellow())
                 .stairs(ModBlocks.YELLOW_CONCRETE_STAIRS)
                 .slab(ModBlocks.YELLOW_CONCRETE_SLAB)
                 .wall(ModBlocks.YELLOW_CONCRETE_WALL)
         ;
 
         // Lime Concrete Block Set
-        blockModelGenerators.family(Blocks.LIME_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.lime())
                 .stairs(ModBlocks.LIME_CONCRETE_STAIRS)
                 .slab(ModBlocks.LIME_CONCRETE_SLAB)
                 .wall(ModBlocks.LIME_CONCRETE_WALL)
         ;
 
         // Green Concrete Block Set
-        blockModelGenerators.family(Blocks.GREEN_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.green())
                 .stairs(ModBlocks.GREEN_CONCRETE_STAIRS)
                 .slab(ModBlocks.GREEN_CONCRETE_SLAB)
                 .wall(ModBlocks.GREEN_CONCRETE_WALL)
         ;
 
         // Cyan Concrete Block Set
-        blockModelGenerators.family(Blocks.CYAN_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.cyan())
                 .stairs(ModBlocks.CYAN_CONCRETE_STAIRS)
                 .slab(ModBlocks.CYAN_CONCRETE_SLAB)
                 .wall(ModBlocks.CYAN_CONCRETE_WALL)
         ;
 
         // Light Blue Concrete Block Set
-        blockModelGenerators.family(Blocks.LIGHT_BLUE_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.lightBlue())
                 .stairs(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS)
                 .slab(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB)
                 .wall(ModBlocks.LIGHT_BLUE_CONCRETE_WALL)
         ;
 
         // Blue Concrete Block Set
-        blockModelGenerators.family(Blocks.BLUE_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.blue())
                 .stairs(ModBlocks.BLUE_CONCRETE_STAIRS)
                 .slab(ModBlocks.BLUE_CONCRETE_SLAB)
                 .wall(ModBlocks.BLUE_CONCRETE_WALL)
         ;
 
         // Purple Concrete Block Set
-        blockModelGenerators.family(Blocks.PURPLE_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.purple())
                 .stairs(ModBlocks.PURPLE_CONCRETE_STAIRS)
                 .slab(ModBlocks.PURPLE_CONCRETE_SLAB)
                 .wall(ModBlocks.PURPLE_CONCRETE_WALL)
         ;
 
         // Magenta Concrete Block Set
-        blockModelGenerators.family(Blocks.MAGENTA_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.magenta())
                 .stairs(ModBlocks.MAGENTA_CONCRETE_STAIRS)
                 .slab(ModBlocks.MAGENTA_CONCRETE_SLAB)
                 .wall(ModBlocks.MAGENTA_CONCRETE_WALL)
         ;
 
         // Pink Concrete Block Set
-        blockModelGenerators.family(Blocks.PINK_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.pink())
                 .stairs(ModBlocks.PINK_CONCRETE_STAIRS)
                 .slab(ModBlocks.PINK_CONCRETE_SLAB)
                 .wall(ModBlocks.PINK_CONCRETE_WALL)
         ;
 
         // Brown Concrete Block Set
-        blockModelGenerators.family(Blocks.BROWN_CONCRETE)
+        blockModelGenerators.family(Blocks.CONCRETE.brown())
                 .stairs(ModBlocks.BROWN_CONCRETE_STAIRS)
                 .slab(ModBlocks.BROWN_CONCRETE_SLAB)
                 .wall(ModBlocks.BROWN_CONCRETE_WALL)
@@ -341,224 +341,224 @@ public class ModModelProvider extends FabricModelProvider
         ;
 
         // White Terracotta Block Set
-        blockModelGenerators.family(Blocks.WHITE_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.white())
                 .stairs(ModBlocks.WHITE_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.WHITE_TERRACOTTA_SLAB)
                 .wall(ModBlocks.WHITE_TERRACOTTA_WALL)
         ;
 
         // Light Gray Terracotta Block Set
-        blockModelGenerators.family(Blocks.LIGHT_GRAY_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.lightGray())
                 .stairs(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB)
                 .wall(ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL)
         ;
 
         // Gray Terracotta Block Set
-        blockModelGenerators.family(Blocks.GRAY_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.gray())
                 .stairs(ModBlocks.GRAY_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.GRAY_TERRACOTTA_SLAB)
                 .wall(ModBlocks.GRAY_TERRACOTTA_WALL)
         ;
 
         // Black Terracotta Block Set
-        blockModelGenerators.family(Blocks.BLACK_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.black())
                 .stairs(ModBlocks.BLACK_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.BLACK_TERRACOTTA_SLAB)
                 .wall(ModBlocks.BLACK_TERRACOTTA_WALL)
         ;
 
         // Red Terracotta Block Set
-        blockModelGenerators.family(Blocks.RED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.red())
                 .stairs(ModBlocks.RED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.RED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.RED_TERRACOTTA_WALL)
         ;
 
         // Orange Terracotta Block Set
-        blockModelGenerators.family(Blocks.ORANGE_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.orange())
                 .stairs(ModBlocks.ORANGE_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.ORANGE_TERRACOTTA_SLAB)
                 .wall(ModBlocks.ORANGE_TERRACOTTA_WALL)
         ;
 
         // Yellow Terracotta Block Set
-        blockModelGenerators.family(Blocks.YELLOW_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.yellow())
                 .stairs(ModBlocks.YELLOW_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.YELLOW_TERRACOTTA_SLAB)
                 .wall(ModBlocks.YELLOW_TERRACOTTA_WALL)
         ;
 
         // Lime Terracotta Block Set
-        blockModelGenerators.family(Blocks.LIME_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.lime())
                 .stairs(ModBlocks.LIME_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.LIME_TERRACOTTA_SLAB)
                 .wall(ModBlocks.LIME_TERRACOTTA_WALL)
         ;
 
         // Green Terracotta Block Set
-        blockModelGenerators.family(Blocks.GREEN_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.green())
                 .stairs(ModBlocks.GREEN_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.GREEN_TERRACOTTA_SLAB)
                 .wall(ModBlocks.GREEN_TERRACOTTA_WALL)
         ;
 
         // Cyan Terracotta Block Set
-        blockModelGenerators.family(Blocks.CYAN_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.cyan())
                 .stairs(ModBlocks.CYAN_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.CYAN_TERRACOTTA_SLAB)
                 .wall(ModBlocks.CYAN_TERRACOTTA_WALL)
         ;
 
         // Light Blue Terracotta Block Set
-        blockModelGenerators.family(Blocks.LIGHT_BLUE_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.lightBlue())
                 .stairs(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB)
                 .wall(ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL)
         ;
 
         // Blue Terracotta Block Set
-        blockModelGenerators.family(Blocks.BLUE_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.blue())
                 .stairs(ModBlocks.BLUE_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.BLUE_TERRACOTTA_SLAB)
                 .wall(ModBlocks.BLUE_TERRACOTTA_WALL)
         ;
 
         // Purple Terracotta Block Set
-        blockModelGenerators.family(Blocks.PURPLE_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.purple())
                 .stairs(ModBlocks.PURPLE_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.PURPLE_TERRACOTTA_SLAB)
                 .wall(ModBlocks.PURPLE_TERRACOTTA_WALL)
         ;
 
         // Magenta Terracotta Block Set
-        blockModelGenerators.family(Blocks.MAGENTA_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.magenta())
                 .stairs(ModBlocks.MAGENTA_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.MAGENTA_TERRACOTTA_SLAB)
                 .wall(ModBlocks.MAGENTA_TERRACOTTA_WALL)
         ;
 
         // Pink Terracotta Block Set
-        blockModelGenerators.family(Blocks.PINK_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.pink())
                 .stairs(ModBlocks.PINK_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.PINK_TERRACOTTA_SLAB)
                 .wall(ModBlocks.PINK_TERRACOTTA_WALL)
         ;
 
         // Brown Terracotta Block Set
-        blockModelGenerators.family(Blocks.BROWN_TERRACOTTA)
+        blockModelGenerators.family(Blocks.DYED_TERRACOTTA.brown())
                 .stairs(ModBlocks.BROWN_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.BROWN_TERRACOTTA_SLAB)
                 .wall(ModBlocks.BROWN_TERRACOTTA_WALL)
         ;
 
         // White Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.WHITE_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.white())
                 .stairs(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Light Gray Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.lightGray())
                 .stairs(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Gray Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.GRAY_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.gray())
                 .stairs(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Black Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.BLACK_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.black())
                 .stairs(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Red Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.RED_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.red())
                 .stairs(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.RED_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Orange Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.ORANGE_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.orange())
                 .stairs(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Yellow Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.YELLOW_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.yellow())
                 .stairs(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Lime Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.LIME_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.lime())
                 .stairs(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.LIME_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Green Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.GREEN_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.green())
                 .stairs(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Cyan Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.CYAN_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.cyan())
                 .stairs(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Light Blue Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.lightBlue())
                 .stairs(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Blue Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.BLUE_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.blue())
                 .stairs(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Purple Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.PURPLE_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.purple())
                 .stairs(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Magenta Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.MAGENTA_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.magenta())
                 .stairs(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Pink Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.PINK_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.pink())
                 .stairs(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL)
         ;
 
         // Brown Glazed Terracotta Block Set
-        blockModelGenerators.family(Blocks.BROWN_GLAZED_TERRACOTTA)
+        blockModelGenerators.family(Blocks.GLAZED_TERRACOTTA.brown())
                 .stairs(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS)
                 .slab(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB)
                 .wall(ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL)

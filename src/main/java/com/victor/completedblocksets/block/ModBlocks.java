@@ -190,7 +190,7 @@ public class ModBlocks
 
     public static final Block COPPER_PRESSURE_PLATE = registerBlock("copper_pressure_plate",
             properties -> new WeatheringCopperPressurePlateBlock(BlockSetType.COPPER, WeatheringCopper.WeatherState.UNAFFECTED, properties
-                    .mapColor(Blocks.COPPER_BLOCK.defaultMapColor())
+                    .mapColor(Blocks.COPPER_BLOCK.weathering().unaffected().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
@@ -202,7 +202,7 @@ public class ModBlocks
 
     public static final Block EXPOSED_COPPER_PRESSURE_PLATE = registerBlock("exposed_copper_pressure_plate",
             properties -> new WeatheringCopperPressurePlateBlock(BlockSetType.COPPER, WeatheringCopper.WeatherState.EXPOSED, properties
-                    .mapColor(Blocks.EXPOSED_COPPER.defaultMapColor())
+                    .mapColor(Blocks.COPPER_BLOCK.weathering().exposed().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
@@ -214,7 +214,7 @@ public class ModBlocks
 
     public static final Block WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("weathered_copper_pressure_plate",
             properties -> new WeatheringCopperPressurePlateBlock(BlockSetType.COPPER, WeatheringCopper.WeatherState.WEATHERED, properties
-                    .mapColor(Blocks.WEATHERED_COPPER.defaultMapColor())
+                    .mapColor(Blocks.COPPER_BLOCK.weathering().weathered().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
@@ -226,7 +226,7 @@ public class ModBlocks
 
     public static final Block OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("oxidized_copper_pressure_plate",
             properties -> new WeatheringCopperPressurePlateBlock(BlockSetType.COPPER, WeatheringCopper.WeatherState.OXIDIZED, properties
-                    .mapColor(Blocks.OXIDIZED_COPPER.defaultMapColor())
+                    .mapColor(Blocks.COPPER_BLOCK.weathering().oxidized().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
@@ -238,7 +238,7 @@ public class ModBlocks
 
     public static final Block WAXED_COPPER_PRESSURE_PLATE = registerBlock("waxed_copper_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.COPPER, properties
-                    .mapColor(Blocks.COPPER_BLOCK.defaultMapColor())
+                    .mapColor(Blocks.COPPER_BLOCK.waxed().unaffected().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
@@ -249,7 +249,7 @@ public class ModBlocks
 
     public static final Block WAXED_EXPOSED_COPPER_PRESSURE_PLATE = registerBlock("waxed_exposed_copper_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.COPPER, properties
-                    .mapColor(Blocks.EXPOSED_COPPER.defaultMapColor())
+                    .mapColor(Blocks.COPPER_BLOCK.waxed().exposed().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
@@ -260,7 +260,7 @@ public class ModBlocks
 
     public static final Block WAXED_WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("waxed_weathered_copper_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.COPPER, properties
-                    .mapColor(Blocks.WEATHERED_COPPER.defaultMapColor())
+                    .mapColor(Blocks.COPPER_BLOCK.waxed().weathered().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
@@ -271,7 +271,7 @@ public class ModBlocks
 
     public static final Block WAXED_OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("waxed_oxidized_copper_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.COPPER, properties
-                    .mapColor(Blocks.OXIDIZED_COPPER.defaultMapColor())
+                    .mapColor(Blocks.COPPER_BLOCK.waxed().oxidized().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
                     .pushReaction(PushReaction.DESTROY)
@@ -901,7 +901,7 @@ public class ModBlocks
     // White Concrete Block Set
     //
     public static final Block WHITE_CONCRETE_STAIRS = registerBlock("white_concrete_stairs",
-            properties -> new StairBlock(Blocks.WHITE_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.white().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -934,7 +934,7 @@ public class ModBlocks
     // Light Gray Concrete Block Set
     //
     public static final Block LIGHT_GRAY_CONCRETE_STAIRS = registerBlock("light_gray_concrete_stairs",
-            properties -> new StairBlock(Blocks.LIGHT_GRAY_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.lightGray().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -967,7 +967,7 @@ public class ModBlocks
     // Gray Concrete Block Set
     //
     public static final Block GRAY_CONCRETE_STAIRS = registerBlock("gray_concrete_stairs",
-            properties -> new StairBlock(Blocks.GRAY_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.gray().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1000,7 +1000,7 @@ public class ModBlocks
     // Black Concrete Block Set
     //
     public static final Block BLACK_CONCRETE_STAIRS = registerBlock("black_concrete_stairs",
-            properties -> new StairBlock(Blocks.BLACK_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.black().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1033,7 +1033,7 @@ public class ModBlocks
     // Red Concrete Block Set
     //
     public static final Block RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
-            properties -> new StairBlock(Blocks.RED_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.red().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1066,7 +1066,7 @@ public class ModBlocks
     // Orange Concrete Block Set
     //
     public static final Block ORANGE_CONCRETE_STAIRS = registerBlock("orange_concrete_stairs",
-            properties -> new StairBlock(Blocks.ORANGE_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.orange().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1099,7 +1099,7 @@ public class ModBlocks
     // Yellow Concrete Block Set
     //
     public static final Block YELLOW_CONCRETE_STAIRS = registerBlock("yellow_concrete_stairs",
-            properties -> new StairBlock(Blocks.YELLOW_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.yellow().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1132,7 +1132,7 @@ public class ModBlocks
     // Lime Concrete Block Set
     //
     public static final Block LIME_CONCRETE_STAIRS = registerBlock("lime_concrete_stairs",
-            properties -> new StairBlock(Blocks.LIME_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.lime().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1165,7 +1165,7 @@ public class ModBlocks
     // Green Concrete Block Set
     //
     public static final Block GREEN_CONCRETE_STAIRS = registerBlock("green_concrete_stairs",
-            properties -> new StairBlock(Blocks.GREEN_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.green().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1198,7 +1198,7 @@ public class ModBlocks
     // Cyan Concrete Block Set
     //
     public static final Block CYAN_CONCRETE_STAIRS = registerBlock("cyan_concrete_stairs",
-            properties -> new StairBlock(Blocks.CYAN_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.cyan().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1231,7 +1231,7 @@ public class ModBlocks
     // Light Blue Concrete Block Set
     //
     public static final Block LIGHT_BLUE_CONCRETE_STAIRS = registerBlock("light_blue_concrete_stairs",
-            properties -> new StairBlock(Blocks.LIGHT_BLUE_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.lightBlue().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1264,7 +1264,7 @@ public class ModBlocks
     // Blue Concrete Block Set
     //
     public static final Block BLUE_CONCRETE_STAIRS = registerBlock("blue_concrete_stairs",
-            properties -> new StairBlock(Blocks.BLUE_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.blue().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1297,7 +1297,7 @@ public class ModBlocks
     // Purple Concrete Block Set
     //
     public static final Block PURPLE_CONCRETE_STAIRS = registerBlock("purple_concrete_stairs",
-            properties -> new StairBlock(Blocks.PURPLE_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.purple().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1330,7 +1330,7 @@ public class ModBlocks
     // Magenta Concrete Block Set
     //
     public static final Block MAGENTA_CONCRETE_STAIRS = registerBlock("magenta_concrete_stairs",
-            properties -> new StairBlock(Blocks.MAGENTA_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.magenta().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1363,7 +1363,7 @@ public class ModBlocks
     // Pink Concrete Block Set
     //
     public static final Block PINK_CONCRETE_STAIRS = registerBlock("pink_concrete_stairs",
-            properties -> new StairBlock(Blocks.PINK_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.pink().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1396,7 +1396,7 @@ public class ModBlocks
     // Brown Concrete Block Set
     //
     public static final Block BROWN_CONCRETE_STAIRS = registerBlock("brown_concrete_stairs",
-            properties -> new StairBlock(Blocks.BROWN_CONCRETE.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.CONCRETE.brown().defaultBlockState(), properties
                     .strength(1.8f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1462,7 +1462,7 @@ public class ModBlocks
     // White Terracotta Block Set
     //
     public static final Block WHITE_TERRACOTTA_STAIRS = registerBlock("white_terracotta_stairs",
-            properties -> new StairBlock(Blocks.WHITE_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.white().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1495,7 +1495,7 @@ public class ModBlocks
     // Light Gray Terracotta Block Set
     //
     public static final Block LIGHT_GRAY_TERRACOTTA_STAIRS = registerBlock("light_gray_terracotta_stairs",
-            properties -> new StairBlock(Blocks.LIGHT_GRAY_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.lightGray().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1528,7 +1528,7 @@ public class ModBlocks
     // Gray Terracotta Block Set
     //
     public static final Block GRAY_TERRACOTTA_STAIRS = registerBlock("gray_terracotta_stairs",
-            properties -> new StairBlock(Blocks.GRAY_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.gray().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1561,7 +1561,7 @@ public class ModBlocks
     // Black Terracotta Block Set
     //
     public static final Block BLACK_TERRACOTTA_STAIRS = registerBlock("black_terracotta_stairs",
-            properties -> new StairBlock(Blocks.BLACK_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.black().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1594,7 +1594,7 @@ public class ModBlocks
     // Red Terracotta Block Set
     //
     public static final Block RED_TERRACOTTA_STAIRS = registerBlock("red_terracotta_stairs",
-            properties -> new StairBlock(Blocks.RED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.red().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1627,7 +1627,7 @@ public class ModBlocks
     // Orange Terracotta Block Set
     //
     public static final Block ORANGE_TERRACOTTA_STAIRS = registerBlock("orange_terracotta_stairs",
-            properties -> new StairBlock(Blocks.ORANGE_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.orange().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1660,7 +1660,7 @@ public class ModBlocks
     // Yellow Terracotta Block Set
     //
     public static final Block YELLOW_TERRACOTTA_STAIRS = registerBlock("yellow_terracotta_stairs",
-            properties -> new StairBlock(Blocks.YELLOW_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.yellow().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1693,7 +1693,7 @@ public class ModBlocks
     // Lime Terracotta Block Set
     //
     public static final Block LIME_TERRACOTTA_STAIRS = registerBlock("lime_terracotta_stairs",
-            properties -> new StairBlock(Blocks.LIME_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.lime().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1726,7 +1726,7 @@ public class ModBlocks
     // Green Terracotta Block Set
     //
     public static final Block GREEN_TERRACOTTA_STAIRS = registerBlock("green_terracotta_stairs",
-            properties -> new StairBlock(Blocks.GREEN_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.green().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1759,7 +1759,7 @@ public class ModBlocks
     // Cyan Terracotta Block Set
     //
     public static final Block CYAN_TERRACOTTA_STAIRS = registerBlock("cyan_terracotta_stairs",
-            properties -> new StairBlock(Blocks.CYAN_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.cyan().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1792,7 +1792,7 @@ public class ModBlocks
     // Light Blue Terracotta Block Set
     //
     public static final Block LIGHT_BLUE_TERRACOTTA_STAIRS = registerBlock("light_blue_terracotta_stairs",
-            properties -> new StairBlock(Blocks.LIGHT_BLUE_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.lightBlue().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1825,7 +1825,7 @@ public class ModBlocks
     // Blue Terracotta Block Set
     //
     public static final Block BLUE_TERRACOTTA_STAIRS = registerBlock("blue_terracotta_stairs",
-            properties -> new StairBlock(Blocks.BLUE_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.blue().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1858,7 +1858,7 @@ public class ModBlocks
     // Purple Terracotta Block Set
     //
     public static final Block PURPLE_TERRACOTTA_STAIRS = registerBlock("purple_terracotta_stairs",
-            properties -> new StairBlock(Blocks.PURPLE_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.purple().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1891,7 +1891,7 @@ public class ModBlocks
     // Magenta Terracotta Block Set
     //
     public static final Block MAGENTA_TERRACOTTA_STAIRS = registerBlock("magenta_terracotta_stairs",
-            properties -> new StairBlock(Blocks.MAGENTA_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.magenta().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1924,7 +1924,7 @@ public class ModBlocks
     // Pink Terracotta Block Set
     //
     public static final Block PINK_TERRACOTTA_STAIRS = registerBlock("pink_terracotta_stairs",
-            properties -> new StairBlock(Blocks.PINK_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.pink().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1957,7 +1957,7 @@ public class ModBlocks
     // Brown Terracotta Block Set
     //
     public static final Block BROWN_TERRACOTTA_STAIRS = registerBlock("brown_terracotta_stairs",
-            properties -> new StairBlock(Blocks.BROWN_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.DYED_TERRACOTTA.brown().defaultBlockState(), properties
                     .strength(1.25f, 4.2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -1990,7 +1990,7 @@ public class ModBlocks
     // White Glazed Terracotta Block Set
     //
     public static final Block WHITE_GLAZED_TERRACOTTA_STAIRS = registerBlock("white_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.WHITE_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.white().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2026,7 +2026,7 @@ public class ModBlocks
     // Light Gray Glazed Terracotta Block Set
     //
     public static final Block LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS = registerBlock("light_gray_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.lightGray().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2062,7 +2062,7 @@ public class ModBlocks
     // Gray Glazed Terracotta Block Set
     //
     public static final Block GRAY_GLAZED_TERRACOTTA_STAIRS = registerBlock("gray_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.GRAY_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.gray().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2098,7 +2098,7 @@ public class ModBlocks
     // Black Glazed Terracotta Block Set
     //
     public static final Block BLACK_GLAZED_TERRACOTTA_STAIRS = registerBlock("black_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.BLACK_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.black().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2134,7 +2134,7 @@ public class ModBlocks
     // Red Glazed Terracotta Block Set
     //
     public static final Block RED_GLAZED_TERRACOTTA_STAIRS = registerBlock("red_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.RED_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.red().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2170,7 +2170,7 @@ public class ModBlocks
     // Orange Glazed Terracotta Block Set
     //
     public static final Block ORANGE_GLAZED_TERRACOTTA_STAIRS = registerBlock("orange_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.ORANGE_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.orange().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2206,7 +2206,7 @@ public class ModBlocks
     // Yellow Glazed Terracotta Block Set
     //
     public static final Block YELLOW_GLAZED_TERRACOTTA_STAIRS = registerBlock("yellow_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.YELLOW_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.yellow().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2242,7 +2242,7 @@ public class ModBlocks
     // Lime Glazed Terracotta Block Set
     //
     public static final Block LIME_GLAZED_TERRACOTTA_STAIRS = registerBlock("lime_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.LIME_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.lime().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2278,7 +2278,7 @@ public class ModBlocks
     // Green Glazed Terracotta Block Set
     //
     public static final Block GREEN_GLAZED_TERRACOTTA_STAIRS = registerBlock("green_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.GREEN_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.green().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2314,7 +2314,7 @@ public class ModBlocks
     // Cyan Glazed Terracotta Block Set
     //
     public static final Block CYAN_GLAZED_TERRACOTTA_STAIRS = registerBlock("cyan_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.CYAN_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.cyan().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2350,7 +2350,7 @@ public class ModBlocks
     // Light Blue Glazed Terracotta Block Set
     //
     public static final Block LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS = registerBlock("light_blue_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.lightBlue().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2386,7 +2386,7 @@ public class ModBlocks
     // Blue Terracotta Block Set
     //
     public static final Block BLUE_GLAZED_TERRACOTTA_STAIRS = registerBlock("blue_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.BLUE_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.blue().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2423,7 +2423,7 @@ public class ModBlocks
     //
 
     public static final Block PURPLE_GLAZED_TERRACOTTA_STAIRS = registerBlock("purple_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.PURPLE_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.purple().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2459,7 +2459,7 @@ public class ModBlocks
     // Magenta Glazed Terracotta Block Set
     //
     public static final Block MAGENTA_GLAZED_TERRACOTTA_STAIRS = registerBlock("magenta_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.MAGENTA_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.magenta().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2495,7 +2495,7 @@ public class ModBlocks
     // Pink Glazed Terracotta Block Set
     //
     public static final Block PINK_GLAZED_TERRACOTTA_STAIRS = registerBlock("pink_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.PINK_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.pink().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -2531,7 +2531,7 @@ public class ModBlocks
     // Brown Glazed Terracotta Block Set
     //
     public static final Block BROWN_GLAZED_TERRACOTTA_STAIRS = registerBlock("brown_glazed_terracotta_stairs",
-            properties -> new StairBlock(Blocks.BROWN_GLAZED_TERRACOTTA.defaultBlockState(), properties
+            properties -> new StairBlock(Blocks.GLAZED_TERRACOTTA.brown().defaultBlockState(), properties
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
