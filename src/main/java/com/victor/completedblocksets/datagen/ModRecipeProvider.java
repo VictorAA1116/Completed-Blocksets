@@ -220,6 +220,15 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_ANDESITE_WALL, Blocks.POLISHED_ANDESITE);
                 stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_ANDESITE_WALL, Blocks.ANDESITE);
 
+                // Polished Cinnabar Block Set
+                pressurePlate(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE, Blocks.POLISHED_CINNABAR);
+
+                buttonBuilder(ModBlocks.POLISHED_CINNABAR_BUTTON, Ingredient.of(Blocks.POLISHED_CINNABAR))
+                        .unlockedBy(getHasName(Blocks.POLISHED_CINNABAR), has(Blocks.POLISHED_CINNABAR))
+                        .group("polished_cinnabar")
+                        .save(output);
+                ;
+
                 // Polished Diorite Block Set
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_DIORITE_WALL, Blocks.POLISHED_DIORITE);
 
@@ -285,6 +294,15 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
                 stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_GRANITE_WALL, Blocks.POLISHED_GRANITE);
                 stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_GRANITE_WALL, Blocks.GRANITE);
+
+                // Polished Sulfur Block Set
+                pressurePlate(ModBlocks.POLISHED_SULFUR_PRESSURE_PLATE, Blocks.POLISHED_SULFUR);
+
+                buttonBuilder(ModBlocks.POLISHED_SULFUR_BUTTON, Ingredient.of(Blocks.POLISHED_SULFUR))
+                        .unlockedBy(getHasName(Blocks.POLISHED_SULFUR), has(Blocks.POLISHED_SULFUR))
+                        .group("polished_sulfur")
+                        .save(output)
+                ;
 
                 // Prismarine Bricks Block Set
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PRISMARINE_BRICK_WALL, Blocks.PRISMARINE_BRICKS);

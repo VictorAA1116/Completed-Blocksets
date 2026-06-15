@@ -546,6 +546,30 @@ public class ModBlocks
             )
     );
 
+
+    //
+    // Polished Cinnabar Block Set
+    //
+
+    public static final Block POLISHED_CINNABAR_PRESSURE_PLATE = registerBlock("polished_cinnabar_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.STONE, properties
+                    .mapColor(MapColor.COLOR_RED)
+                    .sound(SoundType.CINNABAR)
+                    .strength(0.5f)
+                    .pushReaction(PushReaction.DESTROY)
+                    .forceSolidOn()
+                    .noCollision()
+                    .randomTicks()
+            )
+    );
+
+    public static final Block POLISHED_CINNABAR_BUTTON = registerBlock("polished_cinnabar_button",
+            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
+                    .strength(3f)
+                    .sound(SoundType.CINNABAR)
+            )
+    );
+
     //
     // Polished Diorite Block Set
     //
@@ -607,6 +631,29 @@ public class ModBlocks
             properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
                     .strength(3f)
                     .sound(SoundType.STONE)
+            )
+    );
+
+    //
+    // Polished Sulfur
+    //
+
+    public static final Block POLISHED_SULFUR_PRESSURE_PLATE = registerBlock("polished_sulfur_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.STONE, properties
+                    .mapColor(MapColor.COLOR_YELLOW)
+                    .sound(SoundType.SULFUR)
+                    .strength(0.5f)
+                    .pushReaction(PushReaction.DESTROY)
+                    .forceSolidOn()
+                    .noCollision()
+                    .randomTicks()
+            )
+    );
+
+    public static final Block POLISHED_SULFUR_BUTTON = registerBlock("polished_sulfur_button",
+            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
+                    .strength(3f)
+                    .sound(SoundType.SULFUR)
             )
     );
 

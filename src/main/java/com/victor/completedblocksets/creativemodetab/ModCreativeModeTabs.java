@@ -88,6 +88,10 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
                         output.accept(ModBlocks.POLISHED_ANDESITE_BUTTON);
 
+                        // Polished Cinnabar Block Set
+                        output.accept(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE);
+                        output.accept(ModBlocks.POLISHED_CINNABAR_BUTTON);
+
                         // Polished Diorite Block Set
                         output.accept(ModBlocks.POLISHED_DIORITE_WALL);
                         output.accept(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
@@ -105,6 +109,10 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.POLISHED_GRANITE_WALL);
                         output.accept(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
                         output.accept(ModBlocks.POLISHED_GRANITE_BUTTON);
+
+                        // Polished Sulfur Block Set
+                        output.accept(ModBlocks.POLISHED_SULFUR_PRESSURE_PLATE);
+                        output.accept(ModBlocks.POLISHED_SULFUR_BUTTON);
 
                         // Prismarine Bricks Block Set
                         output.accept(ModBlocks.PRISMARINE_BRICK_WALL);
@@ -460,6 +468,9 @@ public class ModCreativeModeTabs
             entries.insertAfter(ModBlocks.POLISHED_ANDESITE_WALL, ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
             entries.insertAfter(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE, ModBlocks.POLISHED_ANDESITE_BUTTON);
 
+            entries.insertAfter(Blocks.POLISHED_CINNABAR_WALL, ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE);
+            entries.insertAfter(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE, ModBlocks.POLISHED_CINNABAR_BUTTON);
+
             entries.insertAfter(Blocks.POLISHED_DIORITE_SLAB, ModBlocks.POLISHED_DIORITE_WALL);
             entries.insertAfter(ModBlocks.POLISHED_DIORITE_WALL, ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
             entries.insertAfter(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE, ModBlocks.POLISHED_DIORITE_BUTTON);
@@ -474,6 +485,9 @@ public class ModCreativeModeTabs
             entries.insertAfter(Blocks.POLISHED_GRANITE_SLAB, ModBlocks.POLISHED_GRANITE_WALL);
             entries.insertAfter(ModBlocks.POLISHED_GRANITE_WALL, ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
             entries.insertAfter(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE, ModBlocks.POLISHED_GRANITE_BUTTON);
+
+            entries.insertAfter(Blocks.POLISHED_SULFUR_WALL, ModBlocks.POLISHED_SULFUR_PRESSURE_PLATE);
+            entries.insertAfter(ModBlocks.POLISHED_SULFUR_PRESSURE_PLATE, ModBlocks.POLISHED_SULFUR_BUTTON);
 
             entries.insertAfter(Blocks.PRISMARINE_BRICK_SLAB, ModBlocks.PRISMARINE_BRICK_WALL);
 

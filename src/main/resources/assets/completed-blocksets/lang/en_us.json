@@ -74,6 +74,9 @@
   "block.completed-blocksets.polished_andesite_pressure_plate": "Polished Andesite Pressure Plate",
   "block.completed-blocksets.polished_andesite_button": "Polished Andesite Button",
 
+  "block.completed-blocksets.polished_cinnabar_pressure_plate": "Polished Cinnabar Pressure Plate",
+  "block.completed-blocksets.polished_cinnabar_button": "Polished Cinnabar Button",
+
   "block.completed-blocksets.polished_diorite_wall": "Polished Diorite Wall",
   "block.completed-blocksets.polished_diorite_pressure_plate": "Polished Diorite Pressure Plate",
   "block.completed-blocksets.polished_diorite_button": "Polished Diorite Button",
@@ -81,6 +84,9 @@
   "block.completed-blocksets.polished_granite_wall": "Polished Granite Wall",
   "block.completed-blocksets.polished_granite_pressure_plate": "Polished Granite Pressure Plate",
   "block.completed-blocksets.polished_granite_button": "Polished Granite Button",
+
+  "block.completed-blocksets.polished_sulfur_pressure_plate": "Polished Sulfur Pressure Plate",
+  "block.completed-blocksets.polished_sulfur_button": "Polished Sulfur Button",
 
   "block.completed-blocksets.quartz_wall": "Quartz Wall",
   "block.completed-blocksets.smooth_quartz_wall": "Smooth Quartz Wall",

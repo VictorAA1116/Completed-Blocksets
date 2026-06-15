@@ -285,6 +285,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
 
             .add(ModBlocks.POLISHED_CALCITE_BUTTON.builtInRegistryHolder().key())
 
+            .add(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE.builtInRegistryHolder().key())
+
             .add(ModBlocks.POLISHED_DIORITE_BUTTON.builtInRegistryHolder().key())
 
             .add(ModBlocks.POLISHED_DEEPSLATE_BUTTON.builtInRegistryHolder().key())
@@ -292,6 +294,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
             .add(ModBlocks.POLISHED_END_STONE_BUTTON.builtInRegistryHolder().key())
 
             .add(ModBlocks.POLISHED_GRANITE_BUTTON.builtInRegistryHolder().key())
+
+            .add(ModBlocks.POLISHED_SULFUR_BUTTON.builtInRegistryHolder().key())
         ;
 
         builder(BlockTags.PRESSURE_PLATES)
@@ -300,6 +304,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
 
             .add(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE.builtInRegistryHolder().key())
 
+            .add(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE.builtInRegistryHolder().key())
+
             .add(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE.builtInRegistryHolder().key())
 
             .add(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE.builtInRegistryHolder().key())
@@ -307,6 +313,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
             .add(ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE.builtInRegistryHolder().key())
 
             .add(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE.builtInRegistryHolder().key())
+
+            .add(ModBlocks.POLISHED_SULFUR_PRESSURE_PLATE.builtInRegistryHolder().key())
 
             .add(ModBlocks.COPPER_PRESSURE_PLATE.builtInRegistryHolder().key())
             .add(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE.builtInRegistryHolder().key())

@@ -119,6 +119,12 @@ public class ModModelProvider extends FabricModelProvider
                 .button(ModBlocks.POLISHED_ANDESITE_BUTTON)
         ;
 
+        // Polished Cinnabar Block Set
+        blockModelGenerators.family(Blocks.POLISHED_CINNABAR)
+                .pressurePlate(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_CINNABAR_BUTTON)
+        ;
+
         // Polished Diorite Block Set
         blockModelGenerators.family(Blocks.POLISHED_DIORITE)
                 .wall(ModBlocks.POLISHED_DIORITE_WALL)
@@ -140,6 +146,12 @@ public class ModModelProvider extends FabricModelProvider
                 .wall(ModBlocks.POLISHED_GRANITE_WALL)
                 .pressurePlate(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE)
                 .button(ModBlocks.POLISHED_GRANITE_BUTTON)
+        ;
+
+        // Polished Sulfur Block Set
+        blockModelGenerators.family(Blocks.POLISHED_SULFUR)
+                .pressurePlate(ModBlocks.POLISHED_SULFUR_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_SULFUR_BUTTON)
         ;
 
         // Prismarine Bricks Block Set

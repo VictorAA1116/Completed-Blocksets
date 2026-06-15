@@ -83,6 +83,10 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
         dropSelf(ModBlocks.POLISHED_ANDESITE_BUTTON);
 
+        // Polished Cinnabar Block Set
+        dropSelf(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE);
+        dropSelf(ModBlocks.POLISHED_CINNABAR_BUTTON);
+
         // Polished Diorite Block Set
         dropSelf(ModBlocks.POLISHED_DIORITE_WALL);
         dropSelf(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
@@ -100,6 +104,10 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.POLISHED_GRANITE_WALL);
         dropSelf(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
         dropSelf(ModBlocks.POLISHED_GRANITE_BUTTON);
+
+        // Polished Sulfur Block Set
+        dropSelf(ModBlocks.POLISHED_SULFUR_PRESSURE_PLATE);
+        dropSelf(ModBlocks.POLISHED_SULFUR_BUTTON);
 
         // Prismarine Bricks Block Set
         dropSelf(ModBlocks.PRISMARINE_BRICK_WALL);
