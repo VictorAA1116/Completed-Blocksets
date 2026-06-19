@@ -2,6 +2,11 @@
   "block.completed-blocksets.amethyst_stairs": "Amethyst Stairs",
   "block.completed-blocksets.amethyst_slab": "Amethyst Slab",
 
+  "block.completed-blocksets.andesite_bricks": "Andesite Bricks",
+  "block.completed-blocksets.andesite_brick_stairs": "Andesite Brick Stairs",
+  "block.completed-blocksets.andesite_brick_slab": "Andesite Brick Slab",
+  "block.completed-blocksets.andesite_brick_wall": "Andesite Brick Wall",
+
   "block.completed-blocksets.calcite_stairs": "Calcite Stairs",
   "block.completed-blocksets.calcite_slab": "Calcite Slab",
   "block.completed-blocksets.calcite_wall": "Calcite Wall",
@@ -26,6 +31,16 @@
   "block.completed-blocksets.waxed_exposed_copper_pressure_plate": "Waxed Exposed Copper Pressure Plate",
   "block.completed-blocksets.waxed_weathered_copper_pressure_plate": "Waxed Weathered Copper Pressure Plate",
   "block.completed-blocksets.waxed_oxidized_copper_pressure_plate": "Waxed Oxidized Copper Pressure Plate",
+
+  "block.completed-blocksets.diorite_bricks": "Diorite Bricks",
+  "block.completed-blocksets.diorite_brick_stairs": "Diorite Brick Stairs",
+  "block.completed-blocksets.diorite_brick_slab": "Diorite Brick Slab",
+  "block.completed-blocksets.diorite_brick_wall": "Diorite Brick Wall",
+
+  "block.completed-blocksets.granite_bricks": "Granite Bricks",
+  "block.completed-blocksets.granite_brick_stairs": "Granite Brick Stairs",
+  "block.completed-blocksets.granite_brick_slab": "Granite Brick Slab",
+  "block.completed-blocksets.granite_brick_wall": "Granite Brick Wall",
 
   "block.completed-blocksets.smooth_basalt_stairs": "Smooth Basalt Stairs",
   "block.completed-blocksets.smooth_basalt_slab": "Smooth Basalt Slab",

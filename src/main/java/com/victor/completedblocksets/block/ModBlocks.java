@@ -44,6 +44,50 @@ public class ModBlocks
     );
 
     //
+    // Andesite Bricks Block Set
+    //
+
+    public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks",
+            properties -> new Block(properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block ANDESITE_BRICK_STAIRS = registerBlock("andesite_brick_stairs",
+            properties -> new StairBlock(ModBlocks.ANDESITE_BRICKS.defaultBlockState(), properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block ANDESITE_BRICK_SLAB = registerBlock("andesite_brick_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block ANDESITE_BRICK_WALL = registerBlock("andesite_brick_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
     // Calcite Block Set
     //
 
@@ -281,6 +325,50 @@ public class ModBlocks
     );
 
     //
+    // Diorite Bricks Block Set
+    //
+
+    public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks",
+            properties -> new Block(properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block DIORITE_BRICK_STAIRS = registerBlock("diorite_brick_stairs",
+            properties -> new StairBlock(ModBlocks.DIORITE_BRICKS.defaultBlockState(), properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block DIORITE_BRICK_SLAB = registerBlock("diorite_brick_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block DIORITE_BRICK_WALL = registerBlock("diorite_brick_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.QUARTZ)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    //
     // Dark Prismarine Block Set
     //
 
@@ -386,6 +474,50 @@ public class ModBlocks
                     .requiresCorrectToolForDrops()
                     .noOcclusion()
                     .forceSolidOn()
+            )
+    );
+
+    //
+    // Granite Bricks Block Set
+    //
+
+    public static final Block GRANITE_BRICKS = registerBlock("granite_bricks",
+            properties -> new Block(properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.DIRT)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block GRANITE_BRICK_STAIRS = registerBlock("granite_brick_stairs",
+            properties -> new StairBlock(ModBlocks.GRANITE_BRICKS.defaultBlockState(), properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.DIRT)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block GRANITE_BRICK_SLAB = registerBlock("granite_brick_slab",
+            properties -> new SlabBlock(properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.DIRT)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block GRANITE_BRICK_WALL = registerBlock("granite_brick_wall",
+            properties -> new WallBlock(properties
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .mapColor(MapColor.DIRT)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
             )
     );
 

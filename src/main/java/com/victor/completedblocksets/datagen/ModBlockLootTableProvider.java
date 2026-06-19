@@ -21,6 +21,12 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.AMETHYST_STAIRS);
         add(ModBlocks.AMETHYST_SLAB, this::createSlabItemTable);
 
+        // Andesite Bricks Block Set
+        dropSelf(ModBlocks.ANDESITE_BRICKS);
+        dropSelf(ModBlocks.ANDESITE_BRICK_STAIRS);
+        add(ModBlocks.ANDESITE_BRICK_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.ANDESITE_BRICK_WALL);
+
         // Calcite Block Set
         dropSelf(ModBlocks.CALCITE_STAIRS);
         add(ModBlocks.CALCITE_SLAB, this::createSlabItemTable);
@@ -57,6 +63,12 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
         dropSelf(ModBlocks.POLISHED_DEEPSLATE_BUTTON);
 
+        // Diorite Bricks Block Set
+        dropSelf(ModBlocks.DIORITE_BRICKS);
+        dropSelf(ModBlocks.DIORITE_BRICK_STAIRS);
+        add(ModBlocks.DIORITE_BRICK_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.DIORITE_BRICK_WALL);
+
         // End Stone Block Set
         dropSelf(ModBlocks.END_STONE_STAIRS);
         add(ModBlocks.END_STONE_SLAB, this::createSlabItemTable);
@@ -67,6 +79,12 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider
         dropSelf(ModBlocks.GOLD_TRAPDOOR);
         dropSelf(ModBlocks.GOLD_BARS);
         dropSelf(ModBlocks.GOLD_CHAIN);
+
+        // Granite Bricks Block Set
+        dropSelf(ModBlocks.GRANITE_BRICKS);
+        dropSelf(ModBlocks.GRANITE_BRICK_STAIRS);
+        add(ModBlocks.GRANITE_BRICK_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.GRANITE_BRICK_WALL);
 
         // Netherrack Block Set
         dropSelf(ModBlocks.NETHERRACK_STAIRS);

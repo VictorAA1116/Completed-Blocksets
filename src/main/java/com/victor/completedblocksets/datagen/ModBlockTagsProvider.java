@@ -22,15 +22,21 @@ public class ModBlockTagsProvider extends BlockTagsProvider
 
             .add(ModBlocks.AMETHYST_STAIRS.builtInRegistryHolder().key())
 
+            .add(ModBlocks.ANDESITE_BRICK_STAIRS.builtInRegistryHolder().key())
+
             .add(ModBlocks.CALCITE_STAIRS.builtInRegistryHolder().key())
 
             .add(ModBlocks.POLISHED_CALCITE_STAIRS.builtInRegistryHolder().key())
 
             .add(ModBlocks.CALCITE_BRICK_STAIRS.builtInRegistryHolder().key())
 
+            .add(ModBlocks.DIORITE_BRICK_STAIRS.builtInRegistryHolder().key())
+
             .add(ModBlocks.END_STONE_STAIRS.builtInRegistryHolder().key())
 
             .add(ModBlocks.NETHERRACK_STAIRS.builtInRegistryHolder().key())
+
+            .add(ModBlocks.GRANITE_BRICK_STAIRS.builtInRegistryHolder().key())
 
             .add(ModBlocks.PACKED_MUD_STAIRS.builtInRegistryHolder().key())
 
@@ -105,13 +111,19 @@ public class ModBlockTagsProvider extends BlockTagsProvider
 
             .add(ModBlocks.AMETHYST_SLAB.builtInRegistryHolder().key())
 
+            .add(ModBlocks.ANDESITE_BRICK_SLAB.builtInRegistryHolder().key())
+
             .add(ModBlocks.CALCITE_SLAB.builtInRegistryHolder().key())
 
             .add(ModBlocks.POLISHED_CALCITE_SLAB.builtInRegistryHolder().key())
 
             .add(ModBlocks.CALCITE_BRICK_SLAB.builtInRegistryHolder().key())
 
+            .add(ModBlocks.DIORITE_BRICK_SLAB.builtInRegistryHolder().key())
+
             .add(ModBlocks.END_STONE_SLAB.builtInRegistryHolder().key())
+
+            .add(ModBlocks.GRANITE_BRICK_SLAB.builtInRegistryHolder().key())
 
             .add(ModBlocks.NETHERRACK_SLAB.builtInRegistryHolder().key())
 
@@ -180,6 +192,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
 
         builder(BlockTags.WALLS)
 
+            .add(ModBlocks.ANDESITE_BRICK_WALL.builtInRegistryHolder().key())
+
             .add(ModBlocks.CALCITE_WALL.builtInRegistryHolder().key())
 
             .add(ModBlocks.POLISHED_CALCITE_WALL.builtInRegistryHolder().key())
@@ -188,7 +202,11 @@ public class ModBlockTagsProvider extends BlockTagsProvider
 
             .add(ModBlocks.DARK_PRISMARINE_WALL.builtInRegistryHolder().key())
 
+            .add(ModBlocks.DIORITE_BRICK_WALL.builtInRegistryHolder().key())
+
             .add(ModBlocks.END_STONE_WALL.builtInRegistryHolder().key())
+
+            .add(ModBlocks.GRANITE_BRICK_WALL.builtInRegistryHolder().key())
 
             .add(ModBlocks.NETHERRACK_WALL.builtInRegistryHolder().key())
 
@@ -350,6 +368,11 @@ public class ModBlockTagsProvider extends BlockTagsProvider
             .add(ModBlocks.AMETHYST_STAIRS.builtInRegistryHolder().key())
             .add(ModBlocks.AMETHYST_SLAB.builtInRegistryHolder().key())
 
+            .add(ModBlocks.ANDESITE_BRICKS.builtInRegistryHolder().key())
+            .add(ModBlocks.ANDESITE_BRICK_STAIRS.builtInRegistryHolder().key())
+            .add(ModBlocks.ANDESITE_BRICK_SLAB.builtInRegistryHolder().key())
+            .add(ModBlocks.ANDESITE_BRICK_WALL.builtInRegistryHolder().key())
+
             .add(ModBlocks.CALCITE_STAIRS.builtInRegistryHolder().key())
             .add(ModBlocks.CALCITE_SLAB.builtInRegistryHolder().key())
             .add(ModBlocks.CALCITE_WALL.builtInRegistryHolder().key())
@@ -366,6 +389,11 @@ public class ModBlockTagsProvider extends BlockTagsProvider
 
             .add(ModBlocks.DARK_PRISMARINE_WALL.builtInRegistryHolder().key())
 
+            .add(ModBlocks.DIORITE_BRICKS.builtInRegistryHolder().key())
+            .add(ModBlocks.DIORITE_BRICK_STAIRS.builtInRegistryHolder().key())
+            .add(ModBlocks.DIORITE_BRICK_SLAB.builtInRegistryHolder().key())
+            .add(ModBlocks.DIORITE_BRICK_WALL.builtInRegistryHolder().key())
+
             .add(ModBlocks.END_STONE_STAIRS.builtInRegistryHolder().key())
             .add(ModBlocks.END_STONE_SLAB.builtInRegistryHolder().key())
             .add(ModBlocks.END_STONE_WALL.builtInRegistryHolder().key())
@@ -374,6 +402,11 @@ public class ModBlockTagsProvider extends BlockTagsProvider
             .add(ModBlocks.GOLD_TRAPDOOR.builtInRegistryHolder().key())
             .add(ModBlocks.GOLD_BARS.builtInRegistryHolder().key())
             .add(ModBlocks.GOLD_CHAIN.builtInRegistryHolder().key())
+
+            .add(ModBlocks.GRANITE_BRICKS.builtInRegistryHolder().key())
+            .add(ModBlocks.GRANITE_BRICK_STAIRS.builtInRegistryHolder().key())
+            .add(ModBlocks.GRANITE_BRICK_SLAB.builtInRegistryHolder().key())
+            .add(ModBlocks.GRANITE_BRICK_WALL.builtInRegistryHolder().key())
 
             .add(ModBlocks.NETHERRACK_STAIRS.builtInRegistryHolder().key())
             .add(ModBlocks.NETHERRACK_SLAB.builtInRegistryHolder().key())

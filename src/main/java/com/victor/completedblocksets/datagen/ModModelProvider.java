@@ -31,6 +31,13 @@ public class ModModelProvider extends FabricModelProvider
                 .slab(ModBlocks.AMETHYST_SLAB)
         ;
 
+        // Andesite Bricks Block Set
+        blockModelGenerators.family(ModBlocks.ANDESITE_BRICKS)
+            .stairs(ModBlocks.ANDESITE_BRICK_STAIRS)
+            .slab(ModBlocks.ANDESITE_BRICK_SLAB)
+            .wall(ModBlocks.ANDESITE_BRICK_WALL)
+        ;
+
         // Calcite Block Set
         blockModelGenerators.family(Blocks.CALCITE)
                 .stairs(ModBlocks.CALCITE_STAIRS)
@@ -84,6 +91,13 @@ public class ModModelProvider extends FabricModelProvider
                 .button(ModBlocks.POLISHED_DEEPSLATE_BUTTON)
         ;
 
+        // Diorite Bricks Block Set
+        blockModelGenerators.family(ModBlocks.DIORITE_BRICKS)
+                .stairs(ModBlocks.DIORITE_BRICK_STAIRS)
+                .slab(ModBlocks.DIORITE_BRICK_SLAB)
+                .wall(ModBlocks.DIORITE_BRICK_WALL)
+        ;
+
         // End Stone Block Set
         blockModelGenerators.family(Blocks.END_STONE)
                 .stairs(ModBlocks.END_STONE_STAIRS)
@@ -97,6 +111,13 @@ public class ModModelProvider extends FabricModelProvider
         blockModelGenerators.createBarsAndItem(ModBlocks.GOLD_BARS);
         blockModelGenerators.registerSimpleFlatItemModel(ModBlocks.GOLD_CHAIN, "_item");
         blockModelGenerators.createAxisAlignedPillarBlockCustomModel(ModBlocks.GOLD_CHAIN, BlockModelGenerators.plainVariant(TexturedModel.CHAIN.create(ModBlocks.GOLD_CHAIN, blockModelGenerators.modelOutput)));
+
+        // Granite Bricks Block Set
+        blockModelGenerators.family(ModBlocks.GRANITE_BRICKS)
+                .stairs(ModBlocks.GRANITE_BRICK_STAIRS)
+                .slab(ModBlocks.GRANITE_BRICK_SLAB)
+                .wall(ModBlocks.GRANITE_BRICK_WALL)
+        ;
 
         // Netherrack Block Set
         blockModelGenerators.family(Blocks.NETHERRACK)
