@@ -904,6 +904,70 @@ public class ModBlocks
     );
 
     //
+    // Polished Resin Block Set
+    //
+
+    public static final Block POLISHED_RESIN = registerBlock("polished_resin",
+            properties -> new Block(properties
+                    .strength(0.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.RESIN_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+
+    public static final Block POLISHED_RESIN_STAIRS = registerBlock("polished_resin_stairs",
+            properties -> new StairBlock(ModBlocks.POLISHED_RESIN.defaultBlockState(), properties
+                    .strength(0.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.RESIN_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block POLISHED_RESIN_SLAB = registerBlock("polished_resin_slab",
+            properties -> new SlabBlock(properties
+                    .strength(0.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.RESIN_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block POLISHED_RESIN_WALL = registerBlock("polished_resin_wall",
+            properties -> new WallBlock(properties
+                    .strength(0.8f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.RESIN_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+            )
+    );
+
+    public static final Block POLISHED_RESIN_PRESSURE_PLATE = registerBlock("polished_resin_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.STONE, properties
+                    .mapColor(MapColor.TERRACOTTA_ORANGE)
+                    .sound(SoundType.RESIN_BRICKS)
+                    .strength(0.5f)
+                    .pushReaction(PushReaction.DESTROY)
+                    .forceSolidOn()
+                    .noCollision()
+                    .randomTicks()
+            )
+    );
+
+    public static final Block POLISHED_RESIN_BUTTON = registerBlock("polished_resin_button",
+            properties -> new ButtonBlock(BlockSetType.STONE, 20, properties
+                    .strength(3f)
+                    .sound(SoundType.RESIN_BRICKS)
+            )
+    );
+
+    //
     // Smooth Sandstone Block Set
     //
 

@@ -46,6 +46,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
 
             .add(ModBlocks.RESIN_STAIRS.builtInRegistryHolder().key())
 
+            .add(ModBlocks.POLISHED_RESIN_STAIRS.builtInRegistryHolder().key())
+
             .add(ModBlocks.SMOOTH_BASALT_STAIRS.builtInRegistryHolder().key())
 
             .add(ModBlocks.SMOOTH_STONE_STAIRS.builtInRegistryHolder().key())
@@ -134,6 +136,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
             .add(ModBlocks.QUARTZ_BRICK_SLAB.builtInRegistryHolder().key())
 
             .add(ModBlocks.RESIN_SLAB.builtInRegistryHolder().key())
+
+            .add(ModBlocks.POLISHED_RESIN_SLAB.builtInRegistryHolder().key())
 
             .add(ModBlocks.SMOOTH_BASALT_SLAB.builtInRegistryHolder().key())
 
@@ -230,6 +234,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
 
             .add(ModBlocks.RESIN_WALL.builtInRegistryHolder().key())
 
+            .add(ModBlocks.POLISHED_RESIN_WALL.builtInRegistryHolder().key())
+
             .add(ModBlocks.SMOOTH_BASALT_WALL.builtInRegistryHolder().key())
 
             .add(ModBlocks.SMOOTH_QUARTZ_WALL.builtInRegistryHolder().key())
@@ -313,6 +319,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
 
             .add(ModBlocks.POLISHED_GRANITE_BUTTON.builtInRegistryHolder().key())
 
+            .add(ModBlocks.POLISHED_RESIN_BUTTON.builtInRegistryHolder().key())
+
             .add(ModBlocks.POLISHED_SULFUR_BUTTON.builtInRegistryHolder().key())
         ;
 
@@ -331,6 +339,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
             .add(ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE.builtInRegistryHolder().key())
 
             .add(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE.builtInRegistryHolder().key())
+
+            .add(ModBlocks.POLISHED_RESIN_PRESSURE_PLATE.builtInRegistryHolder().key())
 
             .add(ModBlocks.POLISHED_SULFUR_PRESSURE_PLATE.builtInRegistryHolder().key())
 
@@ -432,6 +442,11 @@ public class ModBlockTagsProvider extends BlockTagsProvider
             .add(ModBlocks.QUARTZ_BRICK_STAIRS.builtInRegistryHolder().key())
             .add(ModBlocks.QUARTZ_BRICK_SLAB.builtInRegistryHolder().key())
             .add(ModBlocks.QUARTZ_BRICK_WALL.builtInRegistryHolder().key())
+
+            .add(ModBlocks.POLISHED_RESIN.builtInRegistryHolder().key())
+            .add(ModBlocks.POLISHED_RESIN_STAIRS.builtInRegistryHolder().key())
+            .add(ModBlocks.POLISHED_RESIN_SLAB.builtInRegistryHolder().key())
+            .add(ModBlocks.POLISHED_RESIN_WALL.builtInRegistryHolder().key())
 
             .add(ModBlocks.SMOOTH_BASALT_STAIRS.builtInRegistryHolder().key())
             .add(ModBlocks.SMOOTH_BASALT_SLAB.builtInRegistryHolder().key())

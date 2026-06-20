@@ -204,6 +204,15 @@ public class ModModelProvider extends FabricModelProvider
                 .wall(ModBlocks.RESIN_WALL)
         ;
 
+        // Polished Resin Block Set
+        blockModelGenerators.family(ModBlocks.POLISHED_RESIN)
+                .stairs(ModBlocks.POLISHED_RESIN_STAIRS)
+                .slab(ModBlocks.POLISHED_RESIN_SLAB)
+                .wall(ModBlocks.POLISHED_RESIN_WALL)
+                .pressurePlate(ModBlocks.POLISHED_RESIN_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_RESIN_BUTTON)
+        ;
+
         // Smooth Basalt Block Set
         blockModelGenerators.family(Blocks.SMOOTH_BASALT)
                 .stairs(ModBlocks.SMOOTH_BASALT_STAIRS)

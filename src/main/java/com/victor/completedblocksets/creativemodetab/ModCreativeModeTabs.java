@@ -151,6 +151,14 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.RESIN_SLAB);
                         output.accept(ModBlocks.RESIN_WALL);
 
+                        // Polished Resin Block Set
+                        output.accept(ModBlocks.POLISHED_RESIN);
+                        output.accept(ModBlocks.POLISHED_RESIN_STAIRS);
+                        output.accept(ModBlocks.POLISHED_RESIN_SLAB);
+                        output.accept(ModBlocks.POLISHED_RESIN_WALL);
+                        output.accept(ModBlocks.POLISHED_RESIN_PRESSURE_PLATE);
+                        output.accept(ModBlocks.POLISHED_RESIN_BUTTON);
+
                         // Smooth Basalt Block Set
                         output.accept(ModBlocks.SMOOTH_BASALT_STAIRS);
                         output.accept(ModBlocks.SMOOTH_BASALT_SLAB);
@@ -536,6 +544,13 @@ public class ModCreativeModeTabs
             entries.insertAfter(Blocks.RESIN_BLOCK, ModBlocks.RESIN_STAIRS);
             entries.insertAfter(ModBlocks.RESIN_STAIRS, ModBlocks.RESIN_SLAB);
             entries.insertAfter(ModBlocks.RESIN_SLAB, ModBlocks.RESIN_WALL);
+
+            entries.insertAfter(ModBlocks.RESIN_WALL, ModBlocks.POLISHED_RESIN);
+            entries.insertAfter(ModBlocks.POLISHED_RESIN, ModBlocks.POLISHED_RESIN_STAIRS);
+            entries.insertAfter(ModBlocks.POLISHED_RESIN_STAIRS, ModBlocks.POLISHED_RESIN_SLAB);
+            entries.insertAfter(ModBlocks.POLISHED_RESIN_SLAB, ModBlocks.POLISHED_RESIN_WALL);
+            entries.insertAfter(ModBlocks.POLISHED_RESIN_WALL, ModBlocks.POLISHED_RESIN_PRESSURE_PLATE);
+            entries.insertAfter(ModBlocks.POLISHED_RESIN_PRESSURE_PLATE, ModBlocks.POLISHED_RESIN_BUTTON);
 
             entries.insertAfter(Blocks.SMOOTH_BASALT, ModBlocks.SMOOTH_BASALT_STAIRS);
             entries.insertAfter(ModBlocks.SMOOTH_BASALT_STAIRS, ModBlocks.SMOOTH_BASALT_SLAB);

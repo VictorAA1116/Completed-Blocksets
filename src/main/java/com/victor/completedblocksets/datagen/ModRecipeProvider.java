@@ -45,7 +45,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
                 stairBuilder(ModBlocks.ANDESITE_BRICK_STAIRS, Ingredient.of(ModBlocks.ANDESITE_BRICKS))
                         .unlockedBy(getHasName(ModBlocks.ANDESITE_BRICKS), has(ModBlocks.ANDESITE_BRICKS))
-                        .group("andesite")
+                        .group("andesite_bricks")
                         .save(output)
                 ;
 
@@ -87,7 +87,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
                 stairBuilder(ModBlocks.POLISHED_CALCITE_STAIRS, Ingredient.of(ModBlocks.POLISHED_CALCITE))
                         .unlockedBy(getHasName(ModBlocks.POLISHED_CALCITE), has(ModBlocks.POLISHED_CALCITE))
-                        .group("calcite")
+                        .group("polished_calcite")
                         .save(output)
                 ;
 
@@ -99,7 +99,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
                 buttonBuilder(ModBlocks.POLISHED_CALCITE_BUTTON, Ingredient.of(ModBlocks.POLISHED_CALCITE))
                         .unlockedBy(getHasName(ModBlocks.POLISHED_CALCITE), has(ModBlocks.POLISHED_CALCITE))
-                        .group("calcite")
+                        .group("polished_calcite")
                         .save(output)
                 ;
 
@@ -117,7 +117,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
                 stairBuilder(ModBlocks.CALCITE_BRICK_STAIRS, Ingredient.of(ModBlocks.CALCITE_BRICKS))
                         .unlockedBy(getHasName(ModBlocks.CALCITE_BRICKS), has(ModBlocks.CALCITE_BRICKS))
-                        .group("calcite")
+                        .group("calcite_bricks")
                         .save(output)
                 ;
 
@@ -161,7 +161,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
                 stairBuilder(ModBlocks.DIORITE_BRICK_STAIRS, Ingredient.of(ModBlocks.DIORITE_BRICKS))
                         .unlockedBy(getHasName(ModBlocks.DIORITE_BRICKS), has(ModBlocks.DIORITE_BRICKS))
-                        .group("diorite")
+                        .group("diorite_bricks")
                         .save(output)
                 ;
 
@@ -239,7 +239,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
                 stairBuilder(ModBlocks.GRANITE_BRICK_STAIRS, Ingredient.of(ModBlocks.GRANITE_BRICKS))
                         .unlockedBy(getHasName(ModBlocks.GRANITE_BRICKS), has(ModBlocks.GRANITE_BRICKS))
-                        .group("granite")
+                        .group("granite_bricks")
                         .save(output)
                 ;
 
@@ -329,7 +329,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
                 stairBuilder(ModBlocks.POLISHED_END_STONE_STAIRS, Ingredient.of(ModBlocks.POLISHED_END_STONE))
                         .unlockedBy(getHasName(ModBlocks.POLISHED_END_STONE), has(ModBlocks.POLISHED_END_STONE))
-                        .group("end_stone")
+                        .group("polished_end_stone")
                         .save(output)
                 ;
 
@@ -341,7 +341,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
                 buttonBuilder(ModBlocks.POLISHED_END_STONE_BUTTON, Ingredient.of(ModBlocks.POLISHED_END_STONE))
                         .unlockedBy(getHasName(ModBlocks.POLISHED_END_STONE), has(ModBlocks.POLISHED_END_STONE))
-                        .group("end_stone")
+                        .group("polished_end_stone")
                         .save(output)
                 ;
 
@@ -403,7 +403,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 // Quartz Bricks Block Set
                 stairBuilder(ModBlocks.QUARTZ_BRICK_STAIRS, Ingredient.of(Blocks.QUARTZ_BRICKS))
                         .unlockedBy(getHasName(Blocks.QUARTZ_BRICKS), has(Blocks.QUARTZ_BRICKS))
-                        .group("quartz")
+                        .group("quartz_bricks")
                         .save(output)
                 ;
 
@@ -429,6 +429,35 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RESIN_SLAB, Blocks.RESIN_BLOCK);
 
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RESIN_WALL, Blocks.RESIN_BLOCK);
+
+                // Polished Resin Block Set
+                smeltingResultFromBase(ModBlocks.POLISHED_RESIN, Blocks.RESIN_BLOCK);
+
+//                List<ItemLike> POLISHED_RESIN_ITEMS = List.of(ModBlocks.POLISHED_RESIN);
+//
+//                oreSmelting(POLISHED_RESIN_ITEMS, RecipeCategory.BUILDING_BLOCKS, CookingBookCategory.BLOCKS, Blocks.RESIN_BLOCK, 0.1f, 200, "resin");
+
+                stairBuilder(ModBlocks.POLISHED_RESIN_STAIRS, Ingredient.of(ModBlocks.POLISHED_RESIN))
+                        .unlockedBy(getHasName(ModBlocks.POLISHED_RESIN), has(ModBlocks.POLISHED_RESIN))
+                        .group("polished_resin")
+                        .save(output)
+                ;
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_RESIN_SLAB, ModBlocks.POLISHED_RESIN);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_RESIN_WALL, ModBlocks.POLISHED_RESIN);
+
+                buttonBuilder(ModBlocks.POLISHED_RESIN_BUTTON, Ingredient.of(ModBlocks.POLISHED_RESIN))
+                        .unlockedBy(getHasName(ModBlocks.POLISHED_RESIN), has(ModBlocks.POLISHED_RESIN))
+                        .group("polished_resin")
+                        .save(output)
+                ;
+
+                pressurePlate(ModBlocks.POLISHED_RESIN_PRESSURE_PLATE, ModBlocks.POLISHED_RESIN);
+
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_RESIN_STAIRS, ModBlocks.POLISHED_RESIN);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_RESIN_SLAB, ModBlocks.POLISHED_RESIN, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_RESIN_WALL, ModBlocks.POLISHED_RESIN);
 
                 // Smooth Basalt Block Set
                 stairBuilder(ModBlocks.SMOOTH_BASALT_STAIRS, Ingredient.of(Blocks.SMOOTH_BASALT))

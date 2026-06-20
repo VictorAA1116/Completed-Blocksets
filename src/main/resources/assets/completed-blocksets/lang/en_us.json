@@ -114,6 +114,13 @@
   "block.completed-blocksets.resin_slab": "Resin Slab",
   "block.completed-blocksets.resin_wall": "Resin Wall",
 
+  "block.completed-blocksets.polished_resin": "Polished Resin",
+  "block.completed-blocksets.polished_resin_stairs": "Polished Resin Stairs",
+  "block.completed-blocksets.polished_resin_slab": "Polished Resin Slab",
+  "block.completed-blocksets.polished_resin_wall": "Polished Resin Wall",
+  "block.completed-blocksets.polished_resin_pressure_plate": "Polished Resin Pressure Plate",
+  "block.completed-blocksets.polished_resin_button": "Polished Resin Button",
+
   "block.completed-blocksets.gold_trapdoor": "Gold Trapdoor",
   "block.completed-blocksets.gold_door": "Gold Door",
   "block.completed-blocksets.gold_bars": "Gold Bars",
