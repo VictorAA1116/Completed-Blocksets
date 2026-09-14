@@ -170,7 +170,7 @@ public class ModBlocks
                     .mapColor(MapColor.TERRACOTTA_WHITE)
                     .sound(SoundType.CALCITE)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
                     .randomTicks()
@@ -237,7 +237,7 @@ public class ModBlocks
                     .mapColor(Blocks.COPPER_BLOCK.weathering().unaffected().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
                     .randomTicks()
@@ -249,7 +249,7 @@ public class ModBlocks
                     .mapColor(Blocks.COPPER_BLOCK.weathering().exposed().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
                     .randomTicks()
@@ -261,7 +261,7 @@ public class ModBlocks
                     .mapColor(Blocks.COPPER_BLOCK.weathering().weathered().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
                     .randomTicks()
@@ -273,7 +273,7 @@ public class ModBlocks
                     .mapColor(Blocks.COPPER_BLOCK.weathering().oxidized().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
                     .randomTicks()
@@ -285,7 +285,7 @@ public class ModBlocks
                     .mapColor(Blocks.COPPER_BLOCK.waxed().unaffected().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
             )
@@ -296,7 +296,7 @@ public class ModBlocks
                     .mapColor(Blocks.COPPER_BLOCK.waxed().exposed().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
             )
@@ -307,7 +307,7 @@ public class ModBlocks
                     .mapColor(Blocks.COPPER_BLOCK.waxed().weathered().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
             )
@@ -318,7 +318,7 @@ public class ModBlocks
                     .mapColor(Blocks.COPPER_BLOCK.waxed().oxidized().defaultMapColor())
                     .sound(SoundType.COPPER)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
             )
@@ -391,7 +391,7 @@ public class ModBlocks
                     .mapColor(MapColor.DEEPSLATE)
                     .sound(SoundType.DEEPSLATE)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
             )
@@ -633,7 +633,7 @@ public class ModBlocks
                     .mapColor(MapColor.SAND)
                     .sound(SoundType.STONE)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
             )
@@ -665,7 +665,7 @@ public class ModBlocks
                     .mapColor(MapColor.STONE)
                     .sound(SoundType.STONE)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
             )
@@ -688,7 +688,7 @@ public class ModBlocks
                     .mapColor(MapColor.COLOR_RED)
                     .sound(SoundType.CINNABAR)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
                     .randomTicks()
@@ -721,7 +721,7 @@ public class ModBlocks
                     .mapColor(MapColor.QUARTZ)
                     .sound(SoundType.STONE)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
             )
@@ -753,7 +753,7 @@ public class ModBlocks
                     .mapColor(MapColor.DIRT)
                     .sound(SoundType.STONE)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
             )
@@ -775,7 +775,7 @@ public class ModBlocks
                     .mapColor(MapColor.COLOR_YELLOW)
                     .sound(SoundType.SULFUR)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
                     .randomTicks()
@@ -953,7 +953,7 @@ public class ModBlocks
                     .mapColor(MapColor.TERRACOTTA_ORANGE)
                     .sound(SoundType.RESIN_BRICKS)
                     .strength(0.5f)
-                    .pushReaction(PushReaction.DESTROY)
+                    .pushReaction(PushReaction.POPPED)
                     .forceSolidOn()
                     .noCollision()
                     .randomTicks()
@@ -1143,25 +1143,25 @@ public class ModBlocks
     //
     // White Concrete Block Set
     //
-    public static final Block WHITE_CONCRETE_STAIRS = registerBlock("white_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.white().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.WHITE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block WHITE_CONCRETE_SLAB = registerBlock("white_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.WHITE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block WHITE_CONCRETE_STAIRS = registerBlock("white_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.white().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.WHITE)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block WHITE_CONCRETE_SLAB = registerBlock("white_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.WHITE)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block WHITE_CONCRETE_WALL = registerBlock("white_concrete_wall",
             properties -> new WallBlock(properties
@@ -1176,25 +1176,25 @@ public class ModBlocks
     //
     // Light Gray Concrete Block Set
     //
-    public static final Block LIGHT_GRAY_CONCRETE_STAIRS = registerBlock("light_gray_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.lightGray().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.LIGHT_GRAY)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block LIGHT_GRAY_CONCRETE_SLAB = registerBlock("light_gray_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.LIGHT_GRAY)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block LIGHT_GRAY_CONCRETE_STAIRS = registerBlock("light_gray_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.lightGray().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.LIGHT_GRAY)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block LIGHT_GRAY_CONCRETE_SLAB = registerBlock("light_gray_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.LIGHT_GRAY)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block LIGHT_GRAY_CONCRETE_WALL = registerBlock("light_gray_concrete_wall",
             properties -> new WallBlock(properties
@@ -1209,25 +1209,25 @@ public class ModBlocks
     //
     // Gray Concrete Block Set
     //
-    public static final Block GRAY_CONCRETE_STAIRS = registerBlock("gray_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.gray().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.GRAY)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block GRAY_CONCRETE_SLAB = registerBlock("gray_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.GRAY)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block GRAY_CONCRETE_STAIRS = registerBlock("gray_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.gray().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.GRAY)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block GRAY_CONCRETE_SLAB = registerBlock("gray_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.GRAY)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block GRAY_CONCRETE_WALL = registerBlock("gray_concrete_wall",
             properties -> new WallBlock(properties
@@ -1242,25 +1242,25 @@ public class ModBlocks
     //
     // Black Concrete Block Set
     //
-    public static final Block BLACK_CONCRETE_STAIRS = registerBlock("black_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.black().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.BLACK)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block BLACK_CONCRETE_SLAB = registerBlock("black_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.BLACK)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block BLACK_CONCRETE_STAIRS = registerBlock("black_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.black().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.BLACK)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block BLACK_CONCRETE_SLAB = registerBlock("black_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.BLACK)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block BLACK_CONCRETE_WALL = registerBlock("black_concrete_wall",
             properties -> new WallBlock(properties
@@ -1275,25 +1275,25 @@ public class ModBlocks
     //
     // Red Concrete Block Set
     //
-    public static final Block RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.red().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.RED)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block RED_CONCRETE_SLAB = registerBlock("red_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.RED)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.red().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.RED)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block RED_CONCRETE_SLAB = registerBlock("red_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.RED)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block RED_CONCRETE_WALL = registerBlock("red_concrete_wall",
             properties -> new WallBlock(properties
@@ -1308,25 +1308,25 @@ public class ModBlocks
     //
     // Orange Concrete Block Set
     //
-    public static final Block ORANGE_CONCRETE_STAIRS = registerBlock("orange_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.orange().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.ORANGE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block ORANGE_CONCRETE_SLAB = registerBlock("orange_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.ORANGE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block ORANGE_CONCRETE_STAIRS = registerBlock("orange_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.orange().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.ORANGE)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block ORANGE_CONCRETE_SLAB = registerBlock("orange_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.ORANGE)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block ORANGE_CONCRETE_WALL = registerBlock("orange_concrete_wall",
             properties -> new WallBlock(properties
@@ -1341,25 +1341,25 @@ public class ModBlocks
     //
     // Yellow Concrete Block Set
     //
-    public static final Block YELLOW_CONCRETE_STAIRS = registerBlock("yellow_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.yellow().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.YELLOW)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block YELLOW_CONCRETE_SLAB = registerBlock("yellow_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.YELLOW)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block YELLOW_CONCRETE_STAIRS = registerBlock("yellow_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.yellow().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.YELLOW)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block YELLOW_CONCRETE_SLAB = registerBlock("yellow_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.YELLOW)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block YELLOW_CONCRETE_WALL = registerBlock("yellow_concrete_wall",
             properties -> new WallBlock(properties
@@ -1374,25 +1374,25 @@ public class ModBlocks
     //
     // Lime Concrete Block Set
     //
-    public static final Block LIME_CONCRETE_STAIRS = registerBlock("lime_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.lime().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.LIME)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block LIME_CONCRETE_SLAB = registerBlock("lime_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.LIME)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block LIME_CONCRETE_STAIRS = registerBlock("lime_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.lime().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.LIME)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block LIME_CONCRETE_SLAB = registerBlock("lime_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.LIME)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block LIME_CONCRETE_WALL = registerBlock("lime_concrete_wall",
             properties -> new WallBlock(properties
@@ -1407,25 +1407,25 @@ public class ModBlocks
     //
     // Green Concrete Block Set
     //
-    public static final Block GREEN_CONCRETE_STAIRS = registerBlock("green_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.green().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.GREEN)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block GREEN_CONCRETE_SLAB = registerBlock("green_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.GREEN)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block GREEN_CONCRETE_STAIRS = registerBlock("green_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.green().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.GREEN)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block GREEN_CONCRETE_SLAB = registerBlock("green_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.GREEN)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block GREEN_CONCRETE_WALL = registerBlock("green_concrete_wall",
             properties -> new WallBlock(properties
@@ -1440,25 +1440,25 @@ public class ModBlocks
     //
     // Cyan Concrete Block Set
     //
-    public static final Block CYAN_CONCRETE_STAIRS = registerBlock("cyan_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.cyan().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.CYAN)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block CYAN_CONCRETE_SLAB = registerBlock("cyan_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.CYAN)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block CYAN_CONCRETE_STAIRS = registerBlock("cyan_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.cyan().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.CYAN)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block CYAN_CONCRETE_SLAB = registerBlock("cyan_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.CYAN)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block CYAN_CONCRETE_WALL = registerBlock("cyan_concrete_wall",
             properties -> new WallBlock(properties
@@ -1473,25 +1473,25 @@ public class ModBlocks
     //
     // Light Blue Concrete Block Set
     //
-    public static final Block LIGHT_BLUE_CONCRETE_STAIRS = registerBlock("light_blue_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.lightBlue().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.LIGHT_BLUE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block LIGHT_BLUE_CONCRETE_SLAB = registerBlock("light_blue_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.LIGHT_BLUE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block LIGHT_BLUE_CONCRETE_STAIRS = registerBlock("light_blue_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.lightBlue().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.LIGHT_BLUE)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block LIGHT_BLUE_CONCRETE_SLAB = registerBlock("light_blue_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.LIGHT_BLUE)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block LIGHT_BLUE_CONCRETE_WALL = registerBlock("light_blue_concrete_wall",
             properties -> new WallBlock(properties
@@ -1506,25 +1506,25 @@ public class ModBlocks
     //
     // Blue Concrete Block Set
     //
-    public static final Block BLUE_CONCRETE_STAIRS = registerBlock("blue_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.blue().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.BLUE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block BLUE_CONCRETE_SLAB = registerBlock("blue_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.BLUE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block BLUE_CONCRETE_STAIRS = registerBlock("blue_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.blue().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.BLUE)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block BLUE_CONCRETE_SLAB = registerBlock("blue_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.BLUE)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block BLUE_CONCRETE_WALL = registerBlock("blue_concrete_wall",
             properties -> new WallBlock(properties
@@ -1539,25 +1539,25 @@ public class ModBlocks
     //
     // Purple Concrete Block Set
     //
-    public static final Block PURPLE_CONCRETE_STAIRS = registerBlock("purple_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.purple().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.PURPLE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block PURPLE_CONCRETE_SLAB = registerBlock("purple_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.PURPLE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block PURPLE_CONCRETE_STAIRS = registerBlock("purple_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.purple().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.PURPLE)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block PURPLE_CONCRETE_SLAB = registerBlock("purple_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.PURPLE)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block PURPLE_CONCRETE_WALL = registerBlock("purple_concrete_wall",
             properties -> new WallBlock(properties
@@ -1572,25 +1572,25 @@ public class ModBlocks
     //
     // Magenta Concrete Block Set
     //
-    public static final Block MAGENTA_CONCRETE_STAIRS = registerBlock("magenta_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.magenta().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.MAGENTA)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block MAGENTA_CONCRETE_SLAB = registerBlock("magenta_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.MAGENTA)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block MAGENTA_CONCRETE_STAIRS = registerBlock("magenta_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.magenta().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.MAGENTA)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block MAGENTA_CONCRETE_SLAB = registerBlock("magenta_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.MAGENTA)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block MAGENTA_CONCRETE_WALL = registerBlock("magenta_concrete_wall",
             properties -> new WallBlock(properties
@@ -1605,25 +1605,25 @@ public class ModBlocks
     //
     // Pink Concrete Block Set
     //
-    public static final Block PINK_CONCRETE_STAIRS = registerBlock("pink_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.pink().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.PINK)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block PINK_CONCRETE_SLAB = registerBlock("pink_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.PINK)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block PINK_CONCRETE_STAIRS = registerBlock("pink_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.pink().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.PINK)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block PINK_CONCRETE_SLAB = registerBlock("pink_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.PINK)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block PINK_CONCRETE_WALL = registerBlock("pink_concrete_wall",
             properties -> new WallBlock(properties
@@ -1638,25 +1638,25 @@ public class ModBlocks
     //
     // Brown Concrete Block Set
     //
-    public static final Block BROWN_CONCRETE_STAIRS = registerBlock("brown_concrete_stairs",
-            properties -> new StairBlock(Blocks.CONCRETE.brown().defaultBlockState(), properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.BROWN)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
-
-    public static final Block BROWN_CONCRETE_SLAB = registerBlock("brown_concrete_slab",
-            properties -> new SlabBlock(properties
-                    .strength(1.8f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)
-                    .mapColor(DyeColor.BROWN)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-            )
-    );
+//    public static final Block BROWN_CONCRETE_STAIRS = registerBlock("brown_concrete_stairs",
+//            properties -> new StairBlock(Blocks.CONCRETE.brown().defaultBlockState(), properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.BROWN)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
+//
+//    public static final Block BROWN_CONCRETE_SLAB = registerBlock("brown_concrete_slab",
+//            properties -> new SlabBlock(properties
+//                    .strength(1.8f)
+//                    .requiresCorrectToolForDrops()
+//                    .sound(SoundType.STONE)
+//                    .mapColor(DyeColor.BROWN)
+//                    .instrument(NoteBlockInstrument.BASEDRUM)
+//            )
+//    );
 
     public static final Block BROWN_CONCRETE_WALL = registerBlock("brown_concrete_wall",
             properties -> new WallBlock(properties
@@ -2239,7 +2239,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.WHITE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2250,7 +2250,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.WHITE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2261,7 +2261,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.WHITE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2275,7 +2275,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.LIGHT_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2286,7 +2286,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.LIGHT_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2297,7 +2297,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.LIGHT_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2311,7 +2311,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2322,7 +2322,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2333,7 +2333,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2347,7 +2347,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2358,7 +2358,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2369,7 +2369,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2383,7 +2383,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.RED)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2394,7 +2394,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.RED)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2405,7 +2405,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.RED)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2419,7 +2419,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.ORANGE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2430,7 +2430,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.ORANGE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2441,7 +2441,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.ORANGE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2455,7 +2455,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.YELLOW)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2466,7 +2466,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.YELLOW)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2477,7 +2477,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.YELLOW)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2491,7 +2491,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.LIME)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2502,7 +2502,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.LIME)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2513,7 +2513,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.LIME)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2527,7 +2527,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.GREEN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2538,7 +2538,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.GREEN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2549,7 +2549,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.GREEN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2563,7 +2563,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.CYAN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2574,7 +2574,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.CYAN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2585,7 +2585,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.CYAN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2599,7 +2599,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.LIGHT_BLUE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2610,7 +2610,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.LIGHT_BLUE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2621,7 +2621,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.LIGHT_BLUE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2635,7 +2635,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.BLUE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2646,7 +2646,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.BLUE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2657,7 +2657,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.BLUE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2672,7 +2672,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.PURPLE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2683,7 +2683,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.PURPLE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2694,7 +2694,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.PURPLE)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2708,7 +2708,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.MAGENTA)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2719,7 +2719,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.MAGENTA)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2730,7 +2730,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.MAGENTA)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2744,7 +2744,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.PINK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2755,7 +2755,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.PINK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2766,7 +2766,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.PINK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2780,7 +2780,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.BROWN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2791,7 +2791,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.BROWN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
@@ -2802,7 +2802,7 @@ public class ModBlocks
                     .sound(SoundType.STONE)
                     .mapColor(DyeColor.BROWN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
-                    .pushReaction(PushReaction.PUSH_ONLY)
+                    .pushReaction(PushReaction.PUSH)
             )
     );
 
