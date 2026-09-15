@@ -4,6 +4,7 @@ import com.victor.completedblocksets.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider.BlockTagsProvider;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.tags.BlockTags;
 
 import java.util.concurrent.CompletableFuture;
@@ -20,646 +21,646 @@ public class ModBlockTagsProvider extends BlockTagsProvider
     {
         builder(BlockTags.STAIRS)
 
-            .add(ModBlocks.AMETHYST_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.AMETHYST_STAIRS).orElseThrow())
 
-            .add(ModBlocks.ANDESITE_BRICK_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ANDESITE_BRICK_STAIRS).orElseThrow())
 
-            .add(ModBlocks.CALCITE_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_STAIRS).orElseThrow())
 
-            .add(ModBlocks.POLISHED_CALCITE_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CALCITE_STAIRS).orElseThrow())
 
-            .add(ModBlocks.CALCITE_BRICK_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_BRICK_STAIRS).orElseThrow())
 
-            .add(ModBlocks.DIORITE_BRICK_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.DIORITE_BRICK_STAIRS).orElseThrow())
 
-            .add(ModBlocks.END_STONE_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.END_STONE_STAIRS).orElseThrow())
 
-            .add(ModBlocks.NETHERRACK_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.NETHERRACK_STAIRS).orElseThrow())
 
-            .add(ModBlocks.GRANITE_BRICK_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRANITE_BRICK_STAIRS).orElseThrow())
 
-            .add(ModBlocks.PACKED_MUD_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PACKED_MUD_STAIRS).orElseThrow())
 
-            .add(ModBlocks.POLISHED_END_STONE_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_END_STONE_STAIRS).orElseThrow())
 
-            .add(ModBlocks.QUARTZ_BRICK_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.QUARTZ_BRICK_STAIRS).orElseThrow())
 
-            .add(ModBlocks.RESIN_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RESIN_STAIRS).orElseThrow())
 
-            .add(ModBlocks.POLISHED_RESIN_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_RESIN_STAIRS).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_BASALT_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_BASALT_STAIRS).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_STONE_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_STONE_STAIRS).orElseThrow())
 
-            .add(ModBlocks.CUT_SANDSTONE_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CUT_SANDSTONE_STAIRS).orElseThrow())
 
-            .add(ModBlocks.CUT_RED_SANDSTONE_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CUT_RED_SANDSTONE_STAIRS).orElseThrow())
 
-            .add(ModBlocks.WHITE_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_CONCRETE_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_CONCRETE_STAIRS).orElseThrow())
 
-            .add(ModBlocks.TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.WHITE_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_TERRACOTTA_STAIRS).orElseThrow())
 
-            .add(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
         ;
 
         builder(BlockTags.SLABS)
 
-            .add(ModBlocks.AMETHYST_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.AMETHYST_SLAB).orElseThrow())
 
-            .add(ModBlocks.ANDESITE_BRICK_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ANDESITE_BRICK_SLAB).orElseThrow())
 
-            .add(ModBlocks.CALCITE_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_SLAB).orElseThrow())
 
-            .add(ModBlocks.POLISHED_CALCITE_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CALCITE_SLAB).orElseThrow())
 
-            .add(ModBlocks.CALCITE_BRICK_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_BRICK_SLAB).orElseThrow())
 
-            .add(ModBlocks.DIORITE_BRICK_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.DIORITE_BRICK_SLAB).orElseThrow())
 
-            .add(ModBlocks.END_STONE_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.END_STONE_SLAB).orElseThrow())
 
-            .add(ModBlocks.GRANITE_BRICK_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRANITE_BRICK_SLAB).orElseThrow())
 
-            .add(ModBlocks.NETHERRACK_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.NETHERRACK_SLAB).orElseThrow())
 
-            .add(ModBlocks.PACKED_MUD_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PACKED_MUD_SLAB).orElseThrow())
 
-            .add(ModBlocks.POLISHED_END_STONE_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_END_STONE_SLAB).orElseThrow())
 
-            .add(ModBlocks.QUARTZ_BRICK_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.QUARTZ_BRICK_SLAB).orElseThrow())
 
-            .add(ModBlocks.RESIN_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RESIN_SLAB).orElseThrow())
 
-            .add(ModBlocks.POLISHED_RESIN_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_RESIN_SLAB).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_BASALT_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_BASALT_SLAB).orElseThrow())
 
-            .add(ModBlocks.WHITE_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_CONCRETE_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_CONCRETE_SLAB).orElseThrow())
 
-            .add(ModBlocks.TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.WHITE_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_TERRACOTTA_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_TERRACOTTA_SLAB).orElseThrow())
 
-            .add(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB).orElseThrow())
         ;
 
         builder(BlockTags.WALLS)
 
-            .add(ModBlocks.ANDESITE_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ANDESITE_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.CALCITE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_CALCITE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CALCITE_WALL).orElseThrow())
 
-            .add(ModBlocks.CALCITE_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.DARK_PRISMARINE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.DARK_PRISMARINE_WALL).orElseThrow())
 
-            .add(ModBlocks.DIORITE_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.DIORITE_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.END_STONE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.END_STONE_WALL).orElseThrow())
 
-            .add(ModBlocks.GRANITE_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRANITE_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.NETHERRACK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.NETHERRACK_WALL).orElseThrow())
 
-            .add(ModBlocks.PACKED_MUD_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PACKED_MUD_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_ANDESITE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_ANDESITE_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_DIORITE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_DIORITE_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_END_STONE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_END_STONE_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_GRANITE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_GRANITE_WALL).orElseThrow())
 
-            .add(ModBlocks.PRISMARINE_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PRISMARINE_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.PURPUR_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPUR_WALL).orElseThrow())
 
-            .add(ModBlocks.QUARTZ_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.QUARTZ_WALL).orElseThrow())
 
-            .add(ModBlocks.QUARTZ_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.QUARTZ_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.RESIN_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RESIN_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_RESIN_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_RESIN_WALL).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_BASALT_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_BASALT_WALL).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_QUARTZ_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_QUARTZ_WALL).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_SANDSTONE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_SANDSTONE_WALL).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_RED_SANDSTONE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_RED_SANDSTONE_WALL).orElseThrow())
 
-            .add(ModBlocks.CUT_SANDSTONE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CUT_SANDSTONE_WALL).orElseThrow())
 
-            .add(ModBlocks.CUT_RED_SANDSTONE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CUT_RED_SANDSTONE_WALL).orElseThrow())
 
-            .add(ModBlocks.STONE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.STONE_WALL).orElseThrow())
 
-            .add(ModBlocks.WHITE_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_CONCRETE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_CONCRETE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_CONCRETE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_CONCRETE_WALL).orElseThrow())
 
-            .add(ModBlocks.TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.WHITE_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_TERRACOTTA_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_TERRACOTTA_WALL).orElseThrow())
 
-            .add(ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL).orElseThrow())
         ;
 
         builder(BlockTags.BUTTONS)
 
-            .add(ModBlocks.POLISHED_ANDESITE_BUTTON.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_ANDESITE_BUTTON).orElseThrow())
 
-            .add(ModBlocks.POLISHED_CALCITE_BUTTON.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CALCITE_BUTTON).orElseThrow())
 
-            .add(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE).orElseThrow())
 
-            .add(ModBlocks.POLISHED_DIORITE_BUTTON.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_DIORITE_BUTTON).orElseThrow())
 
-            .add(ModBlocks.POLISHED_DEEPSLATE_BUTTON.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_DEEPSLATE_BUTTON).orElseThrow())
 
-            .add(ModBlocks.POLISHED_END_STONE_BUTTON.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_END_STONE_BUTTON).orElseThrow())
 
-            .add(ModBlocks.POLISHED_GRANITE_BUTTON.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_GRANITE_BUTTON).orElseThrow())
 
-            .add(ModBlocks.POLISHED_RESIN_BUTTON.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_RESIN_BUTTON).orElseThrow())
 
-            .add(ModBlocks.POLISHED_SULFUR_BUTTON.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_SULFUR_BUTTON).orElseThrow())
         ;
 
         builder(BlockTags.PRESSURE_PLATES)
 
-            .add(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE).orElseThrow())
 
-            .add(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CALCITE_PRESSURE_PLATE).orElseThrow())
 
-            .add(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CINNABAR_PRESSURE_PLATE).orElseThrow())
 
-            .add(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE).orElseThrow())
 
-            .add(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE).orElseThrow())
 
-            .add(ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_END_STONE_PRESSURE_PLATE).orElseThrow())
 
-            .add(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE).orElseThrow())
 
-            .add(ModBlocks.POLISHED_RESIN_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_RESIN_PRESSURE_PLATE).orElseThrow())
 
-            .add(ModBlocks.POLISHED_SULFUR_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_SULFUR_PRESSURE_PLATE).orElseThrow())
 
-            .add(ModBlocks.COPPER_PRESSURE_PLATE.builtInRegistryHolder().key())
-            .add(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE.builtInRegistryHolder().key())
-            .add(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE.builtInRegistryHolder().key())
-            .add(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE.builtInRegistryHolder().key())
-            .add(ModBlocks.WAXED_COPPER_PRESSURE_PLATE.builtInRegistryHolder().key())
-            .add(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE.builtInRegistryHolder().key())
-            .add(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE.builtInRegistryHolder().key())
-            .add(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.COPPER_PRESSURE_PLATE).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WAXED_COPPER_PRESSURE_PLATE).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE).orElseThrow())
         ;
 
         builder(BlockTags.DOORS)
 
-            .add(ModBlocks.GOLD_DOOR.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GOLD_DOOR).orElseThrow())
         ;
 
         builder(BlockTags.TRAPDOORS)
 
-            .add(ModBlocks.GOLD_TRAPDOOR.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GOLD_TRAPDOOR).orElseThrow())
         ;
 
         builder(BlockTags.BARS)
 
-            .add(ModBlocks.GOLD_BARS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GOLD_BARS).orElseThrow())
         ;
 
         builder(BlockTags.CHAINS)
-            .add(ModBlocks.GOLD_CHAIN.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GOLD_CHAIN).orElseThrow())
         ;
 
         builder(BlockTags.MINEABLE_WITH_PICKAXE)
 
-            .add(ModBlocks.AMETHYST_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.AMETHYST_SLAB.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.AMETHYST_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.AMETHYST_SLAB).orElseThrow())
 
-            .add(ModBlocks.ANDESITE_BRICKS.builtInRegistryHolder().key())
-            .add(ModBlocks.ANDESITE_BRICK_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.ANDESITE_BRICK_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.ANDESITE_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ANDESITE_BRICKS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ANDESITE_BRICK_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ANDESITE_BRICK_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ANDESITE_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.CALCITE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.CALCITE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.CALCITE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_CALCITE.builtInRegistryHolder().key())
-            .add(ModBlocks.POLISHED_CALCITE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.POLISHED_CALCITE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.POLISHED_CALCITE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CALCITE).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CALCITE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CALCITE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_CALCITE_WALL).orElseThrow())
 
-            .add(ModBlocks.CALCITE_BRICKS.builtInRegistryHolder().key())
-            .add(ModBlocks.CALCITE_BRICK_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.CALCITE_BRICK_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.CALCITE_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_BRICKS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_BRICK_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_BRICK_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CALCITE_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.DARK_PRISMARINE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.DARK_PRISMARINE_WALL).orElseThrow())
 
-            .add(ModBlocks.DIORITE_BRICKS.builtInRegistryHolder().key())
-            .add(ModBlocks.DIORITE_BRICK_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.DIORITE_BRICK_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.DIORITE_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.DIORITE_BRICKS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.DIORITE_BRICK_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.DIORITE_BRICK_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.DIORITE_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.END_STONE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.END_STONE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.END_STONE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.END_STONE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.END_STONE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.END_STONE_WALL).orElseThrow())
 
-            .add(ModBlocks.GOLD_DOOR.builtInRegistryHolder().key())
-            .add(ModBlocks.GOLD_TRAPDOOR.builtInRegistryHolder().key())
-            .add(ModBlocks.GOLD_BARS.builtInRegistryHolder().key())
-            .add(ModBlocks.GOLD_CHAIN.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GOLD_DOOR).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GOLD_TRAPDOOR).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GOLD_BARS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GOLD_CHAIN).orElseThrow())
 
-            .add(ModBlocks.GRANITE_BRICKS.builtInRegistryHolder().key())
-            .add(ModBlocks.GRANITE_BRICK_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GRANITE_BRICK_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GRANITE_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRANITE_BRICKS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRANITE_BRICK_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRANITE_BRICK_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRANITE_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.NETHERRACK_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.NETHERRACK_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.NETHERRACK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.NETHERRACK_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.NETHERRACK_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.NETHERRACK_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_ANDESITE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_ANDESITE_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_DIORITE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_DIORITE_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_END_STONE.builtInRegistryHolder().key())
-            .add(ModBlocks.POLISHED_END_STONE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.POLISHED_END_STONE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.POLISHED_END_STONE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_END_STONE).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_END_STONE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_END_STONE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_END_STONE_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_GRANITE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_GRANITE_WALL).orElseThrow())
 
-            .add(ModBlocks.PRISMARINE_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PRISMARINE_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.PURPUR_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPUR_WALL).orElseThrow())
 
-            .add(ModBlocks.QUARTZ_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.QUARTZ_WALL).orElseThrow())
 
-            .add(ModBlocks.QUARTZ_BRICK_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.QUARTZ_BRICK_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.QUARTZ_BRICK_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.QUARTZ_BRICK_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.QUARTZ_BRICK_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.QUARTZ_BRICK_WALL).orElseThrow())
 
-            .add(ModBlocks.POLISHED_RESIN.builtInRegistryHolder().key())
-            .add(ModBlocks.POLISHED_RESIN_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.POLISHED_RESIN_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.POLISHED_RESIN_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_RESIN).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_RESIN_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_RESIN_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.POLISHED_RESIN_WALL).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_BASALT_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.SMOOTH_BASALT_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.SMOOTH_BASALT_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_BASALT_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_BASALT_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_BASALT_WALL).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_SANDSTONE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.SMOOTH_RED_SANDSTONE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.CUT_SANDSTONE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.CUT_RED_SANDSTONE_WALL.builtInRegistryHolder().key())
-            .add(ModBlocks.CUT_SANDSTONE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.CUT_RED_SANDSTONE_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_SANDSTONE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_RED_SANDSTONE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CUT_SANDSTONE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CUT_RED_SANDSTONE_WALL).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CUT_SANDSTONE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CUT_RED_SANDSTONE_STAIRS).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_STONE_STAIRS.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_STONE_STAIRS).orElseThrow())
 
-            .add(ModBlocks.SMOOTH_QUARTZ_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.SMOOTH_QUARTZ_WALL).orElseThrow())
 
-            .add(ModBlocks.STONE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.STONE_WALL).orElseThrow())
 
-            .add(ModBlocks.WHITE_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.WHITE_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.WHITE_CONCRETE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_CONCRETE_WALL).orElseThrow())
 
-            .add(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_CONCRETE_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_CONCRETE_WALL).orElseThrow())
 
-            .add(ModBlocks.GRAY_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.BLACK_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.RED_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.ORANGE_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.YELLOW_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.LIME_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.GREEN_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.CYAN_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.BLUE_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.PURPLE_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.MAGENTA_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.PINK_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.BROWN_CONCRETE_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_CONCRETE_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_CONCRETE_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.WHITE_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.WHITE_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.WHITE_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.GRAY_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.BLACK_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.RED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.ORANGE_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.YELLOW_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.LIME_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.GREEN_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.CYAN_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.BLUE_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.PURPLE_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.MAGENTA_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.PINK_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.BROWN_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.RED_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIME_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
-
-            .add(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB.builtInRegistryHolder().key())
-            .add(ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL.builtInRegistryHolder().key())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_CONCRETE_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_CONCRETE_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_CONCRETE_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.RED_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIME_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL).orElseThrow())
+
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB).orElseThrow())
+            .add(BuiltInRegistries.BLOCK.getResourceKey(ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL).orElseThrow())
         ;
 
         builder(BlockTags.NEEDS_STONE_TOOL)
