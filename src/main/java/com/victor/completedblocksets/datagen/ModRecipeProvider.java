@@ -146,10 +146,10 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_PRISMARINE_WALL, Blocks.DARK_PRISMARINE);
 
                 // Deep Slate Block Set
-                pressurePlate(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE, Blocks.DEEPSLATE);
+                pressurePlate(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE, Blocks.POLISHED_DEEPSLATE);
 
-                buttonBuilder(ModBlocks.POLISHED_DEEPSLATE_BUTTON, Ingredient.of(Blocks.DEEPSLATE))
-                        .unlockedBy(getHasName(Blocks.DEEPSLATE), has(Blocks.DEEPSLATE))
+                buttonBuilder(ModBlocks.POLISHED_DEEPSLATE_BUTTON, Ingredient.of(Blocks.POLISHED_DEEPSLATE))
+                        .unlockedBy(getHasName(Blocks.POLISHED_DEEPSLATE), has(Blocks.POLISHED_DEEPSLATE))
                         .group("polished_deepslate")
                         .save(output)
                 ;
