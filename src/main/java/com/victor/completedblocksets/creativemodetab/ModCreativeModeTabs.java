@@ -765,7 +765,7 @@ public class ModCreativeModeTabs
             entries.insertAfter(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB);
             entries.insertAfter(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL);
 
-            entries.insertAfter(Blocks.GLAZED_TERRACOTTA.brown(), ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS);
+            entries.insertAfter(Blocks.GLAZED_TERRACOTTA.pink(), ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS);
             entries.insertAfter(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS, ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB);
             entries.insertAfter(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB, ModBlocks.PINK_GLAZED_TERRACOTTA_WALL);
 
